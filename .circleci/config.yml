@@ -74,6 +74,9 @@ jobs:
       TEST_BRANCH: <<parameters.test_branch>>
     steps:
       - checkout
+      - add_ssh_keys:
+          fingerprints:
+            - "6d:07:6e:01:36:b0:89:1d:b2:93:6e:bf:86:a1:4d:61"
       - run: mkdir -p workspace
       - run: ls -al workspace
       - run:
