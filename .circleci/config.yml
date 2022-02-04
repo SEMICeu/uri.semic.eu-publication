@@ -469,7 +469,7 @@ jobs:
           workdir: /tmp/generated
           command: |
             git fetch origin
-            git checkout -b "${CIRCLE_BRANCH}" --track "origin/${CIRCLE_BRANCH}"
+            git checkout -b "${CIRCLE_BRANCH}" --track "origin/${CIRCLE_BRANCH}" || git checkout "${CIRCLE_BRANCH}"
             if [ "`cat /tmp/workspace/haschangedpublications.json`" == "false" ] ; then git rm -r --force * ; fi
       - run:
           name: Copy static assets
@@ -480,10 +480,10 @@ jobs:
           workdir: /tmp/workspace
           command: |
             mkdir -p /tmp/generated/report
-            if [ -d target ] ; then if [ ! "$(ls -A target)" ] ; then echo "directory target is empty" ; else cp -R target/* /tmp/generated ; fi fi
-            if [ -d report ] ; then if [ ! "$(ls -A report)" ] ; then echo "directory report is empty" ; else cp -R report/* /tmp/generated/report ; fi fi
-            if [ -d reporthtml ] ; then if [ ! "$(ls -A reporthtml)" ] ; then echo "directory reporthtml is empty" ; else cp -R reporthtml/* /tmp/generated/report ; fi fi
-            if [ -d json ] ; then if [ ! "$(ls -A json)" ] ; then echo "directory json is empty" ; else cp -R json/*   /tmp/generated/report ; fi fi
+            if [ -d target ] ; then if [ ! "$(ls -A target)" ] ; then echo "directory target is empty" ; else pushd target ; cp -r * /tmp/generated/ ; popd ; fi fi
+            if [ -d report ] ; then if [ ! "$(ls -A report)" ] ; then echo "directory report is empty" ; else pushd report ; cp -r * /tmp/generated/report/ ; popd ; fi fi
+            if [ -d reporthtml ] ; then if [ ! "$(ls -A reporthtml)" ] ; then echo "directory reporthtml is empty" ; else pushd reporthtml ; cp -r * /tmp/generated/report ; popd ; fi fi
+            if [ -d json ] ; then if [ ! "$(ls -A json)" ] ; then echo "directory json is empty" ; else pushd json ; cp -r * /tmp/generated/report/ ; popd ; fi fi
       - run:
           name: List the files which have been created
           workdir: /tmp/generated
