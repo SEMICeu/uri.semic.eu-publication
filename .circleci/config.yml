@@ -501,7 +501,7 @@ jobs:
           name: Push results to github
           workdir: /tmp/generated
           command: |
-            git config user.email "oslo@kb.vlaanderen.be"
+            git config user.email "contact@semic.eu"
             git config user.name "Circle CI Builder"
             git add .
             git status
@@ -520,9 +520,9 @@ workflows:
           other_folder: dev
           test_folder: test
           production_folder: production
-          other_hostname: https://dev.data.vlaanderen.be
-          test_hostname: https://test.data.vlaanderen.be
-          production_hostname: https://data.vlaanderen.be
+          other_hostname: https://semiceu.github.io/
+          test_hostname: https://semiceu.github.io/
+          production_hostname: https://semiceu.github.io/
       - extract-jsonld-details:
           requires:
             - checkout
@@ -574,6 +574,6 @@ workflows:
             - render-context-details
             - render-voc-rdf
       - create-artifact:
-          repository: git@github.com:Informatievlaanderen/OSLO-Generated.git
+          repository: git@github.com:SEMICeu/uri.semic.eu-generated.git
           requires:
             - expand-links
