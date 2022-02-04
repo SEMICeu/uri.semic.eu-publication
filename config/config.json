@@ -1,0 +1,15 @@
+{
+  "primeLanguage": "en",
+  "otherLanguages": [
+    "fr", "de"
+  ],
+  "hostname": "https://semiceu.github.io/",
+  "domain": "data.europa.eu",
+  "publicationpoints" : ["dev"],
+  "generatedrepository" : "https://raw.githubusercontent.com/SEMICeu/uri.semic.eu-generated",
+  "toolchainversion" : "3",
+  "toolchain" : {
+	  "strickness" : "lazy",
+	  "version": 3
+  }
+}
