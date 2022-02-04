@@ -481,9 +481,9 @@ jobs:
           command: |
             mkdir -p /tmp/generated/report
             if [ -d target ] ; then if [ ! "$(ls -A target)" ] ; then echo "directory target is empty" ; else pushd target ; cp -r * /tmp/generated/ ; popd ; fi fi
-            if [ -d report ] ; then if [ ! "$(ls -A report)" ] ; then echo "directory report is empty" ; else pushd report ; cp -r * /tmp/generated/report/ ; popd ; fi fi
-            if [ -d reporthtml ] ; then if [ ! "$(ls -A reporthtml)" ] ; then echo "directory reporthtml is empty" ; else pushd reporthtml ; cp -r * /tmp/generated/report ; popd ; fi fi
-            if [ -d json ] ; then if [ ! "$(ls -A json)" ] ; then echo "directory json is empty" ; else pushd json ; cp -r * /tmp/generated/report/ ; popd ; fi fi
+            if [ -d report ] ; then if [ ! "$(ls -A report)" ] ; then echo "directory report is empty" ; else cp -rT report /tmp/generated/report/ ; fi fi
+            if [ -d reporthtml ] ; then if [ ! "$(ls -A reporthtml)" ] ; then echo "directory reporthtml is empty" ; else cp -rT reporthtml /tmp/generated/report/ ; fi fi
+            if [ -d json ] ; then if [ ! "$(ls -A json)" ] ; then echo "directory json is empty" ; else cp -rT json /tmp/generated/report/ ; fi fi
       - run:
           name: List the files which have been created
           workdir: /tmp/generated
