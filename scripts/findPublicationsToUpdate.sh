@@ -154,8 +154,12 @@ else
       cp ${CONFIG_FOLDER}/$i/${PUB_FILE}  tmp/all
   done
   echo "errors are normal if the files of the above form are not present" 
-  test_json_file ${ROOT_DIR}/allPublications.json
   jq --slurp -S '[.[][]]' $( find tmp/all -type f ) | jq '[.[] | select( .disabled | not )]' | jq '.|=sort_by(.urlref)' > $ROOT_DIR/allPublications.json
+  if [ "$?" -gt 0 ] ; then
+          echo "ERROR: one of the publication.json files contains a parse error"
+          exit 1
+  fi
+  test_json_file ${ROOT_DIR}/allPublications.json
   echo "false" > $ROOT_DIR/haschangedpublications.json
   cp ${PUB_CONFIG} $ROOT_DIR/publications.json.old
   cp $ROOT_DIR/allPublications.json ${PUB_CONFIG}
