@@ -20,12 +20,21 @@ TOOLCHAINCONFIG=${CONFIG_FOLDER}/config.json
 rm -rf $ROOT_DIR/*.txt
 rm -rf tmp
 
+#-------------------------------------------
+#
+test_json_file() {
+        jq . $1 > /dev/null
+        if [ "$?" -gt 0 ] ; then
+                echo "ERROR: incorrect JSON FILE: $1" 
+                exit 1
+        fi
+}
 
 # determine the last changed files
 # TOOLCHAIN_TOKEN is a PAT key configured in circleci as environment variable
 mkdir -p $ROOT_DIR
 GENERATEDREPO=$(jq --arg bt "master" -r '.generatedrepository + {"filepath":"report/commit.json", "branchtag":"\($bt)"}' ${TOOLCHAINCONFIG})
-./downloadFileGithub.sh "${GENERATEDREPO}" ${ROOT_DIR}/commit.json ${TOOLCHAIN_TOKEN}
+./scripts/downloadFileGithub.sh "${GENERATEDREPO}" ${ROOT_DIR}/commit.json ${TOOLCHAIN_TOKEN}
 sleep 5s
 
 if jq -e . $ROOT_DIR/commit.json; then
@@ -145,6 +154,7 @@ else
       cp ${CONFIG_FOLDER}/$i/${PUB_FILE}  tmp/all
   done
   echo "errors are normal if the files of the above form are not present" 
+  test_json_file ${ROOT_DIR}/allPublications.json
   jq --slurp -S '[.[][]]' $( find tmp/all -type f ) | jq '[.[] | select( .disabled | not )]' | jq '.|=sort_by(.urlref)' > $ROOT_DIR/allPublications.json
   echo "false" > $ROOT_DIR/haschangedpublications.json
   cp ${PUB_CONFIG} $ROOT_DIR/publications.json.old
