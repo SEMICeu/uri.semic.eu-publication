@@ -6,7 +6,11 @@
   "hostname": "https://semiceu.github.io/",
   "domain": "data.europa.eu",
   "publicationpoints" : ["dev"],
-  "generatedrepository" : "https://raw.githubusercontent.com/SEMICeu/uri.semic.eu-generated",
+  "generatedrepository" : {
+	  "organisation": "SEMICeu",
+	  "repository" : "uri.semic.eu-generated",
+	  "private" : true
+  },
   "toolchainversion" : "3",
   "toolchain" : {
 	  "strickness" : "lazy",

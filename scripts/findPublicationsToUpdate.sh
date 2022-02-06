@@ -22,9 +22,10 @@ rm -rf tmp
 
 
 # determine the last changed files
+# TOOLCHAIN_TOKEN is a PAT key configured in circleci as environment variable
 mkdir -p $ROOT_DIR
-GENERATEDREPO=$(jq -r .generatedrepository ${TOOLCHAINCONFIG})
-curl -o $ROOT_DIR/commit.json ${GENERATEDREPO}/$CIRCLE_BRANCH/report/commit.json
+GENERATEDREPO=$(jq --arg bt "master" -r '.generatedrepository + {"filepath":"report/commit.json", "branchtag":"\($bt)"}' ${TOOLCHAINCONFIG})
+./downloadFileGithub.sh "${GENERATEDREPO}" ${ROOT_DIR}/commit.json ${TOOLCHAIN_TOKEN}
 sleep 5s
 
 if jq -e . $ROOT_DIR/commit.json; then
