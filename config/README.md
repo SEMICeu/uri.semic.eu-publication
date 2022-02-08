@@ -1,4 +1,4 @@
-# supporting private repositories
+# Supporting private repositories
 
 ## private repository 'Generated'
 The repository 'Generated' is the repository in which the toolchain will write the generated artifacts.
@@ -16,7 +16,7 @@ However due to the key insertion of CIRCLECI into a container (step) the followi
 - enable the public key as deploy key for the 'Thema' repository (read access is sufficient)
 - insert the private key in CIRCLECI project as additional ssh key with as (dummy) hostname Thema-private
 - enable the update of the ssh configuration for this (dummy) hostname Thema-private
-- use instead of 'https://github.com/<ORG>/<REPO>' , 'git@Thema-private:<ORG>/<REPO>.git' as  the value of the repository in the configuration of a publication point.
+- use instead of `https://github.com/<ORG>/<REPO>` , `git@Thema-private:<ORG>/<REPO>.git` as  the value of the repository in the configuration of a publication point.
 
 This has to be executed for each private repository.
 
@@ -83,6 +83,15 @@ A *publication point* refers to a specific state of the specification. This spec
 
 The *publication environment* (this repository) is a description of the publication state for a publication environment. The publication environment will contain a list of publication points describing the specifications that are published. 
 
-## Multi environment configuration
+The *generated repository* is the repository where the toolchain based on the configuration in the publication environment is writing its results. 
 
+The *toolchain* is the complete setup of an ecosystem of data repositories, operational guidelines, and software supporting the publication of the specifications. To have a low level adoption, the whole ecosystem relies on Open Source and free tier resources, except for the UML modeling tool. IT is future work to lift this last dependency. In some explainations the term can mean only the sequence of transformation steps that will create from the list of publication points a new published state in the generated repository.   
+
+A *editor* of a specification is a person updating the content of a specification. This might be changing the semantical data model, but also the surrounding texts such as conformance statements, examples, the list of collaborators and the metadata about the specification. 
+
+A *publication environment maintainer* is the person in charge of the global coherency of the publication environment. For instance that all specifications are correctly published at the right level of quality.
+
+## Happy flow 
 The editors normally are only concerned with the individual publication points of a specification.
+
+## Multi environment configuration
