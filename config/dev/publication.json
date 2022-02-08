@@ -2,7 +2,7 @@
   {
     "dummy": "1",
     "urlref": "/doc/ap/private",
-    "repository": "https://github.com/bertvannuffelen/PrivateThema",
+    "repository": "git@private1:bertvannuffelen/PrivateThema.git",
     "branchtag": "master",
     "name": "mijn-applicatieprofiel-ap",
     "filename": "config/mijn-applicatieprofiel-ap.json",

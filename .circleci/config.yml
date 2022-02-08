@@ -81,6 +81,7 @@ jobs:
           fingerprints:
             - "6d:07:6e:01:36:b0:89:1d:b2:93:6e:bf:86:a1:4d:61"
             - "0f:f5:f3:70:0a:47:30:b5:4d:c7:71:97:f9:63:9f:c9"
+      - run: $PWD/scripts/update_sshconfig private1
       - run: mkdir -p workspace
       - run: ls -al workspace
       - run:
