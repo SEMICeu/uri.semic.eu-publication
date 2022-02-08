@@ -73,6 +73,16 @@ This has to be executed for each private repository.
 }
 ```
 
-# Editors
+# Editoral flow
 
-The editor
+## Used terminology
+
+A *Thema repository* is a git repository containing all information that is related to a collection of specifications. A Thema repository may contain information about a single document, but usually  it contains several specifications that are managed together (natural goverance). There is no branching strategy imposed by the toolchain on a Thema repository. Consequently the origanisation and structure may differ from one to another. The toolchain, however, imposes the precence of the necessary information for each specification. Although there is a flexible configuration possible, the easiest to have it all setup is to initialize a new Thema repository from https://github.com/Informatievlaanderen/OSLOthema-template.  
+
+A *publication point* refers to a specific state of the specification. This specific state is identified as a commit/branchtag of a Thema repository.
+
+The *publication environment* (this repository) is a description of the publication state for a publication environment. The publication environment will contain a list of publication points describing the specifications that are published. 
+
+## Multi environment configuration
+
+The editors normally are only concerned with the individual publication points of a specification.
