@@ -118,7 +118,7 @@ Publication points are expressed as follows:
 
 ### publication points fields
 
-- *urlref* : the relative url on which the specification will be published. The absolute url is config.hostname + urlref. This is also the path where the specification is written to on the generated repository.
+- *urlref* : the relative url on which the specification will be published. The absolute url is config.hostname + urlref. This is also the path where the specification is written to on the generated repository. This field is also considered the identifier of the publication point. No two publication points should have the same urlref.
 - *repository* : the thema repository where the specification is stored. A template for the configuration is found in https://github.com/Informatievlaanderen/OSLOthema-template.  For public accessible repositories the http notation is preferred, while for private repositories the ssh notation should be used. 
 - *branchtag*: the commit in the thema repository that is used to create the specification of. This is the most important field for an editor as this determines the result of the toolchain. It is intented to be commit hash or tag. This ensures that the generation process for this publication point always has the same content. When it is a commit hash or tag, reapplying the generation process by the toolchain will result in the same output. However, because git does not make a diffference between the command to fetch the content from a branch or commit/tag, the value can also be a branch. In that case regeneration of the  publication point is no guaranteed to result in the same output as a previous run. When the editor has added new information to the branch in the thema repository then the toolchain will fetch the latest content, and thus create a specification based on the latest content. This might be intended behaviour, but when dealing with versioned specification documents, this might be undesirable. To avoid unintended results, the recommendation is to use commit/tags.
 - *filename* : the name of the config file in the thema repositorty containing the configuration of the specification that is the subject of this publication point. If omitted the filename defaults to `config/eap-mapping.json`
@@ -141,12 +141,71 @@ This variant of the above publication point sidetracks the generation process fr
             "prev":"/doc/applicatieprofiel/<SPECIFICATION>/<VERSION>",
             "next":"/doc/applicatieprofiel/<SPECIFICATION>/<VERSION>"
         },
-        "type" : "raw"
+        "type" : "raw",               <-- fixed value 'raw' 
+        "directory" : "urlref",       <-- a directory in the repository 
         "disabled" : boolean
     },
 ```
+The toolchain will process this publication point by copying the content of directory in the repository at the branchtag to the urlref.
+The expectation is that the structure and information is exactly equivalent to the generated structure resulting from the normal toolchain processing.
+
+
+It might be used for several objectives:
+  - speeding up the toolchain processing: copying is faster as the generation process
+  - publishing manually created specifications
+  - republishing specifications created by an older version of the toolchain. This is useful when upgrading the version of the toolchain.
+  - ensuring that no accidental change happens to the specification. It is decoupling the publication point from its thema repository.
+
+The generated repository is always in sync with the structural expectations of the generation process of the toolchain. It is thus a good candidate to take the information from.
+
+The script `/scripts/turn2raw.sh` is a script that turns all publication points in a file to publication points of this type.
+
+### variant 2 - versionless 
+This variant expresses a reference from one path to another path
+```
+ {
+        "urlref":"/doc/applicatieprofile/<SPECIFICATION>/",
+        "seealso": "/doc/applicationprofile/<SPECIFICATION>/<VERSION>",
+        "disabled" : boolean
+        "type": "<SPECIFICATION_TYPE>"        <-- values are ap/voc
+
+    },
+```
+
+#### variant 2 - publication points fields
+
+- *urlref* : the relative url on which the specification will be published. The absolute url is config.hostname + urlref. This is also the path where the specification is written to on the generated repository.
+- *seealso* : the source path from where the data is comming from
+- *disabled*: a boolean indicating if the the publication point should be processed. 
+- *type*: determines the type of the specification. Based on the type generated artifacts from this specification are copied to a common central place in the generated repository. Should match the type of the specification otherwise the toolchain processing will fail. 
+
+#### variant 2 - implementation considerations
+The reference is implemented in the toolchain as an internal copy. Therefore the content can only be updated when the source (seealso) is part of the execution process of the toolchain. 
+The absence of the source will lead to a toolchain processing error.
+
+This publication point supports the usecase for: 
+  - versionless URLs for a specification
+  - publication on different paths, in particulary for vocabularies with dereferenceable URIs. Usually these have a different URL location then the html representation of the application profiles or vocabularies. 
+
+
+### Triggering an execution of the toolchain.
+The toolchain is triggered one each commit in the publication environment. The publication environment is monitored by the CI/CD tool CIRCLECI. The impact and amount of work depends on the commit.
+
+- A commit containing only a change to one or more publication points will lead to only processing those affected publication points. If the change in publication point will not lead to a change in the specification only the commit tag of this execution is changed.
+- Any change to a file outside publication points will reprocess all publication points specified in the publication repository.
+
+A change in a publication point is defined as a change in a value for a field w.r.t. the previous successful execution of the toolchain. 
+Or as the addition or removal of a field to a publication point.
+This last case becomes handy when the editors used branches instead of commit/tags for the branchtag field. Adding a field *dummy* and bumping a number in that one will trigger the toolchain execution. It avoids the search for a value commit hash or the creation of a tag while editing a specification.
+The commit to the publication environment corresponding to the last successful execution is stored the generated repository.
+So failed executions of the toolchain will accumulate the changes until an execution is successful. 
+
+
+
 
 ## Multi environment configuration
+
+TODO
 
 ## 
 
