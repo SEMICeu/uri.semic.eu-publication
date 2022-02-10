@@ -120,9 +120,31 @@ Publication points are expressed as follows:
 
 - *urlref* : the relative url on which the specification will be published. The absolute url is config.hostname + urlref. This is also the path where the specification is written to on the generated repository.
 - *repository* : the thema repository where the specification is stored. A template for the configuration is found in https://github.com/Informatievlaanderen/OSLOthema-template.  For public accessible repositories the http notation is preferred, while for private repositories the ssh notation should be used. 
-- *
+- *branchtag*: the commit in the thema repository that is used to create the specification of. This is the most important field for an editor as this determines the result of the toolchain. It is intented to be commit hash or tag. This ensures that the generation process for this publication point always has the same content. When it is a commit hash or tag, reapplying the generation process by the toolchain will result in the same output. However, because git does not make a diffference between the command to fetch the content from a branch or commit/tag, the value can also be a branch. In that case regeneration of the  publication point is no guaranteed to result in the same output as a previous run. When the editor has added new information to the branch in the thema repository then the toolchain will fetch the latest content, and thus create a specification based on the latest content. This might be intended behaviour, but when dealing with versioned specification documents, this might be undesirable. To avoid unintended results, the recommendation is to use commit/tags.
+- *filename* : the name of the config file in the thema repositorty containing the configuration of the specification that is the subject of this publication point. If omitted the filename defaults to `config/eap-mapping.json`
+- *name* :  the name of the spefication in the filename.
+- *navigation*: a structure with a next or prev attribute containing a relative URL of a next or previous version of the specification
+- *type*: the publication point type. Can be omitted for publication points that describe a document, it is used to create special variants of publication points.
+- *disabled*: a boolean indicating if the the publication point should be processed. This is an aid when resolving conflicts between concurrent usage of the toolchain by multiple editors. Suppose one editor creates a publication point that leads to a processing error by the toolchain. It is this editor's responsability to resolve the issue. As long this issue is not resolved the whole toolchain is blocked for all other editors. To provide the editor sufficient time to resolve the issue and to deblock the other editors, the publication point can be disabled. This is a clean git source controlled operation and it can be executed by other editors, to deblock themselves. When the issue is resolved by the editor, the publication point can be reactivated again.
 
 
+### variant 1 - by copy
+This variant of the above publication point sidetracks the generation process from the original content
+```
+ {
+        "urlref":"/doc/applicatieprofile/<SPECIFICATION>/<VERSION>",
+        "repository":"https://github.com/<ORG>/<THEMA_REPOSITORY>",
+        "branchtag":"<BRANCHTAG>",
+        "name":"<SPECIFICATION_NAME>",
+        "filename":"config/<SPECIFICATION>.json",
+        "navigation":{
+            "prev":"/doc/applicatieprofiel/<SPECIFICATION>/<VERSION>",
+            "next":"/doc/applicatieprofiel/<SPECIFICATION>/<VERSION>"
+        },
+        "type" : "raw"
+        "disabled" : boolean
+    },
+```
 
 ## Multi environment configuration
 
