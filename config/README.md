@@ -83,7 +83,7 @@ A *publication point* refers to a specific state of the specification. This spec
 
 The *publication environment* (this repository) is a description of the publication state for a publication environment. The publication environment will contain a list of publication points describing the specifications that are published. 
 
-The *generated repository* is the repository where the toolchain based on the configuration in the publication environment is writing its results. 
+The *generated repository* is the repository where the toolchain based on the configuration in the publication environment is writing its results. The generated repository is created in such a way that a proxy with the corresponding hostname can serve the repository as static website. 
 
 The *toolchain* is the complete setup of an ecosystem of data repositories, operational guidelines, and software supporting the publication of the specifications. To have a low level adoption, the whole ecosystem relies on Open Source and free tier resources, except for the UML modeling tool. IT is future work to lift this last dependency. In some explainations the term can mean only the sequence of transformation steps that will create from the list of publication points a new published state in the generated repository.   
 
@@ -91,7 +91,45 @@ A *editor* of a specification is a person updating the content of a specificatio
 
 A *publication environment maintainer* is the person in charge of the global coherency of the publication environment. For instance that all specifications are correctly published at the right level of quality.
 
-## Happy flow 
-The editors normally are only concerned with the individual publication points of a specification.
+## Happy editorial flow 
+
+The toolchain is setup with the intend to let editors focus on the publication of a specification. From the perspective of an editor, publishing a specification is the management of the set of publications points for a specification. For this the editor, updates the one of files containing publication points. Each commmit to the repository will trigger the processing of the publications points. When no blocking errors are present, a new state is written to the generated repository. Blocking errors can be inspected by reading the error report of the failed step in CIRCLECI, while non-blocking errors are written out to generated repository. 
+
+
+## Publication points structure and organisation
+
+Publication points are expressed as follows:
+
+```
+ {
+        "urlref":"/doc/applicatieprofile/<SPECIFICATION>/<VERSION>",
+        "repository":"https://github.com/<ORG>/<THEMA_REPOSITORY>",
+        "branchtag":"<BRANCHTAG>",
+        "name":"<SPECIFICATION_NAME>",
+        "filename":"config/<SPECIFICATION>.json",
+        "navigation":{
+            "prev":"/doc/applicatieprofiel/<SPECIFICATION>/<VERSION>",
+            "next":"/doc/applicatieprofiel/<SPECIFICATION>/<VERSION>"
+        },
+        "type" : "<PUBLICATIONPOINT_TYPE>",
+        "disabled" : boolean
+    },
+```
+
+### publication points fields
+
+- *urlref* : the relative url on which the specification will be published. The absolute url is config.hostname + urlref. This is also the path where the specification is written to on the generated repository.
+- *repository* : the thema repository where the specification is stored. A template for the configuration is found in https://github.com/Informatievlaanderen/OSLOthema-template.  For public accessible repositories the http notation is preferred, while for private repositories the ssh notation should be used. 
+- *
+
+
 
 ## Multi environment configuration
+
+## 
+
+# Disaster recovery & operational resources 
+
+The setup of the toolchain is designed to consume minimal amount of operational costs. As all activity is done through source version control, the maintainers of the toolchain the publication environment obtain a very resiliant system. The sole single point of failure is the source control system, in this case github. The generated repository is the history of the publication environment. Loosing access to this repository is not entirely critical as the complete state can be recreated from the publication repository. Similary loosing control of the publication environment is not critical as the generated repository contains the state of the publication environment the form of the result of the transformation process. 
+
+More critical is loosing access to the thema repositories, as these contain the UML documents wich form the basis for the specifications. However with the necessary effort a UML document corresponding to the generated specification can be created.
