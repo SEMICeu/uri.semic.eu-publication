@@ -227,9 +227,12 @@ Using this setup the following guideline can be followed:
 - publication points solely published on the development environment should be configured in the `/config/prod` directory
 In each directory one can have a file called `<thema>.publication.json` containing the publication points for that thema published in that environment.
 Then if an editor is working on a specification in the development environment, the configuration of publication point in `/config/dev/<thema>.publication.json` is adapted.
-When this work is finished, the editor removes the publication point from the file `/config/dev/<thema>.publication.js` and inserts it in to the file of the test environment on the development branch: `/config/test/<thema>.publication.js` .
+When this work is finished, the editor removes the publication point from the file `/config/dev/<thema>.publication.js` and inserts it in to the file of the test environment on the development branch: `/config/test/<thema>.publication.js` . 
+The removal is important as the toolchain assumes a unique identity for each publication point (see above). 
+During the execution of the toolchain, a global list of to be processed publication points will be created and that assumes that a single occurance of each publication point.
 When this is successful, the change in the file `/config/test/<thema>.publication.js` can be propagated to the test environment. 
 On the test branch the same procedure can be applied to publish it on the production branch.
+
 
 This setup also supports toolchain maintainers when propagating changes to layout or updates to the processing, as it much easier to create an incremental update and isolate problematic cases.
 
