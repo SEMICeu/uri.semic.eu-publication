@@ -200,14 +200,40 @@ This last case becomes handy when the editors used branches instead of commit/ta
 The commit to the publication environment corresponding to the last successful execution is stored the generated repository.
 So failed executions of the toolchain will accumulate the changes until an execution is successful. 
 
-
+Sometimes it might be needed to reprocess the whole publication repository. For instance to cleanup the generated repository. The toolchain execution is an additive process: it adds or updates the content of directories and files in the generated repository. Deleting publication points from the generated repository can only be done by triggering a full rebuild. To initiate that process, the dummy file `/config/trigger.all` exists. This file is not a publication point file and thus a change to it will trigger a rebuild.
 
 
 ## Multi environment configuration
 
-TODO
+The publication points are stored in files with extension `publication.json`. Each file is a list of publication points. 
 
-## 
+Over time, a single list containing publication points from many different thema repositories becomes hard to maintain.
+Also, usually the are different stages of the publication environment: commonly there are a production, test and development environment.
+The toolchain supports multiple environments by configuring for each environment a branch in the publication repository.
+This multiple environment creates an additional maintenance challenge: namely to understand the difference between published publication points across environments.
+Ideally, understanding the differences should be supported by the git source control tool.
+ Github implements the notion of pull requests where a collection of changes can be propagated from one branch to another.  
+Therefore the toolchain allows to organise the publication points in directories and many files. 
+
+The toolchain supports 3 directories `/config/dev`, `/config/test` and `/config/prod` containing publication points files.
+In the `/config/config.json`, the `pubicationpoints` defines which directories are taken into account for the generation process by the toolchain.
+Default settings are for the branches:
+- branch `production` : ['prod']
+- branch `test`       : ['test', 'prod']
+- branch `dev`        : ['dev', 'test', 'prod'] 
+Using this setup the following guideline can be followed:
+- publication points published on the production environment should be configured in the `/config/prod` directory
+- publication points solely published on the test environment should be configured in the `/config/test` directory
+- publication points solely published on the development environment should be configured in the `/config/prod` directory
+In each directory one can have a file called `<thema>.publication.json` containing the publication points for that thema published in that environment.
+Then if an editor is working on a specification in the development environment, the configuration of publication point in `/config/dev/<thema>.publication.json` is adapted.
+When this work is finished, the editor removes the publication point from the file `/config/dev/<thema>.publication.js` and inserts it in to the file of the test environment on the development branch: `/config/test/<thema>.publication.js` .
+When this is successful, the change in the file `/config/test/<thema>.publication.js` can be propagated to the test environment. 
+On the test branch the same procedure can be applied to publish it on the production branch.
+
+This setup also supports toolchain maintainers when propagating changes to layout or updates to the processing, as it much easier to create an incremental update and isolate problematic cases.
+
+
 
 # Disaster recovery & operational resources 
 
