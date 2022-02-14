@@ -239,6 +239,7 @@ On the test branch the same procedure can be applied to publish it on the produc
 
 This setup also supports toolchain maintainers when propagating changes to layout or updates to the processing, as it much easier to create an incremental update and isolate problematic cases.
 
+The toolchain is created with the following setup in mind: one publication environment for one persistent URI domain for (new) terms. The default assumption is that the persistent URI domain and the publication domain coincide. For example, if  one has the persistent domain `data.myorganisation.org` then it is naturally to have your test publication environment active on url `dev.data.myorganisation.org`.
 
 
 # Disaster recovery & operational resources 
