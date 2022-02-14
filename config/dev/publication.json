@@ -34,7 +34,7 @@
   {
     "urlref": "/doc/application-profile/cpsv-ap",
     "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
-    "branchtag": "master",
+    "branchtag": "main",
     "name": "cpsv-ap",
     "filename": "config/cpsv-ap.json",
     "navigation": {}
