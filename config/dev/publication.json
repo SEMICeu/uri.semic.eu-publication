@@ -1,6 +1,5 @@
 [
   {
-    "dummy": "1",
     "urlref": "/doc/ap/private",
     "repository": "git@private1:bertvannuffelen/PrivateThema.git",
     "branchtag": "master",
@@ -9,7 +8,6 @@
     "navigation": {}
   }, 
   {
-    "dummy": "maxime-22",
     "urlref": "/doc/sdg",
     "repository": "https://github.com/bertvannuffelen/semiceuthema",
     "branchtag": "master",
@@ -18,7 +16,6 @@
     "navigation": {}
   }, 
   {
-    "dummy": "19",
     "urlref": "/doc/vocabularium/cccev-voc",
     "repository": "https://github.com/bertvannuffelen/semiceuthema",
     "branchtag": "master",
@@ -27,7 +24,6 @@
     "navigation": {}
   },
   {
-    "dummy": "18",
     "urlref": "/doc/core-vocabulary/cccev",
     "repository": "https://github.com/bertvannuffelen/semiceuthema",
     "branchtag": "master",
@@ -36,16 +32,14 @@
     "navigation": {}
   },
   {
-    "dummy": "dimi-10",
     "urlref": "/doc/application-profile/cpsv-ap",
-    "repository": "https://github.com/bertvannuffelen/semiceuthema",
+    "repository": "git@uri.semic.eu-publication:SEMICeu/uri.semic.eu-thema.git",
     "branchtag": "master",
     "name": "cpsv-ap",
     "filename": "config/cpsv-ap.json",
     "navigation": {}
   },
   {
-    "dummy": "dimi-22",
     "urlref": "/doc/core-vocabulary/core-public-organisation",
     "repository": "https://github.com/bertvannuffelen/semiceuthema",
     "branchtag": "master",
@@ -54,7 +48,6 @@
     "navigation": {}
   },
   {
-    "dummy": "dimi-22",
     "urlref": "/doc/core-vocabulary/core-location",
     "repository": "https://github.com/bertvannuffelen/semiceuthema",
     "branchtag": "master",
@@ -63,7 +56,6 @@
     "navigation": {}
   },
   {
-    "dummy": "dimi-22",
     "urlref": "/doc/core-vocabulary/core-business",
     "repository": "https://github.com/bertvannuffelen/semiceuthema",
     "branchtag": "master",
@@ -72,7 +64,6 @@
     "navigation": {}
   },
   {
-    "dummy": "dimi-23",
     "urlref": "/doc/core-vocabulary/core-person",
     "repository": "https://github.com/bertvannuffelen/semiceuthema",
     "branchtag": "master",
