@@ -50,6 +50,7 @@
     "navigation": {}
   },
   {
+    "dummy": "1",
     "urlref": "/doc/core-vocabulary/core-business",
     "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
     "branchtag": "main",
