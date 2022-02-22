@@ -30,6 +30,9 @@ test_json_file() {
         fi
 }
 
+PUBLICATIONPOINTSDIRS=$(jq -r '.publicationpoints | @sh'  ${CONFIG_FOLDER}/config.json)
+PUBLICATIONPOINTSDIRS=`echo ${PUBLICATIONPOINTSDIRS} | sed -e "s/'//g"`
+
 # determine the last changed files
 # TOOLCHAIN_TOKEN is a PAT key configured in circleci as environment variable
 mkdir -p $ROOT_DIR
@@ -37,13 +40,13 @@ GENERATEDREPO=$(jq --arg bt "${CIRCLE_BRANCH}" -r '.generatedrepository + {"file
 ./scripts/downloadFileGithub.sh "${GENERATEDREPO}" ${ROOT_DIR}/commit.json ${TOOLCHAIN_TOKEN}
 sleep 5s
 
+# calculate changesRequireBuild false if only changes in publication files that are not used
+# calculate onlyChangedPublicationFiles false will trigger full rebuild
 if jq -e . $ROOT_DIR/commit.json; then
   changesRequireBuild=false
   onlyChangedPublicationFiles=true
 
   COMMIT=$(jq -r .commit $ROOT_DIR/commit.json)
-  PUBLICATIONPOINTSDIRS=$(jq -r '.publicationpoints | @sh'  ${CONFIG_FOLDER}/config.json)
-  PUBLICATIONPOINTSDIRS=`echo ${PUBLICATIONPOINTSDIRS} | sed -e "s/'//g"`
 
   listOfChanges=$(git diff --name-only --no-renames $COMMIT)
   echo "write change file"
@@ -53,8 +56,6 @@ if jq -e . $ROOT_DIR/commit.json; then
          mkdir -p tmp/prev/config/$i
          mkdir -p tmp/next/config/$i
   done
-  mkdir -p tmp/prev/config/$OTHER_FOLDER tmp/prev/config/$TEST_FOLDER tmp/prev/config/$PRODUCTION_FOLDER
-  mkdir -p tmp/next/config/$OTHER_FOLDER tmp/next/config/$TEST_FOLDER tmp/next/config/$PRODUCTION_FOLDER
 
   GITROOT=${CONFIG_FOLDER#${CIRCLEWORKDIR}}
 
@@ -88,6 +89,14 @@ if jq -e . $ROOT_DIR/commit.json; then
       changesRequireBuild=true
     elif [[ $filename == $CONFIG_FOLDER/*/*.$PUB_FILE ]]; then
       echo "The file $filename is skipped as it is not part of the current environment"
+    elif [[ $filename == $GITROOT/*/*.$PUB_FILE ]]; then
+      echo "The file $filename is skipped as it is not part of the current environment"
+    elif [[ $filename == $GITROOT/*.$PUB_FILE ]]; then
+      echo "The file $filename is skipped as it is not part of the current environment"
+    elif [[ $filename == $GITROOT/*/$PUB_FILE ]]; then
+      echo "The file $filename is skipped as it is not part of the current environment"
+    elif [[ $filename == $GITROOT/$PUB_FILE ]]; then
+      echo "The file $filename is skipped as it is not part of the current environment"
     else
       echo "The file $filename is not a publication, everything will need to be processed"
       changesRequireBuild=true
@@ -99,6 +108,7 @@ else
   onlyChangedPublicationFiles=false
 fi
 
+#as there are only changes in the publication files, check if there are parts that are deleted, which means a full rebuild or are it only additions
 if [[ $changesRequireBuild == "true" && $onlyChangedPublicationFiles == "true" ]]; then
   jq --slurp -S '[.[][]]' $(find tmp/next/config -type f) | jq '[.[] | select( .disabled | not )]' | jq '.|=sort_by(.urlref)' > tmp/next/publication.json
   jq --slurp -S '[.[][]]' $(find tmp/prev/config -type f) | jq '[.[] | select( .disabled | not )]' | jq '.|=sort_by(.urlref)' > tmp/prev/publication.json
@@ -131,22 +141,8 @@ elif [[ $onlyChangedPublications == "true" ]]; then
   cp tmp/addedOrChanged.json $ROOT_DIR/changedpublications.json
   echo "process only added and updated publication points"
 else
-  # assumes full rebuild
-#  if [[ $CIRCLE_BRANCH == "$TEST_BRANCH" ]]; then
-#    mkdir -p tmp/all/$PRODUCTION_FOLDER tmp/all/$TEST_FOLDER
-#    cp $CONFIG_FOLDER/$PUB_FILE tmp/all/
-#    cp $CONFIG_FOLDER/$PRODUCTION_FOLDER/*.$PUB_FILE tmp/all/$PRODUCTION_FOLDER
-#    cp $CONFIG_FOLDER/$TEST_FOLDER/*.$PUB_FILE tmp/all/$TEST_FOLDER
-#  elif [[ $CIRCLE_BRANCH == "$PRODUCTION_BRANCH" ]]; then
-#    mkdir -p tmp/all/$PRODUCTION_FOLDER
-#    cp $CONFIG_FOLDER/$PUB_FILE tmp/all/
-#    cp $CONFIG_FOLDER/$PRODUCTION_FOLDER/*.$PUB_FILE tmp/all/$PRODUCTION_FOLDER
-#  else
-#    mkdir -p tmp/all/$OTHER_FOLDER
-#    cp $CONFIG_FOLDER/$PUB_FILE tmp/all
-#    cp $CONFIG_FOLDER/$OTHER_FOLDER/*.$PUB_FILE tmp/all/$OTHER_FOLDER
-#  fi
   echo "include all selected publication points"
+  mkdir -p tmp/all
   for i in ${PUBLICATIONPOINTSDIRS} ; do
       mkdir -p tmp/all/$i
 	  echo "try to copy all files with extension ${PUB_FILE}"
