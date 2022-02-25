@@ -60,11 +60,11 @@
     "navigation": {}
   },
   {
-	"dummy": "11",
+	"dummy": "12",
     "urlref": "/doc/core-vocabulary/core-person",
     "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
     "branchtag": "main",
-    "name": "core-person-ap",
+    "name": "core-person",
     "filename": "config/core-person.json",
     "navigation": {}
   }
