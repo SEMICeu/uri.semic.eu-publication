@@ -407,12 +407,33 @@
 		<p>placeholder</p>
                 {% endblock %}
             </div>
-	    
+
+            <div class="region region--no-space-top" id="uml">
+                <h2 class="h2" aria-level="1" role="heading" id="h2_sotd">UML representation</h2>
+                (non-normative)
+                
+		<p>The UML representation from which this Core Vocabulary has been build is available <a href="./{{metadata.filename}}.eap" target="_blank">here</a>.
+		</p>
+                
+            </div>
+
+            <div class="region region--no-space-top" id="rdf">
+                <h2 class="h2" aria-level="1" role="heading" id="h2_sotd">RDF representation</h2>
+                (non-normative)
+                
+		<p>A reusable RDF representation (in turtle) for this Core Vocabulary is retrievable <a href="./voc/{{metadata.filename}}.ttl" target="_blank">here</a>.
+		<br>
+                This RDF file contains only the terminology for which the URI is minted in the Core Vocabularies domain http://data.europa.eu/m8g.
+                Terms that are mapped on an existing URI (hence reused from other vocabularies) are not included.
+		</p>
+                
+            </div>
+
             <div class="region region--no-space-top" id="jsonld">
                 <h2 class="h2" aria-level="1" role="heading" id="h2_sotd">JSON-LD context</h2>
                 (non-normative)
                 {% block jsonld %}
-		<p>A reusable JSON-LD context definition for this Core Vocabulary is retrievable <a href="./context/{{ metadata.filename }}.jsonld" target="_blank">here</a></p>
+		<p>A reusable JSON-LD context definition for this Core Vocabulary is retrievable <a href="./context/{{ metadata.filename }}.jsonld" target="_blank">here</a>.</p>
                 {% endblock %}
             </div>
 	    
@@ -420,7 +441,7 @@
                 <h2 class="h2" aria-level="1" role="heading" id="h2_sotd">SHACL template</h2>
                 (non-normative)
                 {% block shacl%}
-		<p>A reusable SHACL template for this Core Vocabulary is retrievable at: <a href="./shacl/{{ metadata.filename }}-SHACL.ttl" target="_blank">here</a></p>
+		<p>A reusable SHACL template for this Core Vocabulary is retrievable <a href="./shacl/{{ metadata.filename }}-SHACL.ttl" target="_blank">here</a>.</p>
                 {% endblock %}
             </div>
 	    
@@ -457,6 +478,12 @@
 			      -->
 			      <li class="side-navigation__item">
                                   <a href="#changelog">Changelog</a>
+                              </li>
+                              <li class="side-navigation__item">
+                                  <a href="#jsonld">UML representation</a>
+                              </li>
+                              <li class="side-navigation__item">
+                                  <a href="#jsonld">RDF represenatation</a>
                               </li>
                               <li class="side-navigation__item">
                                   <a href="#jsonld">JSON-LD context</a>
