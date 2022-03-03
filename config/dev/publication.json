@@ -67,5 +67,14 @@
     "name": "core-person-ap",
     "filename": "config/core-person.json",
     "navigation": {}
+  },
+  {
+	"dummy": "19",
+    "urlref": "/doc/core-vocabulary-voc/core-person",
+    "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
+    "branchtag": "main",
+    "name": "core-person-voc",
+    "filename": "config/core-person.json",
+    "navigation": {}
   }
 ]
