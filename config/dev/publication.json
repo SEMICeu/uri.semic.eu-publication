@@ -33,7 +33,7 @@
     "navigation": {}
   },
   {
-	"dummy": "10",
+	"dummy": "11",
     "urlref": "/doc/core-vocabulary/core-public-organisation",
     "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
     "branchtag": "main",
@@ -51,7 +51,7 @@
     "navigation": {}
   },
   {
-    "dummy": "6",
+    "dummy": "7",
     "urlref": "/doc/core-vocabulary/core-business",
     "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
     "branchtag": "main",
