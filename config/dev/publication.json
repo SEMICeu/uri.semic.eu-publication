@@ -33,7 +33,7 @@
     "navigation": {}
   },
   {
-	"dummy": "11",
+	"dummy": "7",
     "urlref": "/doc/core-vocabulary/core-public-organisation",
     "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
     "branchtag": "main",
@@ -42,7 +42,16 @@
     "navigation": {}
   },
   {
-	"dummy": "11",
+	"dummy": "7",
+    "urlref": "/doc/vocabularium/core-public-organisation",
+    "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
+    "branchtag": "main",
+    "name": "core-public-organisation",
+    "filename": "config/core-public-organisation-voc.json",
+    "navigation": {}
+  },
+  {
+	"dummy": "8",
     "urlref": "/doc/core-vocabulary/core-location",
     "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
     "branchtag": "main",
@@ -51,7 +60,16 @@
     "navigation": {}
   },
   {
-    "dummy": "7",
+	"dummy": "8",
+    "urlref": "/doc/vocabularium/core-location",
+    "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
+    "branchtag": "main",
+    "name": "core-location",
+    "filename": "config/core-location-voc.json",
+    "navigation": {}
+  },
+  {
+    "dummy": "4",
     "urlref": "/doc/core-vocabulary/core-business",
     "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
     "branchtag": "main",
@@ -60,7 +78,16 @@
     "navigation": {}
   },
   {
-	"dummy": "28",
+    "dummy": "4",
+    "urlref": "/doc/vocabularium/core-business",
+    "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
+    "branchtag": "main",
+    "name": "core-business",
+    "filename": "config/core-business-voc.json",
+    "navigation": {}
+  },
+  {
+	"dummy": "19",
     "urlref": "/doc/core-vocabulary/core-person",
     "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
     "branchtag": "main",
