@@ -51,7 +51,7 @@
     "navigation": {}
   },
   {
-	"dummy": "14",
+	"dummy": "15",
     "urlref": "/doc/core-vocabulary/core-location",
     "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
     "branchtag": "main",
@@ -60,7 +60,7 @@
     "navigation": {}
   },
   {
-	"dummy": "16",
+	"dummy": "17",
     "urlref": "/doc/vocabularium/core-location",
     "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
     "branchtag": "main",
@@ -87,7 +87,7 @@
     "navigation": {}
   },
   {
-	"dummy": "24",
+	"dummy": "25",
     "urlref": "/doc/core-vocabulary/core-person",
     "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
     "branchtag": "main",
@@ -96,7 +96,7 @@
     "navigation": {}
   },
   {
-	"dummy": "24",
+	"dummy": "25",
     "urlref": "/doc/vocabularium/core-person",
     "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
     "branchtag": "main",
