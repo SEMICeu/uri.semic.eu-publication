@@ -99,7 +99,7 @@
 	"dummy": "29",
     "urlref": "/doc/core-vocabulary/core-person2",
     "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
-    "branchtag": "b74dcbfd6cdf6ac20bf4a7c9aca08c9a3669fdac",
+    "branchtag": "40295c50c07a0ea92923da1931483c906a11579d",
     "name": "core-person-ap",
     "filename": "config/core-person2.json",
     "navigation": {}
