@@ -299,7 +299,7 @@ jobs:
             - target/
   render-xsd-details:
     docker:
-      - image: informatievlaanderen/oslo-specification-generator:multilingual-dev-0.2
+      - image: informatievlaanderen/oslo-specification-generator:multilingual-dev-0.3
     steps:
       - checkout
       - attach_workspace:
