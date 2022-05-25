@@ -143,7 +143,7 @@ jobs:
             - src/
   validate-report:
     docker:
-      - image: informatievlaanderen/oslo-ea-to-rdf:json-ld-format-m1.0.1
+      - image: informatievlaanderen/oslo-ea-to-rdf:json-ld-format-m1.1.1
     steps:
       - checkout
       - attach_workspace:
@@ -155,7 +155,7 @@ jobs:
             [ $( egrep " ERROR " /tmp/workspace/report/*.report | wc -l ) == 0 ] || exit 1
   normalise-jsonld:
     docker:
-      - image: informatievlaanderen/oslo-specification-generator:multilingual-dev
+      - image: informatievlaanderen/oslo-specification-generator:multilingual-dev-0.3
     steps:
       - checkout
       - attach_workspace:
@@ -173,13 +173,13 @@ jobs:
             - src/
   render-translation-json:
     docker:
-      - image: informatievlaanderen/oslo-specification-generator:multilingual-dev
+      - image: informatievlaanderen/oslo-specification-generator:multilingual-dev-0.3
     steps:
       - checkout
       - attach_workspace:
           at: /tmp/workspace
       - run:
-          name: upgrade configs to this toolchain 
+          name: upgrade configs to this toolchain
           command: |
             mkdir -p /tmp/workspace/translation
             $PWD/scripts/upgrade_config.sh /tmp/workspace $PWD/config
@@ -199,7 +199,7 @@ jobs:
             - src/
   validate-and-generate-translation-report:
     docker:
-      - image: informatievlaanderen/oslo-specification-generator:multilingual-dev
+      - image: informatievlaanderen/oslo-specification-generator:multilingual-dev-0.3
     steps:
       - checkout
       - attach_workspace:
@@ -215,7 +215,7 @@ jobs:
             [ $( egrep " WARNING " /tmp/workspace/report/translation/*.report | wc -l ) == 0 ] || exit 1
   render-merged-jsonld:
     docker:
-      - image: informatievlaanderen/oslo-specification-generator:multilingual-dev
+      - image: informatievlaanderen/oslo-specification-generator:multilingual-dev-0.3
     steps:
       - checkout
       - attach_workspace:
@@ -235,7 +235,7 @@ jobs:
             - report/
   render-html-details:
     docker:
-      - image: informatievlaanderen/oslo-specification-generator:multilingual-dev
+      - image: informatievlaanderen/oslo-specification-generator:multilingual-dev-0.3
     steps:
       - checkout
       - attach_workspace:
@@ -259,7 +259,7 @@ jobs:
             - reporthtml/
   render-example-templates:
     docker:
-      - image: informatievlaanderen/oslo-specification-generator:multilingual-dev
+      - image: informatievlaanderen/oslo-specification-generator:multilingual-dev-0.3
     steps:
       - checkout
       - attach_workspace:
@@ -279,7 +279,7 @@ jobs:
             - examples/
   render-context-details:
     docker:
-      - image: informatievlaanderen/oslo-specification-generator:multilingual-dev
+      - image: informatievlaanderen/oslo-specification-generator:multilingual-dev-0.3
     steps:
       - checkout
       - attach_workspace:
@@ -319,7 +319,7 @@ jobs:
             - target/
   render-shacl-details:
     docker:
-      - image: informatievlaanderen/oslo-specification-generator:multilingual-dev
+      - image: informatievlaanderen/oslo-specification-generator:multilingual-dev-0.3
     steps:
       - checkout
       - attach_workspace:
@@ -391,7 +391,7 @@ jobs:
             - target/
   render-voc-jsonld:
     docker:
-      - image: informatievlaanderen/oslo-specification-generator:multilingual-dev
+      - image: informatievlaanderen/oslo-specification-generator:multilingual-dev-0.3
     steps:
       - checkout
       - attach_workspace:
@@ -510,6 +510,8 @@ jobs:
             if [ -d report ] ; then if [ ! "$(ls -A report)" ] ; then echo "directory report is empty" ; else cp -rT report /tmp/generated/report/ ; fi fi
             if [ -d reporthtml ] ; then if [ ! "$(ls -A reporthtml)" ] ; then echo "directory reporthtml is empty" ; else cp -rT reporthtml /tmp/generated/report/ ; fi fi
             if [ -d json ] ; then if [ ! "$(ls -A json)" ] ; then echo "directory json is empty" ; else cp -rT json /tmp/generated/report/ ; fi fi
+            if [ -d translation ] ; then if [ ! "$(ls -A translation)" ] ; then echo "directory translation is empty" ; else cp -rT translation /tmp/generated/report/ ; fi fi
+            if [ -d examples ] ; then if [ ! "$(ls -A examples)" ] ; then echo "directory examples is empty" ; else cp -rT examples /tmp/generated/examples/ ; fi fi
       - run:
           name: List the files which have been created
           workdir: /tmp/generated
