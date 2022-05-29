@@ -1,15 +1,13 @@
 [
   {
-	"dummy": "36",
     "urlref": "/doc/core-vocabulary/core-person",
     "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
-    "branchtag": "example",
+    "branchtag": "0895d57ff03e3171cb330c3c4cc8641a96f16fb4",
     "name": "core-person-ap",
     "filename": "config/core-person.json",
     "navigation": {}
   },
   {
-	"dummy": "29",
     "urlref": "/doc/core-vocabulary/core-person2",
     "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
     "branchtag": "40295c50c07a0ea92923da1931483c906a11579d",
@@ -18,10 +16,9 @@
     "navigation": {}
   },
   {
-	"dummy": "31",
     "urlref": "/doc/vocabularium/core-person",
     "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
-    "branchtag": "example",
+    "branchtag": "0895d57ff03e3171cb330c3c4cc8641a96f16fb4",
     "name": "core-person-voc",
     "filename": "config/core-person-voc.json",
     "navigation": {}
