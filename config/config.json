@@ -11,7 +11,7 @@
 	  "repository" : "uri.semic.eu-generated",
 	  "private" : true
   },
-  "toolchainversion" : "3",
+  "toolchainversion" : "3.0.3",
   "toolchain" : {
 	  "strickness" : "lazy",
 	  "version": 3

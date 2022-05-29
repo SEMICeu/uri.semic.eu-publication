@@ -46,7 +46,7 @@
       "@id": "dcterms:contributor"
     },
     "affiliation": {
-      "@id": "https://schema.org/affiliation"
+      "@id": "http://schema.org/affiliation"
     },
     "classes": {
       "@reverse": "rdfs:isDefinedBy"

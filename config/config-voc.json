@@ -13,7 +13,7 @@
     owl: "http://www.w3.org/2002/07/owl#",
     person: "http://www.w3.org/ns/person#",
     prov: "http://www.w3.org/ns/prov#",
-    schema: "https://schema.org/",
+    schema: "http://schema.org/",
     skos: "http://www.w3.org/2004/02/skos/core#",
     vann: "http://purl.org/vocab/vann/",
     xsd: "http://www.w3.org/2001/XMLSchema#"

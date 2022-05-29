@@ -59,8 +59,8 @@ This has to be executed for each private repository.
   "publicationpoints" : ["dev"],        -- The directories from which the publication points are to be published
                                         -- For a suggested organisation and usage see below in the Editors section.
   "generatedrepository" : {             -- The target repository to which the toolchain will write its generated artifacts
-	  "organisation": "SEMICeu",                -- the organisation in github
-	  "repository" : "uri.semic.eu-generated",  -- the repository in the organisation
+	  "organisation": "GitHubOrganisation",                -- the organisation in github
+	  "repository" : "GeneratedRepository",  -- the repository in the organisation
 	  "private" : true                          -- whether or not the repository is private.
   },
   "toolchainversion" : "3",             -- The toolchain version that is deployed, only adapt in case of toolchain management
@@ -72,6 +72,7 @@ This has to be executed for each private repository.
   }
 }
 ```
+
 
 # Editoral flow
 
@@ -113,6 +114,7 @@ Publication points are expressed as follows:
         },
         "type" : "<PUBLICATIONPOINT_TYPE>",
         "disabled" : boolean
+        "examples" : boolean
     },
 ```
 
@@ -126,6 +128,7 @@ Publication points are expressed as follows:
 - *navigation*: a structure with a next or prev attribute containing a relative URL of a next or previous version of the specification
 - *type*: the publication point type. Can be omitted for publication points that describe a document, it is used to create special variants of publication points.
 - *disabled*: a boolean indicating if the the publication point should be processed. This is an aid when resolving conflicts between concurrent usage of the toolchain by multiple editors. Suppose one editor creates a publication point that leads to a processing error by the toolchain. It is this editor's responsability to resolve the issue. As long this issue is not resolved the whole toolchain is blocked for all other editors. To provide the editor sufficient time to resolve the issue and to deblock the other editors, the publication point can be disabled. This is a clean git source controlled operation and it can be executed by other editors, to deblock themselves. When the issue is resolved by the editor, the publication point can be reactivated again.
+- *examples*: generate json-ld structures that can be used to create examples for the application profile
 
 #### nameing conventions 
 TODO
