@@ -2,7 +2,7 @@
   {
     "urlref": "/doc/core-vocabulary/core-person",
     "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
-    "branchtag": "4629f50dbb5953284f83bda9321305bfeb2f7da7",
+    "branchtag": "e45aadc5199be3e563d87040dd0e51c4bed45604",
     "name": "core-person-ap",
     "filename": "config/core-person.json",
     "navigation": {}
@@ -10,7 +10,7 @@
   {
     "urlref": "/doc/vocabularium/core-person",
     "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
-    "branchtag": "4629f50dbb5953284f83bda9321305bfeb2f7da7",
+    "branchtag": "e45aadc5199be3e563d87040dd0e51c4bed45604",
     "name": "core-person-voc",
     "filename": "config/core-person-voc.json",
     "navigation": {}
