@@ -65,7 +65,7 @@
               <dl>
               <dt>Status</dt><dd>{{metadata.status}}</dd>
               <dt>Published at</dt><dd>{{metadata.issued}}</dd>
-              <dt>This version</dt><dd><a href="https://catalogue-of-services-isa.github.io/CPSV-AP/releases/3.0.0">https://catalogue-of-services-isa.github.io/CPSV-AP/releases/3.0.0</a></dd>
+              <dt>This version</dt><dd><a href="https://semiceu.github.io/CPSV-AP/releases/3.0.0">https://catalogue-of-services-isa.github.io/CPSV-AP/releases/3.0.0</a></dd>
               {% if metadata.navigation.next %}
               <dt>Next version</dt><dd><a href="{{metadata.navigation.next}}">{{metadata.navigation.next}}</a></dd>
               {% endif %}
@@ -428,7 +428,7 @@
                 <h2 class="h2" aria-level="1" role="heading" id="h2_sotd">UML representation</h2>
                 (non-normative)
                 {% block uml %}
-		<p>The UML representation from which this specification has been build is available <a href="./uml/cpsv-ap.eap" target="_blank">here.</a></p>
+		<p>The UML representation from which this specification has been build is available <a href="./uml/cpsv-ap.eap" target="_blank">here</a>.</p>
                 {% endblock %}
             </div>
 			
@@ -436,7 +436,7 @@
                 <h2 class="h2" aria-level="1" role="heading" id="h2_sotd">RDF representation</h2>
                 (non-normative)
                 {% block rdf %}
-		<p>A reusable RDF representation (in turtle) for this specification is retrievable <a href="./rdf/cpsv-ap.ttl" target="_blank">here.</a></p></a></p>
+		<p>A reusable RDF representation (in turtle) for this specification is retrievable <a href="./rdf/cpsv-ap.ttl" target="_blank">here</a>.</p>
                 {% endblock %}
             </div>
 			
@@ -444,14 +444,14 @@
                 <h2 class="h2" aria-level="1" role="heading" id="h2_sotd">JSON-LD context</h2>
                 (non-normative)
                 {% block jsonld %}
-		<p>A reusable JSON-LD context definition for this specification is retrievable <a href="./context/{{ metadata.filename }}_{{language}}.jsonld" target="_blank">here</a></p>
+		<p>A reusable JSON-LD context definition for this specification is retrievable <a href="./context/{{ metadata.filename }}_{{language}}.jsonld" target="_blank">here</a>.</p>
                 {% endblock %}
             </div>
             <div class="region region--no-space-top" id="shacl">
                 <h2 class="h2" aria-level="1" role="heading" id="h2_sotd">SHACL template</h2>
                 (non-normative)
                 {% block shacl%}
-		<p>A reusable SHACL template for this specification is retrievable <a href="./shacl/{{ metadata.filename }}-SHACL.ttl" target="_blank">here</a></p>
+		<p>A reusable SHACL template for this specification is retrievable <a href="./shacl/{{ metadata.filename }}-SHACL.ttl" target="_blank">here</a>.</p>
                 {% endblock %}
             </div>
           </div>
