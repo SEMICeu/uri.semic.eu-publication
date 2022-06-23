@@ -1,20 +1,26 @@
 # Supporting private repositories
 
-## private repository 'Generated'
-The repository 'Generated' is the repository in which the toolchain will write the generated artifacts.
+The use of private repositories impacts the deployment and use of the toolchain. 
+At the level of the deployment, the interaction with the GitHub repositories must be done using (deployment) keys to create a secure, trusted connection.
+As consequence, the public HTTPS url representation for the GitHub repositories is not anymore permitted, but must be replaced with the secure representation.
+Editors should be aware of these.
+
+
+
+## private generated repository 
 If this repository is private, then one should create a deploy key as described in the documentation for github.com.
-The private key should be added to circleci config in the additional ssh keys having as hostname "github.com".
-The fingerprint of this private key should be placed in the .circleci/config in the create-artifact step configuration.
+The private key should be added to circleci config in the additional ssh keys having as hostname `github.com`.
+The fingerprint of this private key should be placed in the `.circleci/config` in the create-artifact step configuration.
 This will insert that key into the create-artifact step.
-The public key should be installed as a deploy key with read/write rights on the 'Generated' repository in github. 
+The public key should be installed as a deploy key with read/write rights on the generated repository in `GitHub`. 
 
 ## private repository 'Thema'
-When a source repository is private, then a similar approach as for the private repository 'Generated' should be followed.
-However due to the key insertion of CIRCLECI into a container (step) the following has to be considered:
+When a source repository is private, then a similar approach as for the private generated repository should be followed.
+However due to the key insertion of CircleCI into a container (step) the following has to be considered:
 
 - create a new deploy key for the private 'Thema' repository
 - enable the public key as deploy key for the 'Thema' repository (read access is sufficient)
-- insert the private key in CIRCLECI project as additional ssh key with as (dummy) hostname Thema-private
+- insert the private key in CircleCI project as additional ssh key with as (dummy) hostname Thema-private
 - enable the update of the ssh configuration for this (dummy) hostname Thema-private
 - use instead of `https://github.com/<ORG>/<REPO>` , `git@Thema-private:<ORG>/<REPO>.git` as  the value of the repository in the configuration of a publication point.
 
@@ -23,9 +29,9 @@ This has to be executed for each private repository.
 ## background documentation
 - https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent#generating-a-new-ssh-key
 - https://circleci.com/docs/2.0/gh-bb-integration/#best-practices-for-keys
-- Where to find in the CIRCLECI webapp the ssh key configuration for a project:
-    - login into CIRCLECI
-    - select the repository (called project in CIRCLECI webapp)
+- Where to find in the CircleCI webapp the ssh key configuration for a project:
+    - login into CircleCI
+    - select the repository (called project in CircleCI webapp)
     - go to project settings (button located on the right top)
     - select the tab ssh settings (in menu on the right)
     - additional ssh key configuration is at the bottom of the page
@@ -93,7 +99,7 @@ A *publication environment maintainer* is the person in charge of the global coh
 
 ## Happy editorial flow 
 
-The toolchain is setup with the intend to let editors focus on the publication of a specification. From the perspective of an editor, publishing a specification is the management of the set of publications points for a specification. For this the editor, updates the one of files containing publication points. Each commmit to the repository will trigger the processing of the publications points. When no blocking errors are present, a new state is written to the generated repository. Blocking errors can be inspected by reading the error report of the failed step in CIRCLECI, while non-blocking errors are written out to generated repository. 
+The toolchain is setup with the intend to let editors focus on the publication of a specification. From the perspective of an editor, publishing a specification is the management of the set of publications points for a specification. For this the editor, updates the one of files containing publication points. Each commmit to the repository will trigger the processing of the publications points. When no blocking errors are present, a new state is written to the generated repository. Blocking errors can be inspected by reading the error report of the failed step in CircleCI, while non-blocking errors are written out to generated repository. 
 
 
 ## Publication points structure and organisation
@@ -192,7 +198,7 @@ This publication point supports the usecase for:
 
 
 ### Triggering an execution of the toolchain.
-The toolchain is triggered one each commit in the publication environment. The publication environment is monitored by the CI/CD tool CIRCLECI. The impact and amount of work depends on the commit.
+The toolchain is triggered one each commit in the publication environment. The publication environment is monitored by the CI/CD tool CircleCI. The impact and amount of work depends on the commit.
 
 - A commit containing only a change to one or more publication points will lead to only processing those affected publication points. If the change in publication point will not lead to a change in the specification only the commit tag of this execution is changed.
 - Any change to a file outside publication points will reprocess all publication points specified in the publication repository.
