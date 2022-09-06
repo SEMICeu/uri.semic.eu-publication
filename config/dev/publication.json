@@ -112,5 +112,14 @@
     "name": "core-person-voc",
     "filename": "config/core-person.json",
     "navigation": {}
-  }
+  },
+  {
+    "dummy": "31",
+    "urlref": "/doc/core-vocabulary/cpev",
+    "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
+    "branchtag": "main",
+    "name": "core-public-event-ap",
+    "filename": "config/core-public-event.json",
+    "navigation": {}
+  },
 ]
