@@ -5,6 +5,7 @@
     "branchtag": "main",
     "name": "dcat-ap",
     "filename": "config/dcat-ap.json",
-    "navigation": {}
+    "navigation": {},
+    "dummy" : 1
   } 
 ]
