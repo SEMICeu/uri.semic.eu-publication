@@ -1,4 +1,4 @@
-{
+[{
   "urlref": "/doc/dcat-ap",
   "repository": "git@github.com:bertvannuffelen/DCATprofile.git",
   "branchtag": "main",
@@ -6,4 +6,4 @@
   "filename": "config/dcat-ap.json",
   "navigation": {},
   "dummy": 7
-}
+}]
