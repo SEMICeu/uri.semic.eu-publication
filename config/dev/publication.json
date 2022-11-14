@@ -1,11 +1,9 @@
-[
-  {
-    "urlref": "/doc/dcat-ap",
-    "repository": "git@github.com:bertvannuffelen/DCATprofile.git",
-    "branchtag": "main",
-    "name": "dcat-ap",
-    "filename": "config/dcat-ap.json",
-    "navigation": {},
-    "dummy" : 6
-  } 
-]
+{
+  "urlref": "/doc/dcat-ap",
+  "repository": "git@github.com:bertvannuffelen/DCATprofile.git",
+  "branchtag": "main",
+  "name": "dcat-ap",
+  "filename": "config/dcat-ap.json",
+  "navigation": {},
+  "dummy": 7
+}
