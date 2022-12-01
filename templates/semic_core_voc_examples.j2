@@ -73,7 +73,10 @@
               <dl>
               <dt>Status</dt><dd>{{metadata.status}}</dd>
               <dt>Published at</dt><dd>{{metadata.issued}}</dd>
-              <dt>This version</dt><dd><a href="{{metadata.versionurl}}">{{metadata.versionurl}}</a></dd>
+              <dt>This version</dt><dd>
+              {% block version %} 
+              {% endblock %}
+              </dd>
               {% if metadata.navigation.next %}
               <dt>Next version</dt><dd><a href="{{metadata.navigation.next}}">{{metadata.navigation.next}}</a></dd>
               {% endif %}
