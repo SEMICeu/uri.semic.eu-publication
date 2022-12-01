@@ -159,7 +159,10 @@
 
               <div class="head" role="metainfo" id="metainfo">
               <dl>
-              <dt>Source</dt><dd><a href="{{metadata.repourl}}">{{metadata.repourl}}</a></dd>
+              <dt>Source</dt><dd>
+			  {% block source %} 
+              {% endblock %}
+			  </dd>
               <!--<dt>Changelog</dt><dd><a href="{{metadata.changelogurl}}">{{metadata.changelogurl}}</a></dd>-->
               <dt>Feedback</dt><dd><a href="{{metadata.feedbackurl}}">{{metadata.feedbackurl}}</a></dd>
               <!--<dt>Registry of standards</dt><dd><a href="{{metadata.standaardregisterurl}}">{{metadata.standaardregisterurl}}</a></dd>-->
