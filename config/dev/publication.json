@@ -24,7 +24,7 @@
     "navigation": {}
   },
   {
-	"dummy": "40",
+	"dummy": "41",
     "urlref": "/doc/application-profile/cpsv-ap",
     "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
     "branchtag": "main",
@@ -33,7 +33,7 @@
     "navigation": {}
   },
   {
-	"dummy": "27",
+	"dummy": "28",
     "urlref": "/doc/core-vocabulary/core-public-organisation",
     "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
     "branchtag": "main",
@@ -42,7 +42,7 @@
     "navigation": {}
   },
   {
-	"dummy": "27",
+	"dummy": "28",
     "urlref": "/doc/vocabularium/core-public-organisation",
     "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
     "branchtag": "main",
@@ -51,7 +51,7 @@
     "navigation": {}
   },
   {
-	"dummy": "32",
+	"dummy": "33",
     "urlref": "/doc/core-vocabulary/core-location",
     "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
     "branchtag": "main",
@@ -60,7 +60,7 @@
     "navigation": {}
   },
   {
-	"dummy": "32",
+	"dummy": "33",
     "urlref": "/doc/vocabularium/core-location",
     "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
     "branchtag": "main",
@@ -114,7 +114,7 @@
     "navigation": {}
   },
   {
-    "dummy": "18",
+    "dummy": "19",
     "urlref": "/doc/core-vocabulary/cpev",
     "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
     "branchtag": "main",
