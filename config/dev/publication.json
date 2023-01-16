@@ -156,5 +156,14 @@
     "name": "adms-ap",
     "filename": "config/adms-ap.json",
     "navigation": {}
+  },
+  {
+    "dummy": "10",
+    "urlref": "/doc/application-profile/mldcat-ap",
+    "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
+    "branchtag": "main",
+    "name": "mldcat-ap",
+    "filename": "config/mldcat-ap.json",
+    "navigation": {}
   }
 ]
