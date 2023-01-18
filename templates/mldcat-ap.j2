@@ -192,7 +192,7 @@
                 <h2 class="h2" aria-level="1" role="heading" id="h2_sotd">Status of this document</h2>
                 {% block status %}
                 <p>
-                  This specification has the status of SEMIC Recommendation published on {{ metadata.issued }}.
+                  This specification has the status of draft published on {{ metadata.issued }}.
 	        </p>
                 {% endblock %}
               </section>
@@ -218,7 +218,7 @@
                 <div class="col--9-12 col--1-1--s typography">
                   {% if ( ( classes | length > 0)   ) %}
                   <div class="region region--no-space-top">
-                    <p>This document describes the usage of the following entities for a correct usage of the Core Vocabulary: 
+                    <p>This document describes the usage of the following entities for a correct usage of the Application Profile: 
                       <br />
                       |
                       {%- for class in classes |sort(attribute=sortattr) %}
@@ -229,7 +229,7 @@
                   {% endif %}
 		  {% if ( ( datatypes | length ) > 0 ) %}
                   <div class="region region--no-space-top">
-                    <p> This document describes the usage of the following datatypes for a correct usage of the Core Vocabulary:
+                    <p> This document describes the usage of the following datatypes for a correct usage of the Application Profile:
                       <br />
                       |
                       {%- for datatype in datatypes |sort(attribute=sortattr) %}
@@ -442,7 +442,7 @@
                 <h2 class="h2" aria-level="1" role="heading" id="h2_sotd">RDF representation</h2>
                 (non-normative)
                 {% block rdf %}
-		<p>A reusable RDF representation (in turtle) for this specification is retrievable <a href="./rdf/cpsv-ap.ttl" target="_blank">here</a>.</p>
+		<p>A reusable RDF representation (in turtle) for this specification is retrievable <a href="./rdf/mldcat-ap.ttl" target="_blank">here</a>.</p>
                 {% endblock %}
             </div>
 			
