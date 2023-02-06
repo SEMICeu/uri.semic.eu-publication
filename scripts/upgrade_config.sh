@@ -35,7 +35,7 @@ upgrade_config() {
 
 
     TRANSLATIONOBJ=$(jq -n \
-	    --arg jqlanguage "${PRIMELANGUAGE} " --arg jqtitle "${TITLE}" --arg jqtemplate ${TEMPLATE} \
+	    --arg jqlanguage "${PRIMELANGUAGE}" --arg jqtitle "${TITLE}" --arg jqtemplate ${TEMPLATE} \
 	    --arg jqtranslation $JQTRANSLATION --arg jqmergefile ${NAME}_${PRIMELANGUAGE}_merged.json \
 	    "${TRANSLATIONOBJTEMPLATE}")
     echo $TRANSLATIONOBJ > /tmp/upgrade.json
@@ -44,8 +44,17 @@ upgrade_config() {
     AMOUNT=$(jq length ${SLINE}/.names.json)
 
     if [ ${AMOUNT} -eq 1 ] ; then
-    	jq -s '[.[0][0] * .[1]]' ${SLINE}/.names.json /tmp/upgrade.json > /tmp/mergedupgrade.json
-    	cp /tmp/mergedupgrade.json ${SLINE}/.names.json
+
+	if [ "$HASTRANSLATION" == "" ] || [ "$HASTRANSLATION" == "null" ] ;  then
+
+    	  jq -s '[.[0][0] * .[1]]' ${SLINE}/.names.json /tmp/upgrade.json > /tmp/mergedupgrade.json
+    	  cp /tmp/mergedupgrade.json ${SLINE}/.names.json
+	  # also upgrate the aggegrated content
+	  AGGRFILE=${SLINE}/$(cat ${SLINE}/.names.txt).jsonld
+	  jq -s '.[0] + .[1][0] ' ${AGGRFILE} ${SLINE}/.names.json >  /tmp/aggr.json
+	  cp /tmp/aggr.json ${AGGRFILE}
+
+	fi
 
     else 
 	   echo "ERROR only a list with a single matching value should be in the specification config"
