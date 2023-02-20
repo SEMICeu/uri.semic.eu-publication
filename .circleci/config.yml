@@ -85,7 +85,7 @@ jobs:
             - "ec:8f:5a:dc:dd:16:4f:7e:4a:ea:e5:9e:ac:f2:a1:a7"
       - run: $PWD/scripts/update_sshconfig.sh private1
       - run: $PWD/scripts/update_sshconfig.sh uri.semic.eu-thema
-      - run: $PWD/scripts/update_sshconfig.sh semicthema-DCAT-AP
+      - run: $PWD/scripts/update_sshconfig.sh Semicthema-DCAT-AP
       - run: mkdir -p workspace
       - run: ls -al workspace
       - run:
