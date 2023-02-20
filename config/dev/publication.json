@@ -1,7 +1,7 @@
 [
   {
     "urlref": "/doc/dcat-ap",
-    "repository": "git@github.com:bertvannuffelen/DCATprofile.git",
+    "repository": "git@github.com:SEMICeu/Semicthema-DCAT-AP.git",
     "branchtag": "main",
     "name": "dcat-ap",
     "filename": "config/dcat-ap.json",
