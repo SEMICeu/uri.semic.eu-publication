@@ -6,6 +6,7 @@
     "name": "dcat-ap",
     "filename": "config/dcat-ap.json",
     "navigation": {},
+    "private" : true,
     "dummy": 37
   }
 ]
