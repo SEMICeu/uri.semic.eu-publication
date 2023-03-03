@@ -17,7 +17,7 @@
     "name": "core-location-ap",
     "filename": "config/core-location.json",
     "navigation": {},
-    "dummy": "1",
+    "dummy": "1"
   },
   {
     "urlref": "/doc/vocabularium/core-location",
@@ -25,7 +25,7 @@
     "branchtag": "main",
     "name": "core-location",
     "filename": "config/core-location-voc.json",
-    "navigation": {}
-    "dummy": "1",
+    "navigation": {},
+    "dummy": "1"
   }
 ]
