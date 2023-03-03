@@ -13,7 +13,7 @@
   {
     "urlref": "/doc/core-vocabulary/core-location",
     "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
-    "branchtag": "main",
+    "branchtag": "draft",
     "name": "core-location-ap",
     "filename": "config/core-location.json",
     "navigation": {},
@@ -22,7 +22,7 @@
   {
     "urlref": "/doc/vocabularium/core-location",
     "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
-    "branchtag": "main",
+    "branchtag": "draft",
     "name": "core-location",
     "filename": "config/core-location-voc.json",
     "navigation": {},
