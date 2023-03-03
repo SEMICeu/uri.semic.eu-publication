@@ -1,0 +1,709 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+{% set language = "en" %} {% set sortattr = "sort" %}
+
+{#
+{% macro shorturl( url ) %}
+{% set prefix=(dct='http://purl.org/dc/terms/') %}
+{% set nscycler = cycler('r/^http:\//purl.org/dc/terms/') %}
+{% set prefcycler = cycler('dct') %}
+
+{% for i in range(1,1) -%} 
+{% if reg %}
+{% endfor %}
+{{ url }}
+{% endmacro%}
+#}
+
+<head>
+    {% set name = metadata.title|lower|replace(' ', '-') %}
+	
+    <meta charset="utf-8" />
+    <title>{{ metadata.title }}</title>
+    <script src="https://www.w3.org/Tools/respec/respec-w3c" class="remove" defer></script>
+    <script class="remove">
+    // All config options at https://respec.org/docs/
+
+	var myeditors = [
+	{% for role, contributors in contributors | groupby("role") %}
+	{% if role == "E" %}
+	    {% set editors = contributors|sort(attribute='last_name') %}
+	    {% if editors %}
+		{% for editor in editors %}
+		   {
+		    name: "{{ editor.first_name }} {{ editor.last_name}}",
+		      {% if editor.affiliation.website %}
+		    companyURL: "{{ editor.affiliation.website }}",
+		      {% endif %}
+		      {% if editor.affiliation.name %}
+		    company: "{{ editor.affiliation.name }}",
+		      {% endif %}
+		      {% if editor.email %}
+		    mailto: "{{ editor.email }}"
+		      {% endif %}
+		    }
+		{% if not loop.last %}, {% endif %}
+		{% endfor %}
+             {% endif %}
+        {% endif %}
+	{% endfor %}
+		]
+
+	var myauthors = [
+	{% for role, contributors in contributors | groupby("role") %}
+	{% if role == "A" %}
+	    {% set editors = contributors|sort(attribute='last_name') %}
+	    {% if editors %}
+		{% for editor in editors %}
+		   {
+		    name: "{{ editor.first_name }} {{ editor.last_name}}",
+		      {% if editor.affiliation.website %}
+		    companyURL: "{{ editor.affiliation.website }}",
+		      {% endif %}
+		      {% if editor.affiliation.name %}
+		    company: "{{ editor.affiliation.name }}",
+		      {% endif %}
+		      {% if editor.email %}
+		    mailto: "{{ editor.email }}"
+		      {% endif %}
+		    }
+		{% if not loop.last %}, {% endif %}
+		{% endfor %}
+             {% endif %}
+        {% endif %}
+	{% endfor %}
+		]
+
+
+    var respecConfig = {
+      edDraftURI: "{{metadata.navigation.self}}",
+      latestVersion: "{{metadata.navigation.prev}}",
+      specStatus: "unofficial",
+      publishDate: "{{ metadata.issued }}",
+      editors: myeditors,
+      authors: myauthors,
+      github: "SEMICeu/DCAT-AP",
+      shortName: "{{metadata.title}}",
+      xref: "web-platform",
+      doJsonLd: true,
+      logos: [{
+        src: "https://github.com/SEMICeu/Core-Person-Vocabulary/blob/v2.0.0/releases/2.00/html/semic-icon.png",
+        url: "https://semic.eu",
+        alt: "SEMIC",
+        width: 154,
+        height: 140,
+        id: "semic-logo",
+      },],
+      generatedSubtitle: "",
+      additionalCopyrightHolders: "",
+    };
+    </script>
+    <style>
+      .figure img, .sidefigure img, figure img, .figure object, .sidefigure object, figure object, img, .img {
+      max-width: 100%;
+      margin: auto;
+      height: auto;
+      }
+    </style>
+    {# -- documentation indication by nunjuncs template language
+       Copyright must be specified otherwise Respec generates a value
+     #} 
+    <p class="copyright">
+        Copyright © 2022
+    </p>
+    {# <p id="w3c-state"><a href="https://www.w3.org/standards/types#ED">SEMIC Editor's Draft</a><time class="dt-published" datetime="2022-11-07">07 November 2022</time></p> #}
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="msapplication-TileColor" content="#7ED956" />
+</head>
+<body>
+    {# <div style="min-height:44px;" id="logo">
+        <!-- insert your global header here -->
+        <title>SEMIC DCAT-AP</title>
+        <i class="logo">SEMIC</i>
+        <!-- end global header-->
+    </div> #}
+
+    <!-- Start page content -->
+
+{# -- outcomment the next section for now as it has to be more condensed 
+<section>
+   <h2 class="h2">{{ metadata.title }}</h2>
+            <div class="col--9-12 col--1-1--s">
+                <div class="head" role="status" id="status">
+                    <dl>
+                        <dt>
+                            Status
+                        </dt>
+                        <dd>
+                            <a href="{{ metadata.status }}">{{ metadata.status }}</a>
+                        </dd>
+                        <dt>
+                            Published at
+                        </dt>
+                        <dd>
+                            {{ metadata.issued }}
+                        </dd>
+                        <dt >
+                            This version
+                        </dt>
+                        <dd>
+                            <a href="{{ metadata.navigation.self }}">{{ metadata.navigation.self }}</a>
+                        </dd>
+                        {% if metadata.navigation.next %}
+                            <dt>
+                                Next version
+                            </dt>
+                            <dd>
+                                <a href="{{ metadata.navigation.next }}">{{ metadata.navigation.next }}</a>
+                            </dd>
+                        {% endif %}
+                        {% if metadata.navigation.prev %}
+                            <dt>
+                                Previous version
+                            </dt>
+                            <dd>
+                                <a href="{{ metadata.navigation.prev }}">{{ metadata.navigation.prev }}</a>
+                            </dd>
+                        {% endif %}
+                    </dl>
+                </div>
+    <div class="head" role="metainfo" id="metainfo">
+        <dl>
+            <dt>
+                Source
+            </dt>
+            <dd>
+                <a href="{{ metadata.repositoryurl }}">{{ metadata.repositoryurl }}</a>
+            </dd>
+            <dt>
+                Changelog
+            </dt>
+            <dd>
+                <a href="{{ metadata.changelogurl }}">{{ metadata.changelogurl }}</a>
+            </dd>
+            <dt>
+                Feedback
+            </dt>
+            <dd>
+                <a href="{{ metadata.feedbackurl }}">{{ metadata.feedbackurl }}</a>
+            </dd>
+            <dt>
+                Registry of standards
+            </dt>
+            <dd>
+                <a href="{{ metadata.standaardregisterurl }}">{{ metadata.standaardregisterurl }}</a>
+            </dd>
+            <dt>
+                Dependencies
+            </dt>
+            <dd>
+                {% for dep in metadata.dependencies %}<a href="{{ dep.packageurl }}">{{ dep.packagelabel }}</a>{% endfor %}
+            </dd>
+        </dl>
+    </div>
+</div>
+</div>
+</section>
+#}
+
+<section id="specintro">
+    <h2>
+        Introduction
+    </h2>
+    {% block introduction %}
+        <p>
+            This document describes an <strong>application profile</strong>, in this case <strong>{{ metadata.title }}</strong>. The application profile specifies a semantic data model covering a set of usecases. The specification consists of terms with their constraints (cardinalities, codelists, usage guidelines).
+        </p>
+    {% endblock %}
+</section>
+
+<section id="abstract">
+    {% block summary %}
+    <h2>Summary</h2>
+        {% if metadata.description %}{{ metadata.description[language] }}{% endif %}
+    {% endblock %}
+</section>
+
+{% block status %}
+<!--  should support https://www.w3.org/2021/Process-20211102/, mostly like https://www.w3.org/2021/Process-20211102/#maturity-levels -->
+<section id="specstatus">
+    <h2>Status</h2>
+        <p>
+            This application profile has the status <a href="{{ metadata.status }}">{{ metadata.statuslabel }}</a> published at {{ metadata.issued }}.
+        </p>
+        <p>
+            Information about the process and the decisions involved in the creation of this specification are consultable at the <a href="{{ metadata.standaardregisterurl }}">registry of standards</a>.
+        </p>
+</section>
+{% endblock %}
+
+
+
+<section id="speclicence">
+    <h2>
+        License
+    </h2>
+    {% block license %}
+        <p>
+	<!--
+            <span rel="dct:type"
+                  property="dct:title"
+                  href="http://purl.org/dc/dcmitype/Text"
+                  xmlns:dct="http://purl.org/dc/terms/">
+		  This specification </span> of <a rel="cc:attributionURL" property="cc:attributionName" href="ORGANISATION" xmlns:cc="http://creativecommons.org/ns#">ORGANISATION </a> 
+	          is published under <a href="{{ metadata.license }}" rel="license">"CC0"</a>.
+	-->
+             Copyright © 2021 European Union. All material in this repository is published under the license CC-By 4.0, unless explicitly otherwise mentioned.
+        </p>
+    {% endblock %}
+</section>
+
+{% block conformance %}
+<section>
+    <h2>
+        Conformance
+    </h2>
+        <p>
+            An implementation is conformant with this application profile if it satisfies <a href="/doc/conformance">these rules</a>.
+        </p>
+</section>
+{% endblock %}
+
+{% block terminology %}
+<section id="specterminology">
+    <h2>
+        Terminology
+    </h2>
+        <p>
+            section on terminology usage
+        </p>
+</section>
+{% endblock %}
+
+<section id="specoverview">
+    <h2>Overview</h2>
+    {% block overviewintro %}
+    {% endblock %}
+    <div id="overview">
+                {% if ( ( classes | length > 0)   ) %}
+                        <p>
+                            This document describes the usage of the following entities for a correct usage of the Application Profile:
+                            <br />
+                            | {%- for class in classes |sort(attribute=sortattr) %} <a href="#{{ class.label[language] | urlencode }}">{{ class.label[language] }}</a> | {%- endfor %}
+                        </p>
+                {% endif %}
+                {% if ( ( datatypes | length ) > 0 ) %}
+                        <p>
+                            This document describes the usage of the following datatypes for a correct usage of the Application Profile:
+                            <br />
+                            | {%- for datatype in datatypes |sort(attribute=sortattr) %} <a href="#{{ datatype.label[language] | urlencode }}">{{ datatype.label[language] }}</a> | {%- endfor %}
+                        </p>
+                {% endif %}
+    </div>
+    <div>
+        <a href="{{ documentroot }}/html/overview.jpg"
+           target="_blank">
+            <img src="{{ documentroot }}/html/overview.jpg"/>
+        </a>
+    </div>
+</section>
+
+
+<section>
+    <h2>
+        Entities
+    </h2>
+    {% for entity in classes | sort(attribute=sortattr) %}
+        <section>
+            <h3 id="{{ entity.label[language]| urlencode }}">
+                <a href="{{ entity.uri }}"
+                   data-toggle="tooltip"
+                   data-content="{{ entity.uri }}"
+                   data-placement="right">{{ entity.label[language] }}</a>
+            </h3>
+            <dl>
+                <dt>
+                    Definition
+                </dt>
+                <dd>
+                    {{ entity.description[language] }}
+                </dd>
+                {% if entity.usage[language] %}
+                    <dt>
+                        Usage Note
+                    </dt>
+                    <dd>
+                        {{ entity.usage[language] | safe }}
+                    </dd>
+                {% endif %}
+                {% if ((entity.parents | length) > 0 ) %}
+                    <dt>
+                        Subclass of
+                        <dt>
+                            <dd>
+                                {%- for parent in entity['parents'] %} <a href="{{ parent.scoped_uri }}">{{ parent.label }}</a>
+                                {% if not loop.last %},{% endif %}
+                            {%- endfor %}
+                        </dd>
+                    {% endif %}
+                    <dt>
+                        Properties
+                    </dt>
+                    {% if ((entity.properties | length) > 0 ) %}
+                        <dd>
+                            For this entity the following properties are defined: {%- for prop in entity['properties'] | sort(attribute=sortattr) %} <a href="#{{ (entity.label[language] ~ '.' ~ prop.label[language]) | urlencode }}">{{ prop.label[language] }}</a>
+                            {% if not loop.last %},{% endif %}
+                        {%- endfor %}.
+                    </dd>
+                {% else %}
+                    <dd>
+                        No properties have been defined for this entity.
+                    </dd>
+                {% endif %}
+            </dl>
+            <dd>
+                Add an issue for this entity <a href="{{ metadata.feedbackurl }}/new?title=Issue%20for%20{{ entity.name }}&body=Explain%20your%20issue"}}>here</a>.
+            </dd>
+        </div>
+        {% if ((entity.properties | length) > 0 ) %}
+            <div class="u-table-overflow">
+                <table class="data-table simple" id="table-mandatory-classes">
+                    <thead>
+                        <tr class="data-table__header">
+                            <th class="data-table__header-title--sortable">
+                            </th>
+                            <th class="data-table__header-title--sortable data-table__header-title--sortable-active">
+                                Property
+                            </th>
+                            <th class="data-table__header-title--sortable">
+                                Expected Range
+                            </th>
+                            <th class="data-table__header-title--sortable">
+                                Cardinality
+                            </th>
+                            <th class="data-table__header-title--sortable">
+                                Definition 
+                            </th>
+                            <th class="data-table__header-title--sortable">
+                                Usage
+                            </th>
+                            <th class="data-table__header-title--sortable">
+                                Codelist
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody class="supertype">
+                        {% for prop in entity['properties'] | sort(attribute=sortattr) %}
+                            <tr id="{{ (entity.label[language] ~ '.' ~ prop.label[language]) | urlencode }}"
+                                typeof="rdfs:Property"
+                                resource="{{ prop.uri }}"
+                                class="class mandatory">
+                                <td>
+				    <a href="{{ metadata.feedbackurl }}/new?title=Issue%20for%20{{ prop.label[language] }}%20in%20{{ entity.label[language]}}&body=Explain%20your%20issue%20for%20{{ metadata.navigation.self }}%23{{ (entity.label[language] ~ '.' ~ prop.label[language]) | urlencode }}" target="_blank" rel="noopener noreferrer" >
+                                        <i class="icon">[o]</i>
+                                    </a>
+                                </td>
+                                <td>
+                                    <code property="rdfs:label">
+                                        <a href="{{ prop.uri }}"
+                                           data-toggle="tooltip"
+                                           data-content="{{ prop.uri }}"
+                                           data-placement="right">
+                                        {{ prop.label[language] }}</a>
+                                    </code>
+                                </td>
+                                <td>
+                                    {% for range in prop.scopedrange %}
+                                        {% if range['range_uri'] == range['range_puri'] %}
+                                            <a href="#{{ range['range_label'][language] | urlencode }}"
+                                               data-toggle="tooltip"
+                                               data-content="{{ range['range_puri'] }}"
+                                               data-placement="right">{{ range['range_label'][language] }}</a>
+                                        {% else %}
+                                            <a href="#{{ range['range_label'][language] | urlencode }}" data-placement="right">{{ range['range_label'][language] }}</a>
+                                        {% endif %}
+                                    {% endfor %}
+                                </td>
+                                <td>
+                                    {{ prop.cardinality }}
+                                </td>
+                                <td property="rdfs:comment">
+                                    {{ prop.description[language] }}
+                                </td>
+                                <td property="skos:scopeNote">
+                                    {{ prop.usage[language] | safe }}
+                                </td>
+                                <td>
+                                    {% if prop['codelist_uri'] %}<a href="{{ prop['codelist_uri'] }}">Link</a>{% endif %}
+                                </td>
+                            </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        {% endif %}
+    </div>
+</section>
+{% endfor %}
+</section>
+{% if datatypes %}
+    <section>
+        <h2>
+            Datatypes
+        </h2>
+        {% for entity in datatypes | sort(attribute=sortattr)%}
+            <section>
+                {% if entity.scopeduri %}
+                    <h3 class="h3" id="{{ entity.label[language] | urlencode }}">
+                        <a href="{{ entity.scopeduri }}"
+                           data-toggle="tooltip"
+                           data-content="{{ entity.uri }}"
+                           data-placement="right">{{ entity.label[language] }}</a>
+                    </h3>
+                {% else %}
+                    <h3 class="h3" id="{{ entity.label[language] | urlencode }}">
+                        <a href="{{ entity.uri }}"
+                           data-toggle="tooltip"
+                           data-content="{{ entity.uri }}"
+                           data-placement="right">{{ entity.label[language] }}</a>
+                    </h3>
+                {% endif %}
+                <div class="region region--no-space-top">
+                    <dl>
+                        <dt>
+                            Definition
+                        </dt>
+                        <dd>
+                            {{ entity.description[language] }}
+                        </dd>
+                        {% if entity.usage[language] %}
+                            <dt>
+                                Usage Note
+                            </dt>
+                            <dd>
+                                {{ entity.usage[language] | safe }}
+                            </dd>
+                        {% endif %}
+                        {% if ((entity.parents | length) > 0 ) %}
+                            <dt>
+                                Subclass of
+                                <dt>
+                                    <dd>
+                                        {%- for parent in entity['parents'] %} <a href="{{ parent.scoped_uri }}">{{ parent.label }}</a>
+                                        {% if not loop.last %},{% endif %}
+                                    {%- endfor %}
+                                </dd>
+                            {% endif %}
+                            <dt>
+                                Properties
+                            </dt>
+                            {% if ((entity.properties | length) > 0 ) %}
+                                <dd>
+			            For this datatype are the following properties defined: {%- for prop in entity['properties'] | sort(attribute=sortattr) %} <a href="#{{ (entity.label[language] ~ '.' ~ prop.label[language]) | urlencode }}">{{ prop.label[language] }}</a>
+                                    {% if not loop.last %},{% endif %}
+                                {%- endfor %}.
+                            </dd>
+                        {% else %}
+                            <dd>
+                                No properties have been defined for this datatype.
+                            </dd>
+                        {% endif %}
+                    </dl>
+                    <dd>
+                        Add an issue for this property <a href="{{ metadata.feedbackurl }}/new?title=Issue%20for%20{{ entity.name }}&body=Explain%20your%20issue">here</a>.
+                    </dd>
+                </div>
+                {% if ((entity.properties | length) > 0 ) %}
+                    <div class="u-table-overflow">
+                        <table class="data-table simple" id="table-mandatory-classes">
+                            <thead>
+                                <tr class="data-table__header">
+                                    <th class="data-table__header-title--sortable">
+                                    </th>
+                                    <th class="data-table__header-title--sortable data-table__header-title--sortable-active">
+                                        Property
+                                    </th>
+                                    <th class="data-table__header-title--sortable">
+                                        Expected Range
+                                    </th>
+                                    <th class="data-table__header-title--sortable">
+                                        Cardinality
+                                    </th>
+                                    <th class="data-table__header-title--sortable">
+                                        Definition
+                                    </th>
+                                    <th class="data-table__header-title--sortable">
+                                        Usage Note
+                                    </th>
+                                    <th class="data-table__header-title--sortable">
+                                        Codelist
+                                    </th>
+                                </tr>
+                            </thead>
+                            <tbody class="supertype">
+                                {% for prop in entity['properties'] | sort(attribute=sortattr) %}
+                                    <tr id="{{ (entity.label[language] ~ '.' ~ prop.label[language]) | urlencode }}"
+                                        typeof="rdfs:Property"
+                                        resource="{{ prop.uri }}"
+                                        class="class mandatory">
+                                        <td>
+				           <a href="{{ metadata.feedbackurl }}/new?title=Issue%20for%20{{ prop.label[language] }}%20in%20{{ entity.label[language]}}&body=Explain%20your%20issue%20for%20{{ metadata.navigation.self }}%23{{ (entity.label[language] ~ '.' ~ prop.label[language]) | urlencode }}" target="_blank" rel="noopener noreferrer" >
+                                                <i class="icon">[o]</i>
+                                           </a>
+                                        </td>
+                                        <td>
+                                            <code property="rdfs:label">
+                                                <a href="{{ prop.uri }}"
+                                                   data-toggle="tooltip"
+                                                   data-content="{{ prop.uri }}"
+                                                   data-placement="right">{{ prop.label[language] }}</a>
+                                            </code>
+                                        </td>
+                                        <td>
+                                            {% for range in prop.scopedrange %}
+					    	{% if range['range_uri'] == range['range_puri'] %}
+						    <a href="#{{ range['range_label'][language] | urlencode }}"
+						       data-toggle="tooltip"
+						       data-content="{{ range['range_puri'] }}"
+						       data-placement="right">{{ range['range_label'][language] }}</a>
+						{% else %}
+						    <a href="#{{ range['range_label'][language] | urlencode }}" data-placement="right">{{ range['range_label'][language] }}</a>
+					     	{% endif %}
+                                            {% endfor %}
+                                        </td>
+                                        <td>
+                                            {{ prop['cardinality'] }}
+                                        </td>
+                                        <td property="rdfs:comment">
+                                            {{ prop.description[language] }}
+                                        </td>
+                                        <td property="skos:scopeNote">
+                                            {{ prop.usage[language] | safe }}
+                                        </td>
+                                        <td>
+                                            {% if prop['codelist_uri'] %}<a href="{{ prop['codelist_uri'] }}">Link</a>{% endif %}
+                                        </td>
+                                    </tr>
+                                {% endfor %}
+                            </tbody>
+                        </table>
+                    </div>
+                {% endif %}
+            </section>
+            {# </div> #}
+        {% endfor %}
+    </section>
+{% endif %}
+
+<section class="informative">
+    <h2 aria-level="1" role="heading" id="h2_sotd">
+        JSON-LD context
+    </h2>
+    <div class="region region--no-space-top" id="jsonld">
+        {#
+        <h2 class="h2" aria-level="1" role="heading" id="h2_sotd">
+            JSON-LD context
+        </h2>
+        #} (non normative)
+        {% block jsonld %}
+            <p>
+                A reusable JSON-LD context definition for this application profile is retrievable at: <a href="{{ documentroot }}/context/{{ metadata.filename }}.jsonld"
+    target="_blank">{{ documentroot }}/context/{{ metadata.filename }}.jsonld</a>
+            </p>
+        {% endblock %}
+    </div>
+</section>
+<section class="informative">
+    <h2 aria-level="1" role="heading" id="h2_sotd">
+        SHACL template
+    </h2>
+    <div class="region region--no-space-top" id="shacl">
+        {#
+        <h2 class="h2" aria-level="1" role="heading" id="h2_sotd">
+            SHACL template
+        </h2>
+        #} (non normative)
+        {% block shacl %}
+            <p>
+                A reusable SHACL template for this application profile is retrievable at: <a href="{{ documentroot }}/shacl/{{ metadata.filename }}-SHACL.ttl"
+    target="_blank">{{ documentroot }}/shacl/{{ metadata.filename }}-SHACL.ttl</a>
+            </p>
+        {% endblock %}
+    </div>
+</section>
+<section class="informative">
+    <h2 aria-level="1" role="heading" id="h2_sotd">
+        Examples
+    </h2>
+    <div class="region region--no-space-top" id="examples">
+        {% block examples %}
+	<p> No examples defined </p>
+        {% endblock %}
+    </div>
+</section>
+
+{% block usages %}
+<section class="informative">
+	<h2>Usage Guidelines</h2>
+</section>
+{% endblock %} 
+
+<section class="appendix">
+
+<h2>Quick Reference of Classes and Properties</h2>
+
+
+<table id="table-quickoverview" class="simple">
+<thead><tr><th>Class</th><th>Class IRI</th><th>Property</th><th>Property IRI</th></tr></thead>
+<tbody>
+{% for entity in classes | sort(attribute=sortattr) %}
+<tr><td>
+		<a href="#{{ entity.label[language] | urlencode }}">{{ entity.label[language] }}</a>
+	</td><td>
+		{{ entity.uri }}
+	</td><td>
+        {% if ((entity.properties | length) > 0 ) %}
+        {% for prop in entity['properties'] | sort(attribute=sortattr) %}
+	        <a href="#{{ (entity.label[language] ~ '.' ~ prop.label[language]) | urlencode }}">{{ prop.label[language] }} </a><br/>
+        {% endfor %}
+        {% endif %}
+	</td><td>
+        {% if ((entity.properties | length) > 0 ) %}
+        {% for prop in entity['properties'] | sort(attribute=sortattr) %}
+	       {{ prop.uri }}<br/>
+        {% endfor %}
+        {% endif %}
+	</td></tr>
+{% endfor %}
+<tbody>	     
+</table>
+
+</section>
+
+<section class="appendix">
+
+<h2>Acknowledgments</h2>
+
+The editors gratefully acknowledge the contributions made to this document by all members of the working group.
+
+This work was elaborated by a Working Group under the ISA programme. The ISA Programme of the European Commission was represented by Suzanne Wigard, Pavlina Fragkou and Fidel Santiago. Natasa Sofou & Bert Van Nuffelen were the editors of the specification. 
+
+Contibutors: Martin Alvarez-Espinar, Oystein Asnes, Makx Dekkers, Jean Delahousse, Ine De Visser, Adina Dragan, Dietmar Gattwinkel, Stijn Goedertier, Bart Hanssens, Luis Daniel Ibáñez, Jakub Klímek, Andreas Kuckartz, Christine Laaboudi-Spoiden, Giorgia Lodi, Ludger A. Rinsche, Andrea Perego, Maxime Servais, Emidio Stani, Sebastian Sklarß, Sander Van Dooren, Bert Van Nuffelen, Suzanne Wigard.
+
+Contributors:
+{% for role, contributors in contributors | groupby("role") %}
+{% if role == "C" %}
+     {% set pure_contributors = contributors|sort(attribute='last_name') %}
+     {% if pure_contributors %}
+          {% for contributor in pure_contributors %} 
+	 	{{ contributor.first_name }} {{ contributor.last_name }}
+		{% if not loop.last %}, {% endif %}
+          {% endfor %}
+     {% endif %}
+{% endif %}
+{% endfor %}.
+</section>
+<!-- End page content -->
+</body>
+</html>
