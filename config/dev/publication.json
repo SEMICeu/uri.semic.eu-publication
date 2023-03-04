@@ -16,7 +16,9 @@
     "branchtag": "draft",
     "name": "core-location-ap",
     "filename": "config/core-location.json",
-    "navigation": {},
+    "navigation": {
+		"prev": "https://semiceu.github.io/Core-Location-Vocabulary/releases/2.0.0"
+	},
     "dummy": "4"
   },
   {
