@@ -8,7 +8,7 @@
     "filename": "config/dcat-ap.json",
     "navigation": {},
     "private" : true,
-    "dummy": 7
+    "dummy": 3
   },
   {
     "urlref": "/doc/core-vocabulary/core-location",
