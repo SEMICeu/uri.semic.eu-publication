@@ -11,6 +11,17 @@
     "dummy": 8
   },
   {
+    "urlref": "/doc/dcat-ap-hvd",
+    "repositorypublic": "git@github.com:SEMICeu/Semicthema-DCAT-AP.git",
+    "repository": "git@semicthema-DCAT-AP:SEMICeu/Semicthema-DCAT-AP.git",
+    "branchtag": "hvd",
+    "name": "hvd",
+    "filename": "config/hvd.json",
+    "navigation": {},
+    "private" : true,
+    "dummy": 8
+  },
+  {
     "urlref": "/doc/core-vocabulary/core-location",
     "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
     "branchtag": "draft",
