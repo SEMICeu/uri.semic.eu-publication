@@ -14,7 +14,7 @@
     "urlref": "/doc/dcat-ap-hvd",
     "repositorypublic": "git@github.com:SEMICeu/Semicthema-DCAT-AP.git",
     "repository": "git@semicthema-DCAT-AP:SEMICeu/Semicthema-DCAT-AP.git",
-    "branchtag": "hvd",
+    "branchtag": "HVD",
     "name": "hvd",
     "filename": "config/hvd.json",
     "navigation": {},
