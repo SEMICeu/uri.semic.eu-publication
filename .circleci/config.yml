@@ -157,7 +157,7 @@ jobs:
             [ $( egrep " ERROR " /tmp/workspace/report/*.report | wc -l ) == 0 ] || exit 1
   normalise-jsonld:
     docker:
-      - image: informatievlaanderen/oslo-specification-generator:multilingual-dev-0.3
+      - image: informatievlaanderen/oslo-specification-generator:multilingual-dev-0.6
     steps:
       - checkout
       - attach_workspace:
@@ -175,7 +175,7 @@ jobs:
             - src/
   render-translation-json:
     docker:
-      - image: informatievlaanderen/oslo-specification-generator:multilingual-dev-0.3
+      - image: informatievlaanderen/oslo-specification-generator:multilingual-dev-0.6
     steps:
       - checkout
       - attach_workspace:
@@ -201,7 +201,7 @@ jobs:
             - src/
   validate-and-generate-translation-report:
     docker:
-      - image: informatievlaanderen/oslo-specification-generator:multilingual-dev-0.3
+      - image: informatievlaanderen/oslo-specification-generator:multilingual-dev-0.6
     steps:
       - checkout
       - attach_workspace:
@@ -217,7 +217,7 @@ jobs:
             [ $( egrep " WARNING " /tmp/workspace/report/translation/*.report | wc -l ) == 0 ] || exit 1
   render-merged-jsonld:
     docker:
-      - image: informatievlaanderen/oslo-specification-generator:multilingual-dev-0.3
+      - image: informatievlaanderen/oslo-specification-generator:multilingual-dev-0.6
     steps:
       - checkout
       - attach_workspace:
@@ -237,7 +237,7 @@ jobs:
             - report/
   render-html-details:
     docker:
-      - image: informatievlaanderen/oslo-specification-generator:multilingual-dev-0.5
+      - image: informatievlaanderen/oslo-specification-generator:multilingual-dev-0.6
     steps:
       - checkout
       - attach_workspace:
@@ -261,7 +261,7 @@ jobs:
             - reporthtml/
   render-example-templates:
     docker:
-      - image: informatievlaanderen/oslo-specification-generator:multilingual-dev-0.3
+      - image: informatievlaanderen/oslo-specification-generator:multilingual-dev-0.6
     steps:
       - checkout
       - attach_workspace:
@@ -281,7 +281,7 @@ jobs:
             - examples/
   render-context-details:
     docker:
-      - image: informatievlaanderen/oslo-specification-generator:multilingual-dev-0.3
+      - image: informatievlaanderen/oslo-specification-generator:multilingual-dev-0.6
     steps:
       - checkout
       - attach_workspace:
@@ -301,7 +301,7 @@ jobs:
             - target/
   render-xsd-details:
     docker:
-      - image: informatievlaanderen/oslo-specification-generator:multilingual-dev-0.3
+      - image: informatievlaanderen/oslo-specification-generator:multilingual-dev-0.6
     steps:
       - checkout
       - attach_workspace:
@@ -321,7 +321,7 @@ jobs:
             - target/
   render-shacl-details:
     docker:
-      - image: informatievlaanderen/oslo-specification-generator:multilingual-dev-0.3
+      - image: informatievlaanderen/oslo-specification-generator:multilingual-dev-0.6
     steps:
       - checkout
       - attach_workspace:
@@ -393,7 +393,7 @@ jobs:
             - target/
   render-voc-jsonld:
     docker:
-      - image: informatievlaanderen/oslo-specification-generator:multilingual-dev-0.3
+      - image: informatievlaanderen/oslo-specification-generator:multilingual-dev-0.6
     steps:
       - checkout
       - attach_workspace:
