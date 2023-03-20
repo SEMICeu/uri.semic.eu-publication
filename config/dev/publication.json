@@ -40,5 +40,23 @@
     "filename": "config/core-location-voc.json",
     "navigation": {},
     "dummy": "7"
+  },
+  {
+    "dummy": "1",
+    "urlref": "/doc/core-vocabulary/core-business",
+    "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
+    "branchtag": "main",
+    "name": "core-business-ap",
+    "filename": "config/core-business.json",
+    "navigation": {}
+  },
+  {
+    "dummy": "1",
+    "urlref": "/doc/vocabularium/core-business",
+    "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
+    "branchtag": "main",
+    "name": "core-business",
+    "filename": "config/core-business-voc.json",
+    "navigation": {}
   }
 ]
