@@ -58,5 +58,14 @@
     "name": "core-business",
     "filename": "config/core-business-voc.json",
     "navigation": {}
+  },
+  {
+    "dummy": "1",
+    "urlref": "/doc/application-profile/af-ap",
+    "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
+    "branchtag": "main",
+    "name": "af-ap",
+    "filename": "config/af-ap.json",
+    "navigation": {}
   }
 ]
