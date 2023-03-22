@@ -24,22 +24,22 @@
   {
     "urlref": "/doc/core-vocabulary/core-location",
     "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
-    "branchtag": "draft",
+    "branchtag": "main",
     "name": "core-location-ap",
     "filename": "config/core-location.json",
     "navigation": {
 		"prev": "https://semiceu.github.io/Core-Location-Vocabulary/releases/2.0.0"
 	},
-    "dummy": "8"
+    "dummy": "9"
   },
   {
     "urlref": "/doc/vocabularium/core-location",
     "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
-    "branchtag": "draft",
+    "branchtag": "main",
     "name": "core-location",
     "filename": "config/core-location-voc.json",
     "navigation": {},
-    "dummy": "8"
+    "dummy": "9"
   },
   {
     "dummy": "1",
