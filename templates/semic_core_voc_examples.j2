@@ -81,7 +81,10 @@
               <dt>Next version</dt><dd><a href="{{metadata.navigation.next}}">{{metadata.navigation.next}}</a></dd>
               {% endif %}
               {% if metadata.navigation.prev %}
-              <dt>Previous version</dt><dd><a href="{{metadata.navigation.prev}}">{{metadata.navigation.prev}}</a></dd>
+              <dt>Previous version</dt><dd>
+              {% block previousversion %} 
+              {% endblock %}
+              </dd>
               {% endif %}
               </dl>
               </div>
