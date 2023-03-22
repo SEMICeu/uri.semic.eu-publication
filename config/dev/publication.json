@@ -8,7 +8,7 @@
     "filename": "config/dcat-ap.json",
     "navigation": {},
     "private" : true,
-    "dummy": 10
+    "dummy": 13
   },
   {
     "urlref": "/doc/dcat-ap-hvd",
@@ -42,7 +42,7 @@
     "dummy": "13"
   },
   {
-    "dummy": "1",
+    "dummy": "2",
     "urlref": "/doc/core-vocabulary/core-business",
     "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
     "branchtag": "main",
