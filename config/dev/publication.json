@@ -60,7 +60,7 @@
     "navigation": {}
   },
   {
-	"dummy": "2",
+	"dummy": "3",
     "urlref": "/doc/core-vocabulary/core-person",
     "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
     "branchtag": "main",
@@ -69,7 +69,7 @@
     "navigation": {}
   },
   {
-	"dummy": "2",
+	"dummy": "3",
     "urlref": "/doc/vocabularium/core-person",
     "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
     "branchtag": "main",
