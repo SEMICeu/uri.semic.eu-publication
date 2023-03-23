@@ -42,7 +42,7 @@
     "dummy": "13"
   },
   {
-    "dummy": "2",
+    "dummy": "3",
     "urlref": "/doc/core-vocabulary/core-business",
     "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
     "branchtag": "main",
@@ -51,7 +51,7 @@
     "navigation": {}
   },
   {
-    "dummy": "1",
+    "dummy": "3",
     "urlref": "/doc/vocabularium/core-business",
     "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
     "branchtag": "main",
