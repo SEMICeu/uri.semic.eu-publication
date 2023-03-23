@@ -78,6 +78,24 @@
     "navigation": {}
   },
   {
+	"dummy": "1",
+    "urlref": "/doc/core-vocabulary/core-public-organisation",
+    "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
+    "branchtag": "main",
+    "name": "core-public-organisation-ap",
+    "filename": "config/core-public-organisation.json",
+    "navigation": {}
+  },
+  {
+	"dummy": "1",
+    "urlref": "/doc/vocabularium/core-public-organisation",
+    "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
+    "branchtag": "main",
+    "name": "core-public-organisation",
+    "filename": "config/core-public-organisation-voc.json",
+    "navigation": {}
+  },
+  {
     "dummy": "1",
     "urlref": "/doc/application-profile/af-ap",
     "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
