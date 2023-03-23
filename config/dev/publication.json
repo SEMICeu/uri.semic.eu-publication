@@ -97,6 +97,24 @@
   },
   {
     "dummy": "1",
+    "urlref": "/doc/core-vocabulary/cpev",
+    "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
+    "branchtag": "main",
+    "name": "core-public-event-ap",
+    "filename": "config/core-public-event.json",
+    "navigation": {}
+  },
+  {
+	"dummy": "1",
+    "urlref": "/doc/vocabularium/cpev",
+    "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
+    "branchtag": "main",
+    "name": "core-public-event",
+    "filename": "config/core-public-event-voc.json",
+    "navigation": {}
+  },
+  {
+    "dummy": "1",
     "urlref": "/doc/application-profile/af-ap",
     "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
     "branchtag": "main",
