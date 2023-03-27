@@ -138,7 +138,7 @@
     "urlref": "/doc/core-vocabulary/core-vocabularies",
     "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
     "branchtag": "main",
-    "name": "core-vocabularies-ap",
+    "name": "core-vocabularies",
     "filename": "config/core-vocabularies.json",
     "navigation": {}
   }
