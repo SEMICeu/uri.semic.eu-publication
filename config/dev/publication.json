@@ -132,5 +132,14 @@
     "name": "af-ap",
     "filename": "config/af-ap.json",
     "navigation": {}
+  },
+  {
+	"dummy": "1",
+    "urlref": "/doc/core-vocabulary/core-vocabularies",
+    "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
+    "branchtag": "main",
+    "name": "core-vocabularies-ap",
+    "filename": "config/core-vocabularies.json",
+    "navigation": {}
   }
 ]
