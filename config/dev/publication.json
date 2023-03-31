@@ -11,7 +11,7 @@
     "dummy": 19
   },
   {
-    "urlref": "/doc/dcat-ap-3.0",
+    "urlref": "/DCAT-AP/releases/3.0.0",
     "repositorypublic": "git@github.com:SEMICeu/Semicthema-DCAT-AP.git",
     "repository": "git@semicthema-DCAT-AP:SEMICeu/Semicthema-DCAT-AP.git",
     "branchtag": "3.0",
