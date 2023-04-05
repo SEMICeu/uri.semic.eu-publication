@@ -1,6 +1,8 @@
 {
   "@context": {
     "m8g": "http://data.europa.eu/m8g/",
+    "r5r": "http://data.europa.eu/r5r/",
+    "adms" : "http://www.w3.org/ns/adms#",
     "owl": "http://www.w3.org/2002/07/owl#",
     "void": "http://rdfs.org/ns/void#",
     "dcterms": "http://purl.org/dc/terms/",
@@ -59,6 +61,10 @@
       "@container": "@language"
     },
     "description": {
+      "@id": "rdfs:comment",
+      "@container": "@language"
+    },
+    "definition": {
       "@id": "rdfs:comment",
       "@container": "@language"
     },
