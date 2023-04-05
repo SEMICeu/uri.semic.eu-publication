@@ -3,7 +3,7 @@
     "urlref": "/doc/vocabularium/adms",
     "repositorypublic": "git@github.com:SEMICeu/Semicthema-DCAT-AP.git",
     "repository": "git@semicthema-DCAT-AP:SEMICeu/Semicthema-DCAT-AP.git",
-    "branchtag": "adms",
+    "branchtag": "ADMS",
     "name": "adms",
     "filename": "config/adms.json",
     "navigation": {},
