@@ -74,7 +74,7 @@
     "navigation": {
 		"prev": "https://semiceu.github.io/Core-Location-Vocabulary/releases/2.0.0"
 	},
-    "dummy": "14"
+    "dummy": "15"
   },
   {
     "urlref": "/doc/vocabularium/core-location",
@@ -83,10 +83,10 @@
     "name": "core-location",
     "filename": "config/core-location-voc.json",
     "navigation": {},
-    "dummy": "14"
+    "dummy": "15"
   },
   {
-    "dummy": "6",
+    "dummy": "7",
     "urlref": "/doc/core-vocabulary/core-business",
     "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
     "branchtag": "main",
@@ -95,7 +95,7 @@
     "navigation": {}
   },
   {
-    "dummy": "6",
+    "dummy": "7",
     "urlref": "/doc/vocabularium/core-business",
     "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
     "branchtag": "main",
@@ -104,7 +104,7 @@
     "navigation": {}
   },
   {
-	"dummy": "6",
+	"dummy": "7",
     "urlref": "/doc/core-vocabulary/core-person",
     "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
     "branchtag": "main",
@@ -113,7 +113,7 @@
     "navigation": {}
   },
   {
-	"dummy": "6",
+	"dummy": "7",
     "urlref": "/doc/vocabularium/core-person",
     "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
     "branchtag": "main",
@@ -122,7 +122,7 @@
     "navigation": {}
   },
   {
-	"dummy": "1",
+	"dummy": "2",
     "urlref": "/doc/core-vocabulary/core-public-organisation",
     "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
     "branchtag": "main",
@@ -131,7 +131,7 @@
     "navigation": {}
   },
   {
-	"dummy": "1",
+	"dummy": "2",
     "urlref": "/doc/vocabularium/core-public-organisation",
     "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
     "branchtag": "main",
@@ -140,7 +140,7 @@
     "navigation": {}
   },
   {
-    "dummy": "2",
+    "dummy": "3",
     "urlref": "/doc/core-vocabulary/cpev",
     "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
     "branchtag": "main",
@@ -149,7 +149,7 @@
     "navigation": {}
   },
   {
-	"dummy": "2",
+	"dummy": "3",
     "urlref": "/doc/vocabularium/cpev",
     "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
     "branchtag": "main",
