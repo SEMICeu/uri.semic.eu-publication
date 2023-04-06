@@ -1,6 +1,6 @@
 [
   {
-    "urlref": "/doc/vocabularium/adms",
+    "urlref": "/ADMS/releases/2.0",
     "repositorypublic": "git@github.com:SEMICeu/Semicthema-DCAT-AP.git",
     "repository": "git@semicthema-DCAT-AP:SEMICeu/Semicthema-DCAT-AP.git",
     "branchtag": "ADMS",
@@ -9,6 +9,17 @@
     "navigation": {},
     "private" : true,
     "dummy": 28
+  },
+  {
+    "urlref": "/doc/vocabularium/adms",
+    "repositorypublic": "git@github.com:SEMICeu/Semicthema-DCAT-AP.git",
+    "repository": "git@semicthema-DCAT-AP:SEMICeu/Semicthema-DCAT-AP.git",
+    "branchtag": "ADMS",
+    "name": "adms",
+    "filename": "config/adms.json",
+    "navigation": {},
+    "private" : true,
+    "dummy": 29
   },
   {
     "urlref": "/doc/vocabularium/r5r",
