@@ -183,5 +183,14 @@
     "name": "ev-ap",
     "filename": "config/ev-ap.json",
     "navigation": {}
+  },
+  {
+    "dummy": "29",
+    "urlref": "/doc/vocabularium/ev-ap",
+    "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
+    "branchtag": "main",
+    "name": "ev-ap",
+    "filename": "config/ev-ap-voc.json",
+    "navigation": {}
   }
 ]
