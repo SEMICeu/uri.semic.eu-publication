@@ -8,7 +8,7 @@
     "filename": "config/adms.json",
     "navigation": {},
     "private" : true,
-    "dummy": 30
+    "dummy": 31
   },
   {
     "urlref": "/doc/vocabularium/adms",
@@ -19,7 +19,7 @@
     "filename": "config/adms.json",
     "navigation": {},
     "private" : true,
-    "dummy": 16
+    "dummy": 17
   },
   {
     "urlref": "/doc/vocabularium/r5r",
