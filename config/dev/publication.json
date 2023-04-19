@@ -6,7 +6,9 @@
     "branchtag": "ADMS",
     "name": "adms",
     "filename": "config/adms.json",
-    "navigation": {},
+    "navigation": {
+    	"prev" : "https://www.w3.org/TR/vocab-adms" 
+        },
     "private" : true,
     "dummy": 40
   },
