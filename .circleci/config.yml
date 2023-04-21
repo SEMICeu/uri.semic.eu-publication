@@ -446,7 +446,7 @@ jobs:
       - run:
           name: list results
           command: |
-            if [ -d /tmp/workspace/doc/vocabularium]; then ls /tmp/workspace/doc/vocabularium; fi
+            if [ -d /tmp/workspace/doc/vocabularium ]; then ls /tmp/workspace/doc/vocabularium; fi
       - persist_to_workspace:
           root: /tmp/workspace
           paths:
