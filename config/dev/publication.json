@@ -10,7 +10,7 @@
     	"prev" : "https://www.w3.org/TR/vocab-adms" 
         },
     "private" : true,
-    "dummy": 41
+    "dummy": 42
   },
   {
     "urlref": "/doc/vocabularium/adms",
@@ -21,7 +21,7 @@
     "filename": "config/adms.json",
     "navigation": {},
     "private" : true,
-    "dummy": 20
+    "dummy": 22
   },
   {
     "urlref": "/doc/vocabularium/r5r",
