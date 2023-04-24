@@ -32,7 +32,7 @@
 	"@id" : "dcterms:license",
         "@type" : "@id"
     },
-    "issued": {
+    "publication-date": {
       "@id": "dcterms:issued"
     },
     "authors": {
