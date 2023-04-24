@@ -89,12 +89,6 @@
       "@id": "rdfs:subPropertyOf",
       "@type" : "@id"
     },
-    "externals": {
-      "@id": "rdfs:seeAlso"
-    },
-    "externalproperties": {
-      "@id": "rdfs:seeAlso"
-    },
     "usage": {
       "@id": "vann:usageNote",
       "@container": "@language"
