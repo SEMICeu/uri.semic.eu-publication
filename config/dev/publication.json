@@ -177,4 +177,22 @@
     "filename": "config/core-vocabularies.json",
     "navigation": {}
   }
+  {
+    "dummy": "1",
+    "urlref": "/doc/application-profile/ev-ap",
+    "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
+    "branchtag": "main",
+    "name": "ev-ap",
+    "filename": "config/ev-ap.json",
+    "navigation": {}
+  },
+  {
+    "dummy": "1",
+    "urlref": "/doc/vocabularium/ev-ap",
+    "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
+    "branchtag": "main",
+    "name": "ev-ap",
+    "filename": "config/ev-ap-voc.json",
+    "navigation": {}
+  }
 ]
