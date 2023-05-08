@@ -63,17 +63,16 @@
     "name": "core-location",
     "filename": "config/core-location-voc.json",
     "navigation": {},
-    "dummy": "2"
+    "dummy": "3"
   },
   {
-	"dummy": "2",
     "urlref": "/respec/core-vocabularies",
     "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
     "branchtag": "feature-respec",
     "name": "core-vocabularies",
     "filename": "config/core-vocabularies.json",
     "navigation": {},
-    "dummy": "2"
+    "dummy": "3"
   },
 
   {
