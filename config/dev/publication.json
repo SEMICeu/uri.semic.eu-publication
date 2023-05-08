@@ -76,7 +76,7 @@
     "navigation": {
 		"prev": "https://semiceu.github.io/Core-Location-Vocabulary/releases/2.0.0"
 	},
-    "dummy": "21"
+    "dummy": "22"
   },
   {
     "urlref": "/doc/vocabularium/core-location",
@@ -85,7 +85,7 @@
     "name": "core-location",
     "filename": "config/core-location-voc.json",
     "navigation": {},
-    "dummy": "21"
+    "dummy": "22"
   },
   {
     "dummy": "7",
