@@ -63,7 +63,7 @@
     "name": "core-location",
     "filename": "config/core-location-voc.json",
     "navigation": {},
-    "dummy": "1"
+    "dummy": "2"
   },
   {
 	"dummy": "2",
@@ -72,7 +72,8 @@
     "branchtag": "feature-respec",
     "name": "core-vocabularies",
     "filename": "config/core-vocabularies.json",
-    "navigation": {}
+    "navigation": {},
+    "dummy": "2"
   },
 
   {
