@@ -69,7 +69,7 @@
     "navigation": {}
   },
   {
-    "dummy": "32",
+    "dummy": "33",
     "urlref": "/doc/core-vocabulary/core-business",
     "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
     "branchtag": "main",
@@ -78,7 +78,7 @@
     "navigation": {}
   },
   {
-    "dummy": "32",
+    "dummy": "33",
     "urlref": "/doc/vocabularium/core-business",
     "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
     "branchtag": "main",
@@ -87,7 +87,7 @@
     "navigation": {}
   },
   {
-	"dummy": "51",
+	"dummy": "52",
     "urlref": "/doc/core-vocabulary/core-person",
     "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
     "branchtag": "main",
@@ -96,7 +96,7 @@
     "navigation": {}
   },
   {
-	"dummy": "51",
+	"dummy": "52",
     "urlref": "/doc/core-vocabulary/core-person2",
     "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
     "branchtag": "40295c50c07a0ea92923da1931483c906a11579d",
@@ -105,7 +105,7 @@
     "navigation": {}
   },
   {
-	"dummy": "51",
+	"dummy": "52",
     "urlref": "/doc/vocabularium/core-person",
     "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
     "branchtag": "main",
