@@ -451,6 +451,16 @@
                 {% endblock %}
             </div>
 	    
+		<div class="region region--no-space-top" id="mappings">
+                <h2 class="h2" aria-level="1" role="heading" id="h2_sotd">Mappings</h2>
+                (non-normative)
+                {% block mappings %}
+		</br>
+		<p>No mappings has been defined for this Core Vocabulary</p>
+                {% endblock %}
+            </div>
+			
+			
           </div>
           <div class="col--3-12 col--12-12--s col--4-12--m push--1-12 push--reset--m" id="sideNav">
               <nav class="side-navigation js-sticky region" id="sideNav">
@@ -499,6 +509,10 @@
 			      
                               <li class="side-navigation__item">
                                   <a href="#shacl">SHACL template</a>
+                              </li>
+							  
+							  <li class="side-navigation__item">
+                                  <a href="#mappings">Mappings</a>
                               </li>
 			      
                           </ul>
