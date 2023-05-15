@@ -33,7 +33,7 @@
     "navigation": {}
   },
   {
-	"dummy": "32",
+	"dummy": "33",
     "urlref": "/doc/core-vocabulary/core-public-organisation",
     "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
     "branchtag": "main",
@@ -42,7 +42,7 @@
     "navigation": {}
   },
   {
-	"dummy": "32",
+	"dummy": "33",
     "urlref": "/doc/vocabularium/core-public-organisation",
     "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
     "branchtag": "main",
@@ -51,7 +51,7 @@
     "navigation": {}
   },
   {
-	"dummy": "40",
+	"dummy": "41",
     "urlref": "/doc/core-vocabulary/core-location",
     "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
     "branchtag": "main",
@@ -60,7 +60,7 @@
     "navigation": {}
   },
   {
-	"dummy": "40",
+	"dummy": "41",
     "urlref": "/doc/vocabularium/core-location",
     "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
     "branchtag": "main",
@@ -69,7 +69,7 @@
     "navigation": {}
   },
   {
-    "dummy": "34",
+    "dummy": "35",
     "urlref": "/doc/core-vocabulary/core-business",
     "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
     "branchtag": "main",
@@ -78,7 +78,7 @@
     "navigation": {}
   },
   {
-    "dummy": "34",
+    "dummy": "35",
     "urlref": "/doc/vocabularium/core-business",
     "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
     "branchtag": "main",
@@ -87,7 +87,7 @@
     "navigation": {}
   },
   {
-	"dummy": "53",
+	"dummy": "54",
     "urlref": "/doc/core-vocabulary/core-person",
     "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
     "branchtag": "main",
@@ -96,7 +96,7 @@
     "navigation": {}
   },
   {
-	"dummy": "53",
+	"dummy": "54",
     "urlref": "/doc/core-vocabulary/core-person2",
     "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
     "branchtag": "40295c50c07a0ea92923da1931483c906a11579d",
@@ -105,7 +105,7 @@
     "navigation": {}
   },
   {
-	"dummy": "53",
+	"dummy": "54",
     "urlref": "/doc/vocabularium/core-person",
     "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
     "branchtag": "main",
@@ -114,7 +114,7 @@
     "navigation": {}
   },
   {
-    "dummy": "25",
+    "dummy": "26",
     "urlref": "/doc/core-vocabulary/cpev",
     "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
     "branchtag": "main",
@@ -123,7 +123,7 @@
     "navigation": {}
   },
   {
-	"dummy": "25",
+	"dummy": "26",
     "urlref": "/doc/vocabularium/cpev",
     "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
     "branchtag": "main",
