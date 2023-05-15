@@ -13,6 +13,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="stylesheet" href="https://dij151upo6vad.cloudfront.net/2.latest/css/vlaanderen-ui.css" />
   <link rel="stylesheet" href="https://dij151upo6vad.cloudfront.net/2.latest/css/vlaanderen-ui-corporate.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.6/codemirror.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.css">
 
   <link rel="icon" sizes="192x192" href="/cms/icons/DUETLogo.jpg" />
   <link rel="apple-touch-icon" href="/cms/icons/DUETLogo.jpg" />
@@ -81,7 +83,10 @@
               <dt>Next version</dt><dd><a href="{{metadata.navigation.next}}">{{metadata.navigation.next}}</a></dd>
               {% endif %}
               {% if metadata.navigation.prev %}
-              <dt>Previous version</dt><dd><a href="{{metadata.navigation.prev}}">{{metadata.navigation.prev}}</a></dd>
+              <dt>Previous version</dt><dd>
+              {% block previousversion %} 
+              {% endblock %}
+              </dd>
               {% endif %}
               </dl>
               </div>
@@ -410,16 +415,13 @@
             {% endfor %}
             {% endif %}
 	    
-	    {% block examples %}
 	    <div class="region region--no-space-top" id="examples">
                 <h2 class="h2" aria-level="1" role="heading" id="h2_sotd">Examples</h2>
-                (non-normative)
-                
-		</br>
-		<p>placeholder</p>
-                
-            </div>
-	    {% endblock %}
+                {% block examples %}
+				{% endblock %}
+		</div>
+	    
+
 	    
 	    <div class="region region--no-space-top" id="changelog">
                 <h2 class="h2" aria-level="1" role="heading" id="h2_sotd">Changelog w.r.t. previous version</h2>
@@ -469,9 +471,8 @@
 			<div class="region region--no-space-top" id="mappings">
                 <h2 class="h2" aria-level="1" role="heading" id="h2_sotd">Mappings</h2>
                 (non-normative)
-                {% block mappings %}
-		</br>
-		<p>No mappings has been defined for this Core Vocabulary</p>
+                {% block mappings%}
+		<p>No mappings have been defined for this Core Vocabulary.</p>
                 {% endblock %}
             </div>
 	    
@@ -540,6 +541,14 @@
   </div>
 
   <script src="https://dij151upo6vad.cloudfront.net/2.latest/js/vlaanderen-ui.js"></script>
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.6/codemirror.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.6/codemirror.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.6/mode/javascript/javascript.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.6/mode/turtle/turtle.min.js"></script>
+  <script src="https://codemirror.net/5/mode/javascript/javascript.js"></script>
+  <script src="https://semiceu.github.io/MLDCAT-AP/releases/1.0.0/example.js"></script>
   <script type="text/javascript">
       function iframeLoaded() {
          var iFrameID = document.getElementById('exampleiframe');
@@ -608,6 +617,32 @@
     html, h1, h2, h3, h4, code {
       font-family: "Arial" !important;
     }
+	.buttonsample {
+		cursor: pointer;
+		margin-top: 10px;
+		margin-left: 10px;
+		font-weight: 700;
+		border:0 outset buttonface;
+		background: #F5F6F8;
+		background-image: linear-gradient(to bottom,#F5F6F8,#DBDCDE);
+		border-radius:4px;
+		box-shadow:0 1px 3px #666;
+		font-family: Arial;
+		color: grey;
+		font-size: 14px;
+		padding: 10px 5px;
+		text-decoration: none;
+		float: right
+	}
+	.buttonsample:hover {color:#2a70d3}
+	.tabsstyle {
+		padding: 10px;
+		overflow: hidden;
+	}
+	li.ui-tabs-tab > a:hover {
+		background-color:dodgerblue;
+		color:white;
+	}
   </style>
 </body>
 </html>
