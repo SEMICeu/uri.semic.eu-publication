@@ -43,7 +43,7 @@
     "filename": "config/dcat-ap.json",
     "navigation": {},
     "private" : true,
-    "dummy": 43
+    "dummy": 44
   },
   {
     "urlref": "DCAT-AP/releases/2.2.0-hvd",
@@ -56,7 +56,7 @@
     	"prev": ""
     },
     "private" : true,
-    "dummy": 40
+    "dummy": 41
   },
   {
     "urlref": "/respec/core-location",
