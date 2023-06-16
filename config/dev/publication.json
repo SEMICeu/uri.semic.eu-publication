@@ -43,7 +43,7 @@
     "filename": "config/dcat-ap.json",
     "navigation": {},
     "private" : true,
-    "dummy": 70
+    "dummy": 71
   },
   {
     "urlref": "DCAT-AP/releases/2.2.0-hvd",
