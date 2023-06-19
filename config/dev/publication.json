@@ -43,6 +43,7 @@
     "filename": "config/dcat-ap.json",
     "navigation": {},
     "private" : true,
+    "examples": true,
     "dummy": 76
   },
   {
