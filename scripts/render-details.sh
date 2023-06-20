@@ -246,7 +246,7 @@ render_context() { # SLINE TLINE JSON
     TYPE=$(jq -r "${COMMAND}" ${SLINE}/.names.json)
 
     if [ ${TYPE} == "ap" ] || [ ${TYPE} == "oj" ]; then
-        echo "RENDER-DETAILS(context): node /app/json-ld-generator.js -d -l label -i ${JSONI} -o ${TLINE}/context/${OUTFILELANGUAGE} "
+        echo "RENDER-DETAILS(context): node /app/json-ld-generator2.js -c -l label -i ${JSONI} -o ${TLINE}/context/${OUTFILELANGUAGE} "
         mkdir -p ${TLINE}/context
         COMMANDJSONLD=$(echo '.[].translation | .[] | select(.language | contains("'${GOALLANGUAGE}'")) | .mergefile')
         LANGUAGEFILENAMEJSONLD=$(jq -r "${COMMANDJSONLD}" ${SLINE}/.names.json)
@@ -256,8 +256,8 @@ render_context() { # SLINE TLINE JSON
 	
         MERGEDJSONLD=${RLINE}/translation/${LANGUAGEFILENAMEJSONLD}
 
-        echo "RENDER-DETAILS(context-language-aware): node /app/json-ld-generator2.js -d -l label -i ${MERGEDJSONLD} -o ${TLINE}/context/${OUTFILELANGUAGE} -m ${GOALLANGUAGE}"
-        if ! node /app/json-ld-generator2.js -d -l label -i ${MERGEDJSONLD} -o ${TLINE}/context/${OUTFILELANGUAGE} -m ${GOALLANGUAGE}; then
+        echo "RENDER-DETAILS(context-language-aware): node /app/json-ld-generator2.js -c -l label -i ${MERGEDJSONLD} -o ${TLINE}/context/${OUTFILELANGUAGE} -m ${GOALLANGUAGE}"
+        if ! node /app/json-ld-generator2.js -c -l label -i ${MERGEDJSONLD} -o ${TLINE}/context/${OUTFILELANGUAGE} -m ${GOALLANGUAGE}; then
             echo "RENDER-DETAILS(context-language-aware): See XXX for more details, Rendering failed"
             execution_strickness
         else

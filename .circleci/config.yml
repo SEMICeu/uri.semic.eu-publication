@@ -281,7 +281,7 @@ jobs:
             - examples/
   render-context-details:
     docker:
-      - image: informatievlaanderen/oslo-specification-generator:multilingual-dev-0.6
+      - image: informatievlaanderen/oslo-specification-generator:multilingual-dev-0.9
     steps:
       - checkout
       - attach_workspace:
