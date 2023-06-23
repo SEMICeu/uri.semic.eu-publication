@@ -46,7 +46,7 @@
     },
     "private" : true,
     "examples": true,
-    "dummy": 25
+    "dummy": 26
   },
   {
     "urlref": "DCAT-AP/releases/2.2.0-hvd",
@@ -59,7 +59,7 @@
     	"prev": ""
     },
     "private" : true,
-    "dummy": 82
+    "dummy": 83
   },
   {
     "urlref": "/respec/core-location",
