@@ -339,7 +339,7 @@ render_shacl_languageaware() {
         pushd /app
         mkdir -p ${TLINE}/shacl
         mkdir -p ${RLINE}/shacl
-        if ! node /app/shacl-generator2.js -i ${MERGEDJSONLD} -m individual -c 'uniqueLanguages' -c 'nodekind' -d ${DOMAIN} -p ${DOMAIN} -o ${OUTFILE} -l ${GOALLANGUAGE} -a 2>&1 | tee ${OUTREPORT}; then
+        if ! node /app/shacl-generator2.js -i ${MERGEDJSONLD} -m individual -c 'uniqueLanguages' -c 'nodekind' -d ${DOMAIN} -p ${DOMAIN} -o ${OUTFILE} -l ${GOALLANGUAGE} -a --labelAsName  2>&1 | tee ${OUTREPORT}; then
             echo "RENDER-DETAILS(shacl-languageaware): See ${OUTREPORT} for the details"
             execution_strickness
         else
