@@ -13,12 +13,12 @@
     "dummy": 41
   },
   {
-    "urlref": "/doc/vocabularium/r5r",
+    "urlref": "/r5r/release/3.0.0",
     "repositorypublic": "git@github.com:SEMICeu/Semicthema-DCAT-AP.git",
     "repository": "git@semicthema-DCAT-AP:SEMICeu/Semicthema-DCAT-AP.git",
-    "branchtag": "main",
+    "branchtag": "r5r",
     "name": "r5r",
-    "filename": "config/voc.json",
+    "filename": "config/r5r.json",
     "navigation": {},
     "private" : true,
     "dummy": 23
