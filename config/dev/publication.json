@@ -13,6 +13,29 @@
     "dummy": 41
   },
   {
+    "urlref": "/930/release/3.0.0",
+    "repositorypublic": "git@github.com:SEMICeu/Semicthema-DCAT-AP.git",
+    "repository": "git@semicthema-DCAT-AP:SEMICeu/Semicthema-DCAT-AP.git",
+    "branchtag": "930",
+    "name": "930",
+    "filename": "config/930.json",
+    "navigation": {},
+    "private" : true,
+    "dummy": 4
+  },
+  {
+    "urlref": "/doc/vocabularium/930/release/3.0.0",
+    "repositorypublic": "git@github.com:SEMICeu/Semicthema-DCAT-AP.git",
+    "repository": "git@semicthema-DCAT-AP:SEMICeu/Semicthema-DCAT-AP.git",
+    "branchtag": "930",
+    "name": "930",
+    "filename": "config/930.json",
+    "navigation": {},
+    "private" : true,
+    "note": "Because the toolchain currently looks for paths starting with /doc/vocabularium to render to RDF, also this publication point is added",
+    "dummy": 4
+  },
+  {
     "urlref": "/s1n/release/3.0.0",
     "repositorypublic": "git@github.com:SEMICeu/Semicthema-DCAT-AP.git",
     "repository": "git@semicthema-DCAT-AP:SEMICeu/Semicthema-DCAT-AP.git",
