@@ -104,7 +104,7 @@
     },
     "private" : true,
     "examples": false,
-    "dummy": 3
+    "dummy": 4
   },
   {
     "urlref": "DCAT-AP/releases/2.2.0-hvd",
