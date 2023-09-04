@@ -107,6 +107,20 @@
     "dummy": 4
   },
   {
+    "urlref": "/BRegDCAT-AP/releases/3.0.0",
+    "repositorypublic": "git@github.com:SEMICeu/Semicthema-DCAT-AP.git",
+    "repository": "git@semicthema-DCAT-AP:SEMICeu/Semicthema-DCAT-AP.git",
+    "branchtag": "BRegDCAT-AP",
+    "name": "bregdcatap",
+    "filename": "config/bregdcatap.json",
+    "navigation": {
+	    "prev" : "https://github.com/SEMICeu/DCAT-AP/tree/master/releases/2.1.1"
+    },
+    "private" : true,
+    "examples": false,
+    "dummy": 1
+  },
+  {
     "urlref": "DCAT-AP/releases/2.2.0-hvd",
     "repositorypublic": "git@github.com:SEMICeu/Semicthema-DCAT-AP.git",
     "repository": "git@semicthema-DCAT-AP:SEMICeu/Semicthema-DCAT-AP.git",
