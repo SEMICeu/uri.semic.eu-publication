@@ -8,7 +8,8 @@
     "navigation": {}
   }, 
   {
-    "urlref": "/doc/vocabularium/cccev-voc",
+    "dummy": "1",
+	"urlref": "/doc/vocabularium/cccev-voc",
     "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
     "branchtag": "main",
     "name": "cccev",
@@ -16,7 +17,8 @@
     "navigation": {}
   },
   {
-    "urlref": "/doc/core-vocabulary/cccev",
+    "dummy": "1",
+	"urlref": "/doc/core-vocabulary/cccev",
     "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
     "branchtag": "main",
     "name": "cccev-ap",
