@@ -114,11 +114,11 @@
     "name": "bregdcatap",
     "filename": "config/bregdcatap.json",
     "navigation": {
-	    "prev" : "https://github.com/SEMICeu/DCAT-AP/tree/master/releases/2.1.1"
+	    "prev" : "https://github.com/SEMICeu/BregDCAT-AP/tree/main/releases/2.1.0"
     },
     "private" : true,
     "examples": false,
-    "dummy": 4
+    "dummy": 5
   },
   {
     "urlref": "DCAT-AP/releases/2.2.0-hvd",
