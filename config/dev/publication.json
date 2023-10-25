@@ -272,6 +272,16 @@
     "navigation": {}
   },
   {
+	"dummy": "13",
+	"note": "dummy path to trick the toolchain to also transform to RDF",
+    "urlref": "/doc/vocabularium/m8g/release/3.0.0",
+    "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
+    "branchtag": "m8g",
+    "name": "core-vocabularies",
+    "filename": "config/core-vocabularies.json",
+    "navigation": {}
+  },
+  {
     "dummy": "6",
     "urlref": "/doc/application-profile/ev-ap",
     "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
