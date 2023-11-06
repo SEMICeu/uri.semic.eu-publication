@@ -21,7 +21,7 @@
     "filename": "config/930.json",
     "navigation": {},
     "private" : true,
-    "dummy": 5
+    "dummy": 6
   },
   {
     "urlref": "/doc/vocabularium/930/release/3.0.0",
@@ -33,7 +33,7 @@
     "navigation": {},
     "private" : true,
     "note": "Because the toolchain currently looks for paths starting with /doc/vocabularium to render to RDF, also this publication point is added",
-    "dummy": 5
+    "dummy": 6
   },
   {
     "urlref": "/s1n/release/3.0.0",
@@ -44,7 +44,7 @@
     "filename": "config/s1n.json",
     "navigation": {},
     "private" : true,
-    "dummy": 4
+    "dummy": 5
   },
   {
     "urlref": "/doc/vocabularium/s1n/release/3.0.0",
@@ -56,7 +56,7 @@
     "navigation": {},
     "private" : true,
     "note": "Because the toolchain currently looks for paths starting with /doc/vocabularium to render to RDF, also this publication point is added",
-    "dummy": 4
+    "dummy": 5
   },
   {
     "urlref": "/r5r/release/3.0.0",
@@ -67,7 +67,7 @@
     "filename": "config/r5r.json",
     "navigation": {},
     "private" : true,
-    "dummy": 8
+    "dummy": 9
   },
   {
     "urlref": "/doc/vocabularium/r5r/release/3.0.0",
@@ -79,7 +79,7 @@
     "navigation": {},
     "private" : true,
     "note": "Because the toolchain currently looks for paths starting with /doc/vocabularium to render to RDF, also this publication point is added",
-    "dummy": 8
+    "dummy": 9
   },
   {
     "urlref": "/DCAT-AP/releases/2.2.0",
