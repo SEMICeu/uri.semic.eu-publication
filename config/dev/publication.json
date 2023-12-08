@@ -155,13 +155,13 @@
   {
     "urlref": "/doc/core-vocabulary/core-location",
     "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
-    "branchtag": "main",
+    "branchtag": "ReSpecCV",
     "name": "core-location-ap",
     "filename": "config/core-location.json",
     "navigation": {
 		"prev": "https://semiceu.github.io/Core-Location-Vocabulary/releases/2.0.0"
 	},
-    "dummy": "23"
+    "dummy": "25"
   },
   {
     "urlref": "/doc/vocabularium/core-location",
