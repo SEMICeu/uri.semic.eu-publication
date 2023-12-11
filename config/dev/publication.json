@@ -131,7 +131,7 @@
     	"prev": ""
     },
     "private" : true,
-    "dummy": 11
+    "dummy": 12
   },
   {
     "urlref": "/respec/core-location",
@@ -161,7 +161,7 @@
     "navigation": {
 		"prev": "https://semiceu.github.io/Core-Location-Vocabulary/releases/2.0.0"
 	},
-    "dummy": "34"
+    "dummy": "35"
   },
   {
     "urlref": "/doc/vocabularium/core-location",
