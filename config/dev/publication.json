@@ -173,7 +173,7 @@
     "dummy": "23"
   },
   {
-    "urlref": "/Core-Business-Vocabulary/releases/2.1.1",
+    "urlref": "/Core-Business-Vocabulary/releases/2.2.0",
     "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
     "branchtag": "ReSpecCV",
     "name": "core-business-ap",
