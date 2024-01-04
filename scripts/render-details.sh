@@ -23,6 +23,29 @@ execution_strickness() {
 	fi
 }
 
+generator_parameters() {
+    
+    local GENERATOR=$1
+    local JSONI=$2
+
+    #
+    # The toolchain can add specific parameters for the SHACL generation tool
+    # Priority rules are as follows:
+    #   1. publication point specific
+    #   2. generic configuration
+    #   3. otherwise empty string
+    #
+    COMMAND=$(echo '.'${GENERATOR}'.parameters' )
+    PARAMETERS=$(jq -r '.shaclgenerator.parameters' ${JSONI})
+    if [ "${PARAMETERS}" == "null"  ]  ; then 
+        PARAMETERS=$(jq -r '.shaclgenerator.parameters '  ${CONFIGDIR}/config.json)
+    fi 
+    if [ "${PARAMETERS}" == "null"  ] || [ -z "${PARAMETERS}" ]  ; then 
+        PARAMETERS=""
+    fi 
+}
+
+
 render_merged_files() {
     echo "Rendering the merged version of $1 with the json in $2 from $3 and to $4"
     local JSONI=$1
@@ -245,8 +268,11 @@ render_context() { # SLINE TLINE JSON
     COMMAND=$(echo '.[]|select(.name | contains("'${BASENAME}'"))|.type')
     TYPE=$(jq -r "${COMMAND}" ${SLINE}/.names.json)
 
+
+    generator_parameters contextgenerator ${JSONI}
+
     if [ ${TYPE} == "ap" ] || [ ${TYPE} == "oj" ]; then
-        echo "RENDER-DETAILS(context): node /app/json-ld-generator2.js -c -l label -i ${JSONI} -o ${TLINE}/context/${OUTFILELANGUAGE} "
+        echo "RENDER-DETAILS(context): node /app/json-ld-generator.js ${PARAMETERS} -i ${JSONI} -o ${TLINE}/context/${OUTFILELANGUAGE} "
         mkdir -p ${TLINE}/context
         COMMANDJSONLD=$(echo '.[].translation | .[] | select(.language | contains("'${GOALLANGUAGE}'")) | .mergefile')
         LANGUAGEFILENAMEJSONLD=$(jq -r "${COMMANDJSONLD}" ${SLINE}/.names.json)
@@ -256,8 +282,8 @@ render_context() { # SLINE TLINE JSON
 	
         MERGEDJSONLD=${RLINE}/translation/${LANGUAGEFILENAMEJSONLD}
 
-        echo "RENDER-DETAILS(context-language-aware): node /app/json-ld-generator2.js -c -l label -i ${MERGEDJSONLD} -o ${TLINE}/context/${OUTFILELANGUAGE} -m ${GOALLANGUAGE}"
-        if ! node /app/json-ld-generator2.js -c -l label -i ${MERGEDJSONLD} -o ${TLINE}/context/${OUTFILELANGUAGE} -m ${GOALLANGUAGE}; then
+        echo "RENDER-DETAILS(context-language-aware): node /app/json-ld-generator2.js -d -l label -i ${MERGEDJSONLD} -o ${TLINE}/context/${OUTFILELANGUAGE} -m ${GOALLANGUAGE}"
+        if ! node /app/json-ld-generator2.js -d -l label -i ${MERGEDJSONLD} -o ${TLINE}/context/${OUTFILELANGUAGE} -m ${GOALLANGUAGE}; then
             echo "RENDER-DETAILS(context-language-aware): See XXX for more details, Rendering failed"
             execution_strickness
         else
@@ -316,6 +342,8 @@ render_shacl_languageaware() {
     local GOALLANGUAGE=$6
     local PRIMELANGUAGE=${7-false}
 
+
+
     FILENAME=$(jq -r ".name" ${JSONI})
     COMMANDJSONLD=$(echo '.[].translation | .[] | select(.language | contains("'${GOALLANGUAGE}'")) | .mergefile')
     LANGUAGEFILENAMEJSONLD=$(jq -r "${COMMANDJSONLD}" ${SLINE}/.names.json)
@@ -333,13 +361,16 @@ render_shacl_languageaware() {
     COMMAND=$(echo '.[]|select(.name | contains("'${BASENAME}'"))|.type')
     TYPE=$(jq -r "${COMMAND}" ${SLINE}/.names.json)
 
+
+    generator_parameters shaclgenerator ${JSONI}
+
     if [ ${TYPE} == "ap" ] || [ ${TYPE} == "oj" ]; then
         DOMAIN="${HOSTNAME}/${LINE}"
-        echo "RENDER-DETAILS(shacl-languageaware): node /app/shacl-generator.js -i ${MERGEDJSONLD} -m individual -c 'uniqueLanguages' -c 'nodekind' -d ${DOMAIN} -p ${DOMAIN} -o ${OUTFILE} -l ${GOALLANGUAGE} -a"
+        echo "RENDER-DETAILS(shacl-languageaware): node /app/shacl-generator.js -i ${MERGEDJSONLD} ${PARAMETERS} -d ${DOMAIN} -p ${DOMAIN} -o ${OUTFILE} -l ${GOALLANGUAGE}"
         pushd /app
         mkdir -p ${TLINE}/shacl
         mkdir -p ${RLINE}/shacl
-        if ! node /app/shacl-generator2.js -i ${MERGEDJSONLD} -m individual -c 'uniqueLanguages' -c 'nodekind' -d ${DOMAIN} -p ${DOMAIN} -o ${OUTFILE} -l ${GOALLANGUAGE} -a --labelAsName  2>&1 | tee ${OUTREPORT}; then
+        if ! node /app/shacl-generator2.js -i ${MERGEDJSONLD} ${PARAMETERS} -d ${DOMAIN} -p ${DOMAIN} -o ${OUTFILE} -l ${GOALLANGUAGE} 2>&1 | tee ${OUTREPORT}; then
             echo "RENDER-DETAILS(shacl-languageaware): See ${OUTREPORT} for the details"
             execution_strickness
         else
@@ -387,55 +418,6 @@ render_xsd() { # SLINE TLINE JSON
 
         echo "RENDER-DETAILS(xsd): node /app/xsd-generator.js -d -l label -i ${MERGEDJSONLD} -o ${TLINE}/xsd/${OUTFILELANGUAGE} -m ${GOALLANGUAGE} -b ${XSDDOMAIN}"
         if ! node /app/xsd-generator.js -d -l label -i ${MERGEDJSONLD} -o ${TLINE}/xsd/${OUTFILELANGUAGE} -m ${GOALLANGUAGE} -b ${XSDDOMAIN}; then
-            echo "RENDER-DETAILS(xsd): See XXX for more details, Rendering failed"
-            execution_strickness
-        else
-            echo "RENDER-DETAILS(xsd): Rendering successfull, File saved to  ${TLINE}/xsd/${OUTFILELANGUAGE}"
-        fi
-
-	if [ ${PRIMELANGUAGE} == true ] ; then
-		cp ${TLINE}/xsd/${OUTFILELANGUAGE} ${TLINE}/xsd/${OUTFILE}
-	fi
-
-	fi 
-    fi
-}
-
-# 
-# if xsd rendering is final, then this function can replace the old one.
-render_new_xsd() { # SLINE TLINE JSON
-    echo "render_xsd: $1 $2 $3 $4 $5"
-    local SLINE=$1
-    local TLINE=$2
-    local JSONI=$3
-    local RLINE=$4
-    local GOALLANGUAGE=$5
-    local PRIMELANGUAGE=${6-false}
-
-    FILENAME=$(jq -r ".name" ${JSONI})
-    OUTFILE=${FILENAME}.xsd
-    OUTFILELANGUAGE=${FILENAME}_${GOALLANGUAGE}.xsd
-
-    BASENAME=$(basename ${JSONI} .jsonld)
-
-    COMMAND=$(echo '.[]|select(.name | contains("'${BASENAME}'"))|.type')
-    TYPE=$(jq -r "${COMMAND}" ${SLINE}/.names.json)
-
-    XSDDOMAIN="https://data.europa.eu/m8g/xml/"
-
-    if [ ${TYPE} == "ap" ] || [ ${TYPE} == "oj" ]; then
-
-        mkdir -p ${TLINE}/xsd
-        COMMANDJSONLD=$(echo '.[].translation | .[] | select(.language | contains("'${GOALLANGUAGE}'")) | .mergefile')
-        LANGUAGEFILENAMEJSONLD=$(jq -r "${COMMANDJSONLD}" ${SLINE}/.names.json)
-	if [ "${LANGUAGEFILENAMEJSONLD}" == "" ] ; then
-	    echo "configuration for language ${GOALLANGUAGE} not present. Ignore this language for ${SLINE}"
-        else 
-	
-        MERGEDJSONLD=${RLINE}/translation/${LANGUAGEFILENAMEJSONLD}
-
-        echo "RENDER-DETAILS(xsd): node /app/xsd-generator.js -d -l label -i ${MERGEDJSONLD} -o ${TLINE}/xsd/${OUTFILELANGUAGE} -m ${GOALLANGUAGE} -b ${XSDDOMAIN}"
-        if ! node /app/new-xsd-generator.js -d -l label -i ${MERGEDJSONLD} -o ${TLINE}/xsd/${OUTFILELANGUAGE} -m ${GOALLANGUAGE} -b ${XSDDOMAIN}; then
             echo "RENDER-DETAILS(xsd): See XXX for more details, Rendering failed"
             execution_strickness
         else
@@ -514,10 +496,10 @@ cat ${CHECKOUTFILE} | while read line; do
 	        done
                 ;;
             xsd)
-                render_new_xsd $SLINE $TLINE $i $RLINE ${PRIMELANGUAGE} true
+                render_xsd $SLINE $TLINE $i $RLINE ${PRIMELANGUAGE} true
 		for g in ${GOALLANGUAGE} 
 		do 
-                render_new_xsd $SLINE $TLINE $i $RLINE ${g} 
+                render_xsd $SLINE $TLINE $i $RLINE ${g} 
 	        done
                 ;;
             multilingual)
