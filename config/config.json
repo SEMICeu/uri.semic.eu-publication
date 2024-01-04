@@ -3,7 +3,7 @@
   "otherLanguages": [
     "fr", "de"
   ],
-  "hostname": "https://semiceu.github.io/",
+  "hostname": "https://semiceu.github.io",
   "domain": "data.europa.eu",
   "publicationpoints" : ["dev"],
   "generatedrepository" : {
