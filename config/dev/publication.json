@@ -181,7 +181,7 @@
     "navigation": {
     "prev": "https://semiceu.github.io/Core-Business-Vocabulary/releases/2.1.0/"
   },
-    "dummy": "17"
+    "dummy": "18"
   },
   {
     "dummy": "9",
@@ -193,7 +193,7 @@
     "navigation": {}
   },
   {
-	"dummy": "13",
+	"dummy": "14",
     "urlref": "/Core-Person-Vocabulary/releases/2.1.1/",
     "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
     "branchtag": "ReSpecCV",
