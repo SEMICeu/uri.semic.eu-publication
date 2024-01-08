@@ -222,7 +222,7 @@
     "navigation": {
       "prev": "https://semiceu.github.io/CPOV/releases/2.1.0/"
     },
-    "dummy": "16"
+    "dummy": "17"
   },
   {
 	"dummy": "4",
@@ -234,7 +234,7 @@
     "navigation": {}
   },
   {
-    "dummy": "7",
+    "dummy": "8",
     "urlref": "/Core-Public-Event-Vocabulary/releases/1.1.0/",
     "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
     "branchtag": "ReSpecCV",
