@@ -328,12 +328,14 @@
     "navigation": {}
   },
   {
-    "dummy": "4",
-	"urlref": "/doc/core-vocabulary/cccev",
+    "dummy": "6",
+	  "urlref": "/CCCEV/releases/2.1.0",
     "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
-    "branchtag": "main",
+    "branchtag": "ReSpecCV",
     "name": "cccev-ap",
     "filename": "config/cccev.json",
-    "navigation": {}
+    "navigation": {
+      "prev": "https://semiceu.github.io/CCCEV/releases/2.00/"
+    }
   }
  ]
