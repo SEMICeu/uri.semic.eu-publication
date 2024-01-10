@@ -234,7 +234,7 @@
     "navigation": {}
   },
   {
-    "dummy": "17",
+    "dummy": "18",
     "urlref": "/Core-Public-Event-Vocabulary/releases/1.1.0/",
     "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
     "branchtag": "ReSpecCV",
@@ -328,7 +328,7 @@
     "navigation": {}
   },
   {
-    "dummy": "14",
+    "dummy": "15",
 	  "urlref": "/CCCEV/releases/2.1.0",
     "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
     "branchtag": "ReSpecCV",
