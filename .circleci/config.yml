@@ -166,7 +166,7 @@ jobs:
             - report/
   render-html-details:
     docker:
-      - image: informatievlaanderen/oslo-specification-generator:multilingual-dev-0.4
+      - image: informatievlaanderen/oslo-specification-generator:multilingual-dev-0.9
     steps:
       - checkout
       - attach_workspace:
@@ -230,7 +230,7 @@ jobs:
             - target/
   render-xsd-details:
     docker:
-      - image: informatievlaanderen/oslo-specification-generator:multilingual-dev-0.6
+      - image: informatievlaanderen/oslo-specification-generator:multilingual-dev-0.9
     steps:
       - checkout
       - attach_workspace:
@@ -417,6 +417,7 @@ jobs:
           at: /tmp/workspace
       - add_ssh_keys:
           fingerprints:
+            - << parameters.generatedReporFingerprint >>
             - "6d:07:6e:01:36:b0:89:1d:b2:93:6e:bf:86:a1:4d:61"
       - run:
           name: update and add extra statements of updating the ssh config for each private ssh key
