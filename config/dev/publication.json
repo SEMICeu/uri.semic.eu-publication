@@ -222,7 +222,7 @@
     "navigation": {
       "prev": "https://semiceu.github.io/CPOV/releases/2.1.0/"
     },
-    "dummy": "31"
+    "dummy": "32"
   },
   {
 	"dummy": "4",
@@ -309,13 +309,16 @@
     "navigation": {}
   },
   {
-	"dummy": "48",
-    "urlref": "/doc/application-profile/cpsv-ap",
+	"dummy": "50",
+    "urlref": "/CPSV-AP/releases/3.2.0/",
     "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
-    "branchtag": "main",
+    "branchtag": "ReSpecCV",
     "name": "cpsv-ap",
     "filename": "config/cpsv-ap.json",
-    "navigation": {}
+    "navigation": {
+      "prev":"https://semiceu.github.io/CPSV-AP/releases/3.1.1/"
+    
+    }
   },
   
 {
