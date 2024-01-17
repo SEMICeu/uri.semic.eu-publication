@@ -121,6 +121,18 @@
     "dummy": 9
   },
   {
+    "urlref": "/STR/releases/1.0.0",
+    "repositorypublic": "git@github.com:SEMICeu/Semicthema-DCAT-AP.git",
+    "repository": "git@semicthema-DCAT-AP:SEMICeu/Semicthema-DCAT-AP.git",
+    "branchtag": "BRegDCAT-AP",
+    "name": "str",
+    "filename": "config/str.json",
+    "navigation": {},
+    "private" : true,
+    "examples": false,
+    "dummy": 9
+  },
+  {
     "urlref": "DCAT-AP/releases/2.2.0-hvd",
     "repositorypublic": "git@github.com:SEMICeu/Semicthema-DCAT-AP.git",
     "repository": "git@semicthema-DCAT-AP:SEMICeu/Semicthema-DCAT-AP.git",
@@ -193,7 +205,7 @@
     "navigation": {}
   },
   {
-	"dummy": "27",
+	"dummy": "28",
     "urlref": "/Core-Person-Vocabulary/releases/2.1.1/",
     "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
     "branchtag": "ReSpecCV",
