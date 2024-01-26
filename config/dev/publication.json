@@ -234,7 +234,7 @@
     "navigation": {}
   },
   {
-    "dummy": "24",
+    "dummy": "25",
     "urlref": "/Core-Public-Event-Vocabulary/releases/1.1.0/",
     "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
     "branchtag": "ReSpecCV",
@@ -245,10 +245,10 @@
     }
   },
   {
-	"dummy": "5",
+	"dummy": "6",
     "urlref": "/doc/vocabularium/cpev",
     "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
-    "branchtag": "main",
+    "branchtag": "ReSpecCV",
     "name": "core-public-event",
     "filename": "config/core-public-event-voc.json",
     "navigation": {}
