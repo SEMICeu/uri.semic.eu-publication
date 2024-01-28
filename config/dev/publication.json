@@ -129,7 +129,7 @@
     "filename": "config/str.json",
     "private" : true,
     "examples": false,
-    "dummy": 14
+    "dummy": 15
   },
   {
     "urlref": "DCAT-AP/releases/2.2.0-hvd",
