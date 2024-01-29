@@ -125,7 +125,7 @@
     "repositorypublic": "git@github.com:SEMICeu/Semicthema-DCAT-AP.git",
     "repository": "git@semicthema-DCAT-AP:SEMICeu/Semicthema-DCAT-AP.git",
     "branchtag": "BRegDCAT-AP",
-    "name": "str",
+    "name": "strap",
     "filename": "config/strap.json",
     "private" : true,
     "examples": false,
