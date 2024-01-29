@@ -323,7 +323,7 @@
     "navigation": {}
   },
   {
-	"dummy": "53",
+	"dummy": "54",
     "urlref": "/CPSV-AP/releases/3.2.0/",
     "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
     "branchtag": "ReSpecCV",
@@ -345,7 +345,7 @@
     "navigation": {}
   },
   {
-    "dummy": "26",
+    "dummy": "27",
 	  "urlref": "/CCCEV/releases/2.1.0",
     "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
     "branchtag": "ReSpecCV",
