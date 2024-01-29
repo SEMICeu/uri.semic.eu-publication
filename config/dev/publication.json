@@ -129,7 +129,7 @@
     "filename": "config/strap.json",
     "private" : true,
     "examples": false,
-    "dummy": 33
+    "dummy": 34
   },
   {
     "urlref": "DCAT-AP/releases/2.2.0-hvd",
