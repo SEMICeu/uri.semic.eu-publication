@@ -121,15 +121,15 @@
     "dummy": 10
   },
   {
-    "urlref": "/STR/releases/1.0.0",
+    "urlref": "/STR-AP/releases/1.0.0",
     "repositorypublic": "git@github.com:SEMICeu/Semicthema-DCAT-AP.git",
     "repository": "git@semicthema-DCAT-AP:SEMICeu/Semicthema-DCAT-AP.git",
     "branchtag": "BRegDCAT-AP",
     "name": "str",
-    "filename": "config/str.json",
+    "filename": "config/strap.json",
     "private" : true,
     "examples": false,
-    "dummy": 30
+    "dummy": 31
   },
   {
     "urlref": "DCAT-AP/releases/2.2.0-hvd",
