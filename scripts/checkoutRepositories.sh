@@ -49,7 +49,7 @@ cleanup_directory() {
     jq "${STR}" ${MAPPINGFILE} >.map.json
     jq -r '.[] | @sh "find . -name \"*.eap\" !  -name \(.eap) -type f -exec rm -f {} + "' .map.json | bash -e
     SITE=`jq -r .[].site .map.json`
-    find ./site-skeleton -depth -type d ! -wholename "./site-skeleton"  ! -wholename "./${SITE}" -exec rm -rf {} + 
+    find ./site-skeleton -maxdepth 1 -depth -type d ! -wholename "./site-skeleton"  ! -wholename "./${SITE}" -exec rm -rf {} + 
   fi
 }
 
