@@ -65,7 +65,9 @@
     "branchtag": "r5r",
     "name": "r5r",
     "filename": "config/r5r.json",
-    "navigation": {},
+    "navigation": {
+	    "prev" : "https://semiceu.github.io/DCAT-AP/r5r/release/3.0.0"
+    },
     "private" : true,
     "dummy": 12
   },
@@ -76,7 +78,9 @@
     "branchtag": "r5r",
     "name": "r5r",
     "filename": "config/r5r.json",
-    "navigation": {},
+    "navigation": {
+	    "prev" : "https://semiceu.github.io/DCAT-AP/r5r/release/3.0.0"
+    },
     "private" : true,
     "note": "Because the toolchain currently looks for paths starting with /doc/vocabularium to render to RDF, also this publication point is added",
     "dummy": 12
