@@ -59,14 +59,14 @@
     "dummy": 10
   },
   {
-    "urlref": "/r5r/release/3.0.0",
+    "urlref": "DCAT-AP/r5r/releases/3.0.0",
     "repositorypublic": "git@github.com:SEMICeu/Semicthema-DCAT-AP.git",
     "repository": "git@semicthema-DCAT-AP:SEMICeu/Semicthema-DCAT-AP.git",
     "branchtag": "r5r",
     "name": "r5r",
     "filename": "config/r5r.json",
     "navigation": {
-	    "prev" : "https://semiceu.github.io/DCAT-AP/r5r/release/3.0.0"
+	    "prev" : "https://semiceu.github.io/DCAT-AP/r5r/releases/3.0.0"
     },
     "private" : true,
     "dummy": 12
