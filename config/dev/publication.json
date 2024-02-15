@@ -157,8 +157,10 @@
     "branchtag": "ReSpecCV",
     "name": "mldcat-ap",
     "filename": "config/mldcat-ap.json",
-    "navigation": {},
-    "dummy": "40"
+    "navigation": {
+      "prev": "https://semiceu.github.io/MLDCAT-AP/releases/1.0.0/"
+    },
+    "dummy": "42"
   },
   {
     "urlref": "/respec/core-location",
