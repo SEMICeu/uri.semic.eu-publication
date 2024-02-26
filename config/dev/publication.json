@@ -114,7 +114,7 @@
     "urlref": "/GeoDCAT-AP/releases/3.0.0",
     "repositorypublic": "git@github.com:SEMICeu/Semicthema-DCAT-AP.git",
     "repository": "git@semicthema-DCAT-AP:SEMICeu/Semicthema-DCAT-AP.git",
-    "branchtag": "GEODCAT-AP",
+    "branchtag": "GeoDCAT-AP",
     "name": "geodcat-ap",
     "filename": "config/geodcat-ap.json",
     "navigation": {
