@@ -287,6 +287,19 @@
       "prev": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.0.0/"
     }
   },
+
+  {
+    "dummy": "1",
+    "urlref": "/Consolidated-Core-Vocabularies/releases/2.2.0/",
+    "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
+    "branchtag": "ReSpecCV",
+    "name": "ccore-vocabularies",
+    "filename": "core-vocabularies.json",
+    "navigation": {
+      "prev": "https://semiceu.github.io/Consolidated-Core-Vocabularies/releases/2.2.0/"
+    }
+  },
+
   {
 	"dummy": "7",
     "urlref": "/doc/vocabularium/cpev",
