@@ -288,17 +288,6 @@
     }
   },
 
-  {
-    "dummy": "2",
-    "urlref": "/Consolidated-Core-Vocabularies/releases/2.2.0/",
-    "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
-    "branchtag": "ReSpecCV",
-    "name": "core-vocabularies",
-    "filename": "config/core-vocabularies.json",
-    "navigation": {
-      "prev": "https://semiceu.github.io/Consolidated-Core-Vocabularies/releases/2.2.0/"
-    }
-  },
 
   {
 	"dummy": "7",
@@ -328,8 +317,8 @@
     "navigation": {}
   },
   {
-	"dummy": "13",
-    "urlref": "/m8g/release/3.0.0",
+	"dummy": "14",
+    "urlref": "/Consolidated-Core-Vocabularies/releases/2.2.0/",
     "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
     "branchtag": "m8g",
     "name": "core-vocabularies",
