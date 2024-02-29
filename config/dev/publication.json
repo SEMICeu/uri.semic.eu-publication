@@ -293,7 +293,7 @@
     "urlref": "/Consolidated-Core-Vocabularies/releases/2.2.0/",
     "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
     "branchtag": "ReSpecCV",
-    "name": "ccore-vocabularies",
+    "name": "core-vocabularies",
     "filename": "core-vocabularies.json",
     "navigation": {
       "prev": "https://semiceu.github.io/Consolidated-Core-Vocabularies/releases/2.2.0/"
