@@ -317,13 +317,15 @@
     "navigation": {}
   },
   {
-	"dummy": "15",
+	"dummy": "16",
     "urlref": "/Consolidated-Core-Vocabularies/releases/2.2.0/",
     "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
     "branchtag": "m8g",
     "name": "core-vocabularies",
     "filename": "config/core-vocabularies.json",
-    "navigation": {}
+    "navigation": {
+      "prev": "https://semiceu.github.io/Consolidated-Core-Vocabularies/releases/2.2.0/"
+    }
   },
   {
 	"dummy": "13",
