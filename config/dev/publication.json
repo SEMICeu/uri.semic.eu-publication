@@ -118,11 +118,11 @@
     "name": "geodcat-ap",
     "filename": "config/geodcat-ap.json",
     "navigation": {
-	    "prev" : "https://github.com/SEMICeu/DCAT-AP/tree/master/releases/2.1.1"
+	    "prev" : "https://github.com/SEMICeu/GeoDCAT-AP/tree/master/releases/2.0.0"
     },
     "private" : true,
     "examples": false,
-    "dummy": 68
+    "dummy": 69
   },
   {
     "urlref": "/BRegDCAT-AP/releases/3.0.0",
