@@ -21,7 +21,7 @@
     "filename": "config/930.json",
     "navigation": {},
     "private" : true,
-    "dummy":10 
+    "dummy":11 
   },
   {
     "urlref": "/doc/vocabularium/930/release/3.0.0",
@@ -33,7 +33,7 @@
     "navigation": {},
     "private" : true,
     "note": "Because the toolchain currently looks for paths starting with /doc/vocabularium to render to RDF, also this publication point is added",
-    "dummy": 10
+    "dummy": 11
   },
   {
     "urlref": "/s1n/release/3.0.0",
@@ -118,11 +118,11 @@
     "name": "geodcat-ap",
     "filename": "config/geodcat-ap.json",
     "navigation": {
-	    "prev" : "https://github.com/SEMICeu/DCAT-AP/tree/master/releases/2.1.1"
+	    "prev" : "https://github.com/SEMICeu/GeoDCAT-AP/tree/master/releases/2.0.0"
     },
     "private" : true,
     "examples": false,
-    "dummy": 66
+    "dummy": 74
   },
   {
     "urlref": "/BRegDCAT-AP/releases/3.0.0",
@@ -174,7 +174,7 @@
     "navigation": {
       "prev": "https://semiceu.github.io/MLDCAT-AP/releases/1.0.0/"
     },
-    "dummy": "46"
+    "dummy": "52"
   },
   {
     "urlref": "/respec/core-location",
@@ -265,7 +265,7 @@
     "navigation": {
       "prev": "https://semiceu.github.io/CPOV/releases/2.1.0/"
     },
-    "dummy": "48"
+    "dummy": "50"
   },
   {
 	"dummy": "6",
@@ -356,7 +356,7 @@
     "navigation": {}
   },
   {
-	"dummy": "67",
+	"dummy": "70",
     "urlref": "/CPSV-AP/releases/3.2.0/",
     "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
     "branchtag": "ReSpecCV",
