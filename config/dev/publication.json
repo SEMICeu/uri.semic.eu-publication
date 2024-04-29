@@ -108,7 +108,7 @@
     },
     "private" : true,
     "examples": false,
-    "dummy": 28
+    "dummy": 29
   },
   {
     "urlref": "/GeoDCAT-AP/releases/3.0.0",
@@ -154,6 +154,19 @@
   },
   {
     "urlref": "DCAT-AP/releases/2.2.0-hvd",
+    "repositorypublic": "git@github.com:SEMICeu/Semicthema-DCAT-AP.git",
+    "repository": "git@semicthema-DCAT-AP:SEMICeu/Semicthema-DCAT-AP.git",
+    "branchtag": "3445f69",
+    "name": "hvd",
+    "filename": "config/hvd.json",
+    "navigation": {
+    	"prev": ""
+    },
+    "private" : true,
+    "dummy": 21
+  },
+  {
+    "urlref": "DCAT-AP/releases/3.0.0-hvd",
     "repositorypublic": "git@github.com:SEMICeu/Semicthema-DCAT-AP.git",
     "repository": "git@semicthema-DCAT-AP:SEMICeu/Semicthema-DCAT-AP.git",
     "branchtag": "HVD",
