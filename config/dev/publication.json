@@ -330,7 +330,7 @@
     "navigation": {}
   },
   {
-	"dummy": "17",
+	"dummy": "18",
     "urlref": "/Consolidated-Core-Vocabularies/releases/2.2.0/",
     "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
     "branchtag": "m8g",
@@ -341,7 +341,7 @@
     }
   },
   {
-	"dummy": "14",
+	"dummy": "15",
 	"note": "dummy path to trick the toolchain to also transform to RDF",
     "urlref": "/doc/vocabularium/m8g/release/3.0.0",
     "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
