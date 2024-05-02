@@ -21,7 +21,7 @@
     "filename": "config/930.json",
     "navigation": {},
     "private" : true,
-    "dummy":13
+    "dummy": 14
   },
   {
     "urlref": "/doc/vocabularium/930/release/3.0.0",
@@ -33,7 +33,7 @@
     "navigation": {},
     "private" : true,
     "note": "Because the toolchain currently looks for paths starting with /doc/vocabularium to render to RDF, also this publication point is added",
-    "dummy": 13
+    "dummy": 14
   },
   {
     "urlref": "/s1n/release/3.0.0",
