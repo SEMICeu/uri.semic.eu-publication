@@ -19,9 +19,12 @@
     "branchtag": "930",
     "name": "930",
     "filename": "config/930.json",
-    "navigation": {},
+    "navigation": {
+      "prev" : "https://semiceu.github.io/DCAT-AP/r5r/releases/3.0.0",
+      "self" : "https://data.europa.eu/930"
+    },
     "private" : true,
-    "dummy": 16
+    "dummy": 17
   },
   {
     "urlref": "/doc/vocabularium/930/release/3.0.0",
@@ -30,10 +33,13 @@
     "branchtag": "930",
     "name": "930",
     "filename": "config/930.json",
-    "navigation": {},
+    "navigation": {
+      "prev" : "https://semiceu.github.io/DCAT-AP/r5r/releases/3.0.0",
+      "self" : "https://data.europa.eu/930"
+    },
     "private" : true,
     "note": "Because the toolchain currently looks for paths starting with /doc/vocabularium to render to RDF, also this publication point is added",
-    "dummy": 16
+    "dummy": 17
   },
   {
     "urlref": "/s1n/release/3.0.0",
