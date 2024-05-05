@@ -23,7 +23,7 @@
       "prev" : "https://semiceu.github.io/uri.semic.eu-generated/930/release/3.0.0/"
     },
     "private" : true,
-    "dummy": 21
+    "dummy": 22
   },
   {
     "urlref": "/doc/vocabularium/930/release/3.0.0",
@@ -37,7 +37,7 @@
     },
     "private" : true,
     "note": "Because the toolchain currently looks for paths starting with /doc/vocabularium to render to RDF, also this publication point is added",
-    "dummy": 21
+    "dummy": 22
   },
   {
     "urlref": "/s1n/release/3.0.0",
