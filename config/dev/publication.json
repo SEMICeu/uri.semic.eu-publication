@@ -219,9 +219,9 @@
     "name": "core-location-ap",
     "filename": "config/core-location.json",
     "navigation": {
-		  "prev": "https://semiceu.github.io/Core-Location-Vocabulary/releases/2.0.2"
+		  "prev": "https://semiceu.github.io/Core-Location-Vocabulary/releases/2.1.0"
 	  },
-    "dummy": "106"
+    "dummy": "107"
   },
   {
     "urlref": "/doc/vocabularium/core-location",
@@ -230,7 +230,7 @@
     "name": "core-location",
     "filename": "config/core-location-voc.json",
     "navigation": {},
-    "dummy": "26"
+    "dummy": "27"
   },
   {
     "urlref": "/Core-Business-Vocabulary/releases/2.2.0",
@@ -239,12 +239,12 @@
     "name": "core-business-ap",
     "filename": "config/core-business.json",
     "navigation": {
-      "prev": "https://semiceu.github.io/Core-Business-Vocabulary/releases/2.1.0/"
+      "prev": "https://semiceu.github.io/Core-Business-Vocabulary/releases2.2.0/"
     },
-    "dummy": "39"
+    "dummy": "40"
   },
   {
-    "dummy": "13",
+    "dummy": "14",
     "urlref": "/doc/vocabularium/core-business",
     "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
     "branchtag": "ReSpecCV",
@@ -253,19 +253,19 @@
     "navigation": {}
   },
   {
-	"dummy": "38",
+	"dummy": "39",
     "urlref": "/Core-Person-Vocabulary/releases/2.1.1/",
     "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
     "branchtag": "ReSpecCV",
     "name": "core-person-ap",
     "filename": "config/core-person.json",
     "navigation": {
-      "prev": "https://semiceu.github.io/Core-Person-Vocabulary/releases/2.1.0/"
+      "prev": "https://semiceu.github.io/Core-Person-Vocabulary/releases/2.1.1/"
 
     }
   },
   {
-	"dummy": "13",
+	"dummy": "14",
     "urlref": "/doc/vocabularium/core-person",
     "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
     "branchtag": "ReSpecCV",
@@ -280,12 +280,12 @@
     "name": "core-public-organisation-ap",
     "filename": "config/core-public-organisation.json",
     "navigation": {
-      "prev": "https://semiceu.github.io/CPOV/releases/2.1.0/"
+      "prev": "https://semiceu.github.io/CPOV/releases/2.1.1/"
     },
-    "dummy": "50"
+    "dummy": "51"
   },
   {
-	"dummy": "7",
+	"dummy": "8",
     "urlref": "/doc/vocabularium/core-public-organisation",
     "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
     "branchtag": "ReSpecCV",
@@ -294,20 +294,20 @@
     "navigation": {}
   },
   {
-    "dummy": "29",
+    "dummy": "30",
     "urlref": "/Core-Public-Event-Vocabulary/releases/1.1.0/",
     "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
     "branchtag": "ReSpecCV",
     "name": "core-public-event-ap",
     "filename": "config/core-public-event.json",
     "navigation": {
-      "prev": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.0.0/"
+      "prev": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/"
     }
   },
 
 
   {
-	"dummy": "8",
+	"dummy": "9",
     "urlref": "/doc/vocabularium/cpev",
     "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
     "branchtag": "ReSpecCV",
@@ -373,20 +373,20 @@
     "navigation": {}
   },
   {
-	"dummy": "72",
+	"dummy": "73",
     "urlref": "/CPSV-AP/releases/3.2.0/",
     "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
     "branchtag": "ReSpecCV",
     "name": "cpsv-ap",
     "filename": "config/cpsv-ap.json",
     "navigation": {
-      "prev":"https://semiceu.github.io/CPSV-AP/releases/3.1.1/"
+      "prev":"https://semiceu.github.io/CPSV-AP/releases/3.2.0/"
     
     }
   },
   
 {
-    "dummy": "8",
+    "dummy": "9",
 	"urlref": "/doc/vocabularium/cccev-voc",
     "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
     "branchtag": "ReSpecCV",
@@ -395,14 +395,14 @@
     "navigation": {}
   },
   {
-    "dummy": "30",
+    "dummy": "31",
 	  "urlref": "/CCCEV/releases/2.1.0",
     "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
     "branchtag": "ReSpecCV",
     "name": "cccev-ap",
     "filename": "config/cccev.json",
     "navigation": {
-      "prev": "https://semiceu.github.io/CCCEV/releases/2.00/"
+      "prev": "https://semiceu.github.io/CCCEV/releases/2.1.0/"
     }
   }
  ]
