@@ -404,5 +404,16 @@
     "navigation": {
       "prev": "https://semiceu.github.io/CCCEV/releases/2.1.0/"
     }
+  },
+  {
+    "dummy": "31",
+    "urlref": "/rrmv/releases/0.0.1",
+    "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
+    "branchtag": "rrmv",
+    "name": "rrvm",
+    "filename": "config/rrvm.json",
+    "navigation": {
+      "prev": "https://semiceu.github.io/rrvm/releases/0.0.1/"
+    }
   }
  ]
