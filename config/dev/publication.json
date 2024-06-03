@@ -406,14 +406,14 @@
     }
   },
   {
-    "dummy": "32",
+    "dummy": "33",
     "urlref": "/rrmv/releases/0.0.1",
     "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
     "branchtag": "rrmv",
-    "name": "rrvm",
-    "filename": "config/rrvm.json",
+    "name": "rrmv",
+    "filename": "config/rrmv.json",
     "navigation": {
-      "prev": "https://semiceu.github.io/rrvm/releases/0.0.1/"
+      "prev": "https://semiceu.github.io/rrmv/releases/0.0.1/"
     }
   }
  ]
