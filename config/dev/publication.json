@@ -241,10 +241,10 @@
     "navigation": {
       "prev": "https://semiceu.github.io/Core-Business-Vocabulary/releases2.2.0/"
     },
-    "dummy": "40"
+    "dummy": "41"
   },
   {
-    "dummy": "14",
+    "dummy": "15",
     "urlref": "/doc/vocabularium/core-business",
     "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
     "branchtag": "ReSpecCV",
@@ -253,7 +253,7 @@
     "navigation": {}
   },
   {
-	"dummy": "39",
+	"dummy": "40",
     "urlref": "/Core-Person-Vocabulary/releases/2.1.1/",
     "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
     "branchtag": "ReSpecCV",
@@ -265,7 +265,7 @@
     }
   },
   {
-	"dummy": "14",
+	"dummy": "15",
     "urlref": "/doc/vocabularium/core-person",
     "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
     "branchtag": "ReSpecCV",
@@ -282,10 +282,10 @@
     "navigation": {
       "prev": "https://semiceu.github.io/CPOV/releases/2.1.1/"
     },
-    "dummy": "61"
+    "dummy": "62"
   },
   {
-	"dummy": "8",
+	"dummy": "9",
     "urlref": "/doc/vocabularium/core-public-organisation",
     "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
     "branchtag": "ReSpecCV",
