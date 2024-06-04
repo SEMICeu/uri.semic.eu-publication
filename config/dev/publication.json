@@ -253,7 +253,7 @@
     "navigation": {}
   },
   {
-	"dummy": "46",
+	"dummy": "47",
     "urlref": "/Core-Person-Vocabulary/releases/2.1.1/",
     "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
     "branchtag": "ReSpecCV",
@@ -265,7 +265,7 @@
     }
   },
   {
-	"dummy": "21",
+	"dummy": "22",
     "urlref": "/doc/vocabularium/core-person",
     "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
     "branchtag": "ReSpecCV",
