@@ -415,5 +415,14 @@
     "navigation": {
       "prev": "https://semiceu.github.io/rrmv/releases/0.0.1/"
     }
+  },
+  {
+    "dummy": "2",
+    "urlref": "/doc/vocabularium/rrmv",
+    "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
+    "branchtag": "rrmv",
+    "name": "rrmv",
+    "filename": "config/rrmv-voc.json",
+    "navigation": {}
   }
  ]
