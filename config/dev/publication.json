@@ -241,10 +241,10 @@
     "navigation": {
       "prev": "https://semiceu.github.io/Core-Business-Vocabulary/releases2.2.0/"
     },
-    "dummy": "42"
+    "dummy": "43"
   },
   {
-    "dummy": "16",
+    "dummy": "17",
     "urlref": "/doc/vocabularium/core-business",
     "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
     "branchtag": "ReSpecCV",
