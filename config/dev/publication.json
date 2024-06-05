@@ -282,10 +282,10 @@
     "navigation": {
       "prev": "https://semiceu.github.io/CPOV/releases/2.1.1/"
     },
-    "dummy": "62"
+    "dummy": "63"
   },
   {
-	"dummy": "9",
+	"dummy": "10",
     "urlref": "/doc/vocabularium/core-public-organisation",
     "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
     "branchtag": "ReSpecCV",
