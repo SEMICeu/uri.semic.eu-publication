@@ -20,7 +20,7 @@
 	  "triggerall" : true
   },
   "shaclgenerator" : {
-	  "parameters": "-m individual -c 'uniqueLanguages' -c 'nodekind'"
+	  "parameters": "-m individual -c uniqueLanguages -c nodekind"
   },
   "jsonldgenerator" : {
 	  "parameters" : "-d -l label"
