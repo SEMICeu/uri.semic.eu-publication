@@ -406,7 +406,7 @@
     }
   },
   {
-    "dummy": "41",
+    "dummy": "42",
     "urlref": "/rrmv/releases/0.0.1",
     "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
     "branchtag": "rrmv",
@@ -417,7 +417,7 @@
     }
   },
   {
-    "dummy": "9",
+    "dummy": "10",
     "urlref": "/doc/vocabularium/rrmv",
     "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
     "branchtag": "rrmv",
