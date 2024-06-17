@@ -73,7 +73,7 @@
 	    "prev" : "https://semiceu.github.io/DCAT-AP/r5r/releases/3.0.0"
     },
     "private" : true,
-    "dummy": 12
+    "dummy": 13
   },
   {
     "urlref": "/doc/vocabularium/r5r/release/3.0.0",
@@ -112,7 +112,7 @@
     },
     "private" : true,
     "examples": false,
-    "dummy": 10
+    "dummy": 11
   },
   {
     "urlref": "/GeoDCAT-AP/releases/3.0.0",
