@@ -20,10 +20,10 @@
     "name": "930",
     "filename": "config/930.json",
     "navigation": {
-      "prev" : "https://semiceu.github.io/uri.semic.eu-generated/930/release/3.0.0/"
+      "prev" : "https://semiceu.github.io/GeoDCAT-AP/releases/2.0.0/"
     },
     "private" : true,
-    "dummy": 27
+    "dummy": 28
   },
   {
     "urlref": "/doc/vocabularium/930/release/3.0.0",
