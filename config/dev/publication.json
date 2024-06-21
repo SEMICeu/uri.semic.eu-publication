@@ -13,7 +13,7 @@
     "dummy": 13
   },
   {
-    "urlref": "/930/release/3.0.0",
+    "urlref": "GeoDCAT-AP/930/releases/3.0.0",
     "repositorypublic": "git@github.com:SEMICeu/Semicthema-DCAT-AP.git",
     "repository": "git@semicthema-DCAT-AP:SEMICeu/Semicthema-DCAT-AP.git",
     "branchtag": "930",
