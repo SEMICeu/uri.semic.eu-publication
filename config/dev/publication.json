@@ -13,7 +13,7 @@
     "dummy": 13
   },
   {
-    "urlref": "GeoDCAT-AP/930/releases/3.0.0",
+    "urlref": "/GeoDCAT-AP/930/releases/3.0.0",
     "repositorypublic": "git@github.com:SEMICeu/Semicthema-DCAT-AP.git",
     "repository": "git@semicthema-DCAT-AP:SEMICeu/Semicthema-DCAT-AP.git",
     "branchtag": "930",
@@ -24,7 +24,7 @@
       "next" : "https://semiceu.github.io/GeoDCAT-AP/930/releases/3.0.0/"
     },
     "private" : true,
-    "dummy": 31
+    "dummy": 32
   },
   {
     "urlref": "/doc/vocabularium/930/release/3.0.0",
@@ -131,7 +131,7 @@
     "contextgenerator" : {
           "parameters" : "-c -l label"
     },
-    "dummy": 153
+    "dummy": 154
   },
   {
     "urlref": "/BRegDCAT-AP/releases/3.0.0",
