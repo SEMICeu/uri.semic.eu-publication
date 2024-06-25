@@ -122,7 +122,8 @@
     "name": "geodcat-ap",
     "filename": "config/geodcat-ap.json",
     "navigation": {
-	    "prev" : "https://github.com/SEMICeu/GeoDCAT-AP/tree/master/releases/2.0.0"
+	    "prev" : "https://semiceu.github.io/GeoDCAT-AP/releases/2.0.0/"
+	    "next" : "https://semiceu.github.io/GeoDCAT-AP/drafts/3.0.0/"
     },
     "private" : true,
     "examples": false,
