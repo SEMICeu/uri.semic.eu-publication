@@ -20,7 +20,8 @@
     "name": "930",
     "filename": "config/930.json",
     "navigation": {
-      "prev" : "https://semiceu.github.io/GeoDCAT-AP/releases/2.0.0/"
+      "prev" : "https://semiceu.github.io/GeoDCAT-AP/930/releases/2.0.0/"
+      "next" : "https://semiceu.github.io/GeoDCAT-AP/930/releases/3.0.0/"
     },
     "private" : true,
     "dummy": 31
