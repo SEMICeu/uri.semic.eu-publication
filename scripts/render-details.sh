@@ -36,9 +36,9 @@ generator_parameters() {
     #   3. otherwise empty string
     #
     COMMAND=$(echo '.'${GENERATOR}'.parameters' )
-    PARAMETERS=$(jq -r '.shaclgenerator.parameters' ${JSONI})
+    PARAMETERS=$(jq -r ${COMMAND} ${JSONI})
     if [ "${PARAMETERS}" == "null"  ]  ; then 
-        PARAMETERS=$(jq -r '.shaclgenerator.parameters '  ${CONFIGDIR}/config.json)
+        PARAMETERS=$(jq -r  ${COMMAND} ${CONFIGDIR}/config.json)
     fi 
     if [ "${PARAMETERS}" == "null"  ] || [ -z "${PARAMETERS}" ]  ; then 
         PARAMETERS=""
@@ -164,7 +164,7 @@ render_html() { # SLINE TLINE JSON
 
     echo "RENDER-DETAILS(language html): node /app/html-generator2.js -s ${TYPE} -i ${MERGEDJSONLD} -x ${RLINE}/html-nj_${LANGUAGE}.json -r /${DROOT} -t ${TEMPLATELANG} -d ${SLINE}/templates -o ${OUTPUT} -m ${LANGUAGE} -e ${RRLINE}"
 
-    if ! node /app/html-generator2.js -s ${TYPE} -i ${MERGEDJSONLD} -x ${RLINE}/html-nj_${LANGUAGE}.json -r /${DROOT} -t ${TEMPLATELANG} -d ${SLINE}/templates -o ${OUTPUT} -m ${LANGUAGE} -e ${RRLINE}; then
+    if ! node /app/html-generator2.js -h https://implementatie.data.vlaanderen.be -s ${TYPE} -i ${MERGEDJSONLD} -x ${RLINE}/html-nj_${LANGUAGE}.json -r /${DROOT} -t ${TEMPLATELANG} -d ${SLINE}/templates -o ${OUTPUT} -m ${LANGUAGE} -e ${RRLINE}; then
         echo "RENDER-DETAILS(language html): rendering failed"
 	execution_strickness
     else
@@ -282,8 +282,8 @@ render_context() { # SLINE TLINE JSON
 	
         MERGEDJSONLD=${RLINE}/translation/${LANGUAGEFILENAMEJSONLD}
 
-        echo "RENDER-DETAILS(context-language-aware): node /app/json-ld-generator2.js -d -l label -i ${MERGEDJSONLD} -o ${TLINE}/context/${OUTFILELANGUAGE} -m ${GOALLANGUAGE}"
-        if ! node /app/json-ld-generator2.js -d -l label -i ${MERGEDJSONLD} -o ${TLINE}/context/${OUTFILELANGUAGE} -m ${GOALLANGUAGE}; then
+        echo "RENDER-DETAILS(context-language-aware): node /app/json-ld-generator2.js ${PARAMETERS}  -i ${MERGEDJSONLD} -o ${TLINE}/context/${OUTFILELANGUAGE} -m ${GOALLANGUAGE}"
+        if ! node /app/json-ld-generator2.js ${PARAMETERS}  -i ${MERGEDJSONLD} -o ${TLINE}/context/${OUTFILELANGUAGE} -m ${GOALLANGUAGE}; then
             echo "RENDER-DETAILS(context-language-aware): See XXX for more details, Rendering failed"
             execution_strickness
         else
@@ -343,7 +343,7 @@ render_shacl_languageaware() {
     local PRIMELANGUAGE=${7-false}
 
 
-
+${PARAMETERS} 
     FILENAME=$(jq -r ".name" ${JSONI})
     COMMANDJSONLD=$(echo '.[].translation | .[] | select(.language | contains("'${GOALLANGUAGE}'")) | .mergefile')
     LANGUAGEFILENAMEJSONLD=$(jq -r "${COMMANDJSONLD}" ${SLINE}/.names.json)
@@ -353,9 +353,7 @@ render_shacl_languageaware() {
     else 
 
     MERGEDJSONLD=${RLINE}/translation/${LANGUAGEFILENAMEJSONLD}
-    OUTFILENAME=shacl/${FILENAME}-SHACL_${GOALLANGUAGE}.jsonld
-    OUTFILENAMETTL=shacl/${FILENAME}-SHACL.ttl
-    OUTFILE=${TLINE}/${OUTFILENAME}
+    OUTFILE=${TLINE}/shacl/${FILENAME}-SHACL_${GOALLANGUAGE}.jsonld
     OUTREPORT=${RLINE}/shacl/${FILENAME}-SHACL_${GOALLANGUAGE}.report
 
     BASENAME=$(basename ${JSONI} .jsonld)
@@ -368,11 +366,11 @@ render_shacl_languageaware() {
 
     if [ ${TYPE} == "ap" ] || [ ${TYPE} == "oj" ]; then
         DOMAIN="${HOSTNAME}/${LINE}"
-        echo "RENDER-DETAILS(shacl-languageaware): node /app/shacl-generator.js -i ${MERGEDJSONLD} ${PARAMETERS} -d ${DOMAIN}/${OUTFILENAMETTL} -p ${DOMAIN} -o ${OUTFILE} -l ${GOALLANGUAGE}"
+        echo "RENDER-DETAILS(shacl-languageaware): node /app/shacl-generator.js -i ${MERGEDJSONLD} ${PARAMETERS} -d ${DOMAIN} -p ${DOMAIN} -o ${OUTFILE} -l ${GOALLANGUAGE}"
         pushd /app
         mkdir -p ${TLINE}/shacl
         mkdir -p ${RLINE}/shacl
-        if ! node /app/shacl-generator2.js -i ${MERGEDJSONLD} ${PARAMETERS} -d ${DOMAIN}/${OUTFILENAMETTL} -p ${DOMAIN} -o ${OUTFILE} -l ${GOALLANGUAGE} 2>&1 | tee ${OUTREPORT}; then
+        if ! node /app/shacl-generator2.js -i ${MERGEDJSONLD} ${PARAMETERS} -d ${DOMAIN} -p ${DOMAIN} -o ${OUTFILE} -l ${GOALLANGUAGE} 2>&1 | tee ${OUTREPORT}; then
             echo "RENDER-DETAILS(shacl-languageaware): See ${OUTREPORT} for the details"
             execution_strickness
         else
