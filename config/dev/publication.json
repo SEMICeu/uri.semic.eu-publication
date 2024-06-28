@@ -196,6 +196,9 @@
     "navigation": {
       "prev": "https://semiceu.github.io/MLDCAT-AP/releases/1.0.0/"
     },
+    "contextgenerator" : {
+          "parameters" : "-d -l label"
+    },
     "dummy": "73"
   },
   {
