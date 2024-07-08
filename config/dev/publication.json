@@ -162,7 +162,7 @@
     "dummy": 90
   },
   {
-    "urlref": "DCAT-AP/releases/2.2.0-hvd",
+    "urlref": "/DCAT-AP/releases/2.2.0-hvd",
     "repositorypublic": "git@github.com:SEMICeu/Semicthema-DCAT-AP.git",
     "repository": "git@semicthema-DCAT-AP:SEMICeu/Semicthema-DCAT-AP.git",
     "branchtag": "recommendation-hvd-dec2023",
@@ -175,7 +175,7 @@
     "dummy": 22
   },
   {
-    "urlref": "DCAT-AP/releases/3.0.0-hvd",
+    "urlref": "/DCAT-AP/releases/3.0.0-hvd",
     "repositorypublic": "git@github.com:SEMICeu/Semicthema-DCAT-AP.git",
     "repository": "git@semicthema-DCAT-AP:SEMICeu/Semicthema-DCAT-AP.git",
     "branchtag": "HVD",
