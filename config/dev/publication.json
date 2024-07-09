@@ -24,7 +24,7 @@
       "next" : "https://semiceu.github.io/GeoDCAT-AP/930/releases/3.0.0/"
     },
     "private" : true,
-    "dummy": 37
+    "dummy": 38
   },
   {
     "urlref": "/doc/vocabularium/930/release/3.0.0",
@@ -38,7 +38,7 @@
     },
     "private" : true,
     "note": "Because the toolchain currently looks for paths starting with /doc/vocabularium to render to RDF, also this publication point is added",
-    "dummy": 31
+    "dummy": 32
   },
   {
     "urlref": "/s1n/release/3.0.0",
