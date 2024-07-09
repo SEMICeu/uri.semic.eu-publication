@@ -24,7 +24,7 @@
       "next" : "https://semiceu.github.io/GeoDCAT-AP/930/releases/3.0.0/"
     },
     "private" : true,
-    "dummy": 32
+    "dummy": 33
   },
   {
     "urlref": "/doc/vocabularium/930/release/3.0.0",
@@ -131,7 +131,7 @@
     "contextgenerator" : {
           "parameters" : "-c -l label"
     },
-    "dummy": 159
+    "dummy": 160
   },
   {
     "urlref": "/BRegDCAT-AP/releases/3.0.0",
