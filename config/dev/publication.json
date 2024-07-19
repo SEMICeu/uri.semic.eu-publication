@@ -414,8 +414,8 @@
     }
   },
   {
-    "dummy": "1",
-	  "urlref": "/CCCEV/releases/1.0.2",
+    "dummy": "2",
+	  "urlref": "/CPSV/releases/1.0.2",
     "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
     "branchtag": "ReSpecCV",
     "name": "cpsv",
