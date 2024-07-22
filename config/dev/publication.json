@@ -414,7 +414,7 @@
     }
   },
   {
-    "dummy": 8,
+    "dummy": 9,
 	  "urlref": "/CPSV/releases/1.0.2",
     "repositorypublic": "git@github.com:SEMICeu/Semicthema-DCAT-AP.git",
     "repository": "git@semicthema-DCAT-AP:SEMICeu/Semicthema-DCAT-AP.git",
