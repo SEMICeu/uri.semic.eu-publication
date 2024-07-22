@@ -414,10 +414,11 @@
     }
   },
   {
-    "dummy": "6",
+    "dummy": 7,
 	  "urlref": "/CPSV/releases/1.0.2",
-    "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
-    "branchtag": "ReSpecCV",
+    "repositorypublic": "git@github.com:SEMICeu/Semicthema-DCAT-AP.git",
+    "repository": "git@semicthema-DCAT-AP:SEMICeu/Semicthema-DCAT-AP.git",
+    "branchtag": "ADMS",
     "name": "cpsv",
     "filename": "config/cpsv.json",
     "navigation": {
