@@ -392,7 +392,18 @@
     
     }
   },
-  
+  {
+    "dummy": "1",
+      "urlref": "/OOTS/releases/0.0.1/",
+      "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
+      "branchtag": "ReSpecCV",
+      "name": "oots",
+      "filename": "config/oots.json",
+      "navigation": {
+        "prev":"https://semiceu.github.io/OOTS/releases/0.0.1/"
+      
+      }
+    }, 
 {
     "dummy": "9",
 	"urlref": "/doc/vocabularium/cccev-voc",
