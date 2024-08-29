@@ -393,11 +393,11 @@
     }
   },
   {
-    "dummy": "2",
-      "urlref": "/OOTS/releases/0.0.1/",
+    "dummy": "3",
+      "urlref": "/OOTS/ProofOfBirth/releases/0.0.1/",
       "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
       "branchtag": "ReSpecCV",
-      "name": "oots",
+      "name": "proofofbirth",
       "filename": "config/oots.json",
       "navigation": {
         "prev":"https://semiceu.github.io/OOTS/releases/0.0.1/"
