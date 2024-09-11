@@ -393,7 +393,7 @@
     }
   },
   {
-    "dummy": "12",
+    "dummy": "13",
       "urlref": "/OOTS/ProofOfBirth/releases/0.0.1/",
       "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
       "branchtag": "ReSpecCV",
@@ -405,7 +405,7 @@
       }
     }, 
     {
-      "dummy": "3",
+      "dummy": "4",
         "urlref": "/OOTS/ProofOfDomicile/releases/0.0.1/",
         "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
         "branchtag": "ReSpecCV",
