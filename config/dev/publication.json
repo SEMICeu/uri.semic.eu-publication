@@ -393,30 +393,31 @@
     }
   },
   {
-    "dummy": "14",
-      "urlref": "/OOTS/ProofOfBirth/releases/0.0.1/",
-      "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
-      "branchtag": "ReSpecCV",
+    "dummy": "15",
+    "urlref": "/OOTS/ProofOfBirth/releases/0.0.1/",
+    "repositorypublic": "git@github.com:SEMICeu/Semicthema-OOTS.git",
+    "repository": "git@semicthema-OOTS:SEMICeu/Semicthema-OOTS.git",
+	"branchtag": "main",
       "name": "proofofbirth",
       "filename": "config/oots.json",
       "navigation": {
         "prev":"https://semiceu.github.io/OOTS/releases/0.0.1/"
-      
       }
     }, 
     {
-      "dummy": "5",
-        "urlref": "/OOTS/ProofOfDomicile/releases/0.0.1/",
-        "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
-        "branchtag": "ReSpecCV",
-        "name": "proofofdomicile",
-        "filename": "config/oots.json",
-        "navigation": {
-          "prev":"https://semiceu.github.io/OOTS/releases/0.0.1/"
-        
+    "dummy": "6",
+    "urlref": "/OOTS/ProofOfDomicile/releases/0.0.1/",
+    "urlref": "/OOTS/ProofOfBirth/releases/0.0.1/",
+    "repositorypublic": "git@github.com:SEMICeu/Semicthema-OOTS.git",
+    "repository": "git@semicthema-OOTS:SEMICeu/Semicthema-OOTS.git",
+	"branchtag": "main",
+    "name": "proofofdomicile",
+    "filename": "config/oots.json",
+    "navigation": {
+          "prev":"https://semiceu.github.io/OOTS/releases/0.0.1/"    
         }
-      }, 
-{
+    }, 
+    {
     "dummy": "9",
 	"urlref": "/doc/vocabularium/cccev-voc",
     "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
