@@ -393,9 +393,8 @@
     }
   },
   {
-    "dummy": "16",
+    "dummy": "17",
     "urlref": "/OOTS/ProofOfBirth/releases/0.0.1/",
-    "repositorypublic": "git@github.com:SEMICeu/Semicthema-OOTS.git",
     "repository": "git@semicthema-OOTS:SEMICeu/Semicthema-OOTS.git",
 	"branchtag": "main",
     "name": "proofofbirth",
@@ -405,9 +404,8 @@
       }
     }, 
     {
-    "dummy": "7",
+    "dummy": "8",
     "urlref": "/OOTS/ProofOfDomicile/releases/0.0.1/",
-    "repositorypublic": "git@github.com:SEMICeu/Semicthema-OOTS.git",
     "repository": "git@semicthema-OOTS:SEMICeu/Semicthema-OOTS.git",
 	"branchtag": "main",
     "name": "proofofdomicile",
