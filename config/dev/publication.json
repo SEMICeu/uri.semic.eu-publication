@@ -393,7 +393,7 @@
     }
   },
   {
-    "dummy": "24",
+    "dummy": "25",
     "urlref": "/OOTS/ProofOfBirth/releases/0.0.1/",
     "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
     "branchtag": "oots",
@@ -404,7 +404,7 @@
       }
     }, 
     {
-    "dummy": "24",
+    "dummy": "25",
     "urlref": "/OOTS/ProofOfDomicile/releases/0.0.1/",
     "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
     "branchtag": "oots",
