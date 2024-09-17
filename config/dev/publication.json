@@ -393,8 +393,8 @@
     }
   },
   {
-    "dummy": "30",
-    "urlref": "/Evidence/OOTS/ProofOfBirth/releases/0.0.1/",
+    "dummy": "31",
+    "urlref": "/OOTS/ProofOfBirth/releases/0.0.1/",
     "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
     "branchtag": "oots",
     "name": "proofofbirth",
@@ -405,8 +405,8 @@
       }
     }, 
     {
-    "dummy": "30",
-    "urlref": "/Evidence/OOTS/ProofOfDomicile/releases/0.0.1/",
+    "dummy": "31",
+    "urlref": "/OOTS/ProofOfDomicile/releases/0.0.1/",
     "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
     "branchtag": "oots",
     "name": "proofofdomicile",
@@ -417,8 +417,8 @@
         }
     }, 
     {
-    "dummy": "30",
-    "urlref": "/Evidence/OOTS/ProofOfDisability/releases/0.0.1/",
+    "dummy": "31",
+    "urlref": "/OOTS/ProofOfDisability/releases/0.0.1/",
     "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
     "branchtag": "oots",
     "name": "proofofdisability",
@@ -446,6 +446,18 @@
     "filename": "config/cccev.json",
     "navigation": {
       "prev": "https://semiceu.github.io/CCCEV/releases/2.1.0/"
+    }
+  },
+   {
+    "dummy": 11,
+      "urlref": "/CPSV/releases/1.0.2",
+    "repositorypublic": "git@github.com:SEMICeu/Semicthema-DCAT-AP.git",
+    "repository": "git@semicthema-DCAT-AP:SEMICeu/Semicthema-DCAT-AP.git",
+    "branchtag": "ADMS",
+    "name": "cpsv",
+    "filename": "config/cpsv.json",
+    "navigation": {
+      "prev": "https://github.com/SEMICeu/CPSV/releases/tag/v1.0.1"
     }
   },
   {
