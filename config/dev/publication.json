@@ -393,8 +393,8 @@
     }
   },
   {
-    "dummy": "26",
-    "urlref": "/OOTS/ProofOfBirth/releases/0.0.1/",
+    "dummy": "27",
+    "urlref": "/Evidence/OOTS/ProofOfBirth/releases/0.0.1/",
     "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
     "branchtag": "oots",
     "name": "proofofbirth",
@@ -404,8 +404,8 @@
       }
     }, 
     {
-    "dummy": "26",
-    "urlref": "/OOTS/ProofOfDomicile/releases/0.0.1/",
+    "dummy": "27",
+    "urlref": "/Evidence/OOTS/ProofOfDomicile/releases/0.0.1/",
     "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
     "branchtag": "oots",
     "name": "proofofdomicile",
@@ -415,8 +415,8 @@
         }
     }, 
     {
-    "dummy": "26",
-    "urlref": "/OOTS/ProofOfDisability/releases/0.0.1/",
+    "dummy": "27",
+    "urlref": "/Evidence/OOTS/ProofOfDisability/releases/0.0.1/",
     "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
     "branchtag": "oots",
     "name": "proofofdomicile",
