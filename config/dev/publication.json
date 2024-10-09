@@ -491,5 +491,16 @@
     "name": "rrmv",
     "filename": "config/rrmv-voc.json",
     "navigation": {}
+  },
+  {
+    "urlref": "/LFDS/releases/0.0.1",
+    "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
+    "branchtag": "ReSpecCV",
+    "name": "lfds-ap",
+    "filename": "lfds.json",
+    "navigation": {
+      "prev": "https://semiceu.github.io/LFDS/releases/0.0.1/"
+    },
+    "dummy": "1"
   }
  ]
