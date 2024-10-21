@@ -471,7 +471,8 @@
     "filename": "config/cpsv.json",
     "navigation": {
       "prev": "https://github.com/SEMICeu/CPSV/releases/tag/v1.0.1"
-    }
+    },
+    "disabled" :  true
   },
   {
     "dummy": 1,
@@ -483,7 +484,8 @@
     "filename": "config/cpsv.json",
     "navigation": {
       "prev": "https://github.com/SEMICeu/CPSV/releases/tag/v1.0.1"
-    }
+    },
+    "disabled" :  true
   },
   {
     "dummy": "42",
