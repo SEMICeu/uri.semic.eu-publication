@@ -475,7 +475,7 @@
     "disabled" :  false
   },
   {
-    "dummy": 1,
+    "dummy": "This publication point probably stumbles on the - in name",
       "urlref": "/CPSV/releases/1.0.2",
     "repositorypublic": "git@github.com:SEMICeu/Semicthema-DCAT-AP.git",
     "repository": "git@semicthema-DCAT-AP:SEMICeu/Semicthema-DCAT-AP.git",
@@ -485,7 +485,7 @@
     "navigation": {
       "prev": "https://github.com/SEMICeu/CPSV/releases/tag/v1.0.1"
     },
-    "disabled" : false
+    "disabled" :true
   },
   {
     "dummy": "42",
