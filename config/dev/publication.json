@@ -402,7 +402,8 @@
     "navigation": {
       "prev":"https://semiceu.github.io/SRM/releases/1.0.0/"
     
-    }
+    },
+    "disabled" : true
   },
   {
     "dummy": "35",
