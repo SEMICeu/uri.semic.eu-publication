@@ -485,7 +485,7 @@
     "navigation": {
       "prev": "https://github.com/SEMICeu/CPSV/releases/tag/v1.0.1"
     },
-    "disabled" :  true
+    "disabled" : false
   },
   {
     "dummy": "42",
