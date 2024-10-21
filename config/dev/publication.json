@@ -393,6 +393,18 @@
     }
   },
   {
+	"dummy": "1",
+    "urlref": "/SRM/releases/1.0.0/",
+    "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
+    "branchtag": "ReSpecCV",
+    "name": "srm",
+    "filename": "config/srm.json",
+    "navigation": {
+      "prev":"https://semiceu.github.io/SRM/releases/1.0.0/"
+    
+    }
+  },
+  {
     "dummy": "35",
     "urlref": "/OOTS/ProofOfBirth/releases/0.0.1/",
     "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
