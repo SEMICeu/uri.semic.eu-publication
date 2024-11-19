@@ -453,6 +453,18 @@
             "self":"https://data-models-oots-tdd-8b6791fd33fcb1f29c7d6ad9c6173ba55d28c0a5f9.pages.code.europa.eu/Evidence/ProofOfCertificateSecondaryAdmission/releases/0.0.1"
           }
       },
+      {
+        "dummy": "1",
+        "urlref": "/OOTS/ProofOfCertificateTertiaryAdmission/0.0.1/",
+        "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
+        "branchtag": "oots",
+        "name": "proofofcertificatetertiaryadmission",
+        "filename": "config/oots.json",
+        "navigation": {
+              "prev":"https://data-models-oots-tdd-8b6791fd33fcb1f29c7d6ad9c6173ba55d28c0a5f9.pages.code.europa.eu/Evidence/ProofOfCertificateTertiaryAdmission/releases/0.0.1",
+              "self":"https://data-models-oots-tdd-8b6791fd33fcb1f29c7d6ad9c6173ba55d28c0a5f9.pages.code.europa.eu/Evidence/ProofOfCertificateTertiaryAdmission/releases/0.0.1"
+            }
+        },
     {
     "dummy": "9",
 	"urlref": "/doc/vocabularium/cccev-voc",
