@@ -6,7 +6,8 @@
     "branchtag": "main",
     "name": "ev-ap",
     "filename": "config/ev-ap.json",
-    "navigation": {}
+    "navigation": {},
+    "disabled" : true
   },
   {
     "dummy": "6",
