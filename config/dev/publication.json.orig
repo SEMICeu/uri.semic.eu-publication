@@ -1,0 +1,550 @@
+[
+  {
+    "urlref": "/ADMS/releases/2.00",
+    "repositorypublic": "git@github.com:SEMICeu/Semicthema-DCAT-AP.git",
+    "repository": "git@semicthema-DCAT-AP:SEMICeu/Semicthema-DCAT-AP.git",
+    "branchtag": "ADMS",
+    "name": "adms",
+    "filename": "config/adms.json",
+    "navigation": {
+    	"prev" : "https://www.w3.org/TR/vocab-adms" 
+        },
+    "private" : true,
+    "dummy": 13
+  },
+  {
+    "urlref": "/GeoDCAT-AP/930/releases/3.0.0",
+    "repositorypublic": "git@github.com:SEMICeu/Semicthema-DCAT-AP.git",
+    "repository": "git@semicthema-DCAT-AP:SEMICeu/Semicthema-DCAT-AP.git",
+    "branchtag": "930",
+    "name": "930",
+    "filename": "config/930.json",
+    "navigation": {
+      "prev" : "https://semiceu.github.io/GeoDCAT-AP/930/releases/2.0.0/",
+      "next" : "https://semiceu.github.io/GeoDCAT-AP/930/releases/3.0.0/"
+    },
+    "private" : true,
+    "dummy": 40
+  },
+  {
+    "urlref": "/doc/vocabularium/930/release/3.0.0",
+    "repositorypublic": "git@github.com:SEMICeu/Semicthema-DCAT-AP.git",
+    "repository": "git@semicthema-DCAT-AP:SEMICeu/Semicthema-DCAT-AP.git",
+    "branchtag": "930",
+    "name": "930",
+    "filename": "config/930.json",
+    "navigation": {
+      "prev" : "https://semiceu.github.io/uri.semic.eu-generated/930/release/3.0.0/"
+    },
+    "private" : true,
+    "note": "Because the toolchain currently looks for paths starting with /doc/vocabularium to render to RDF, also this publication point is added",
+    "dummy": 34
+  },
+  {
+    "urlref": "/s1n/release/3.0.0",
+    "repositorypublic": "git@github.com:SEMICeu/Semicthema-DCAT-AP.git",
+    "repository": "git@semicthema-DCAT-AP:SEMICeu/Semicthema-DCAT-AP.git",
+    "branchtag": "s1n",
+    "name": "s1n",
+    "filename": "config/s1n.json",
+    "navigation": {},
+    "private" : true,
+    "dummy":  10
+  },
+  {
+    "urlref": "/doc/vocabularium/s1n/release/3.0.0",
+    "repositorypublic": "git@github.com:SEMICeu/Semicthema-DCAT-AP.git",
+    "repository": "git@semicthema-DCAT-AP:SEMICeu/Semicthema-DCAT-AP.git",
+    "branchtag": "s1n",
+    "name": "s1n",
+    "filename": "config/s1n.json",
+    "navigation": {},
+    "private" : true,
+    "note": "Because the toolchain currently looks for paths starting with /doc/vocabularium to render to RDF, also this publication point is added",
+    "dummy": 10
+  },
+  {
+    "urlref": "DCAT-AP/r5r/releases/3.0.0",
+    "repositorypublic": "git@github.com:SEMICeu/Semicthema-DCAT-AP.git",
+    "repository": "git@semicthema-DCAT-AP:SEMICeu/Semicthema-DCAT-AP.git",
+    "branchtag": "r5r",
+    "name": "r5r",
+    "filename": "config/r5r.json",
+    "navigation": {
+	    "prev" : "https://semiceu.github.io/DCAT-AP/r5r/releases/3.0.0"
+    },
+    "private" : true,
+    "dummy": 15
+  },
+  {
+    "urlref": "/doc/vocabularium/r5r/release/3.0.0",
+    "repositorypublic": "git@github.com:SEMICeu/Semicthema-DCAT-AP.git",
+    "repository": "git@semicthema-DCAT-AP:SEMICeu/Semicthema-DCAT-AP.git",
+    "branchtag": "r5r",
+    "name": "r5r",
+    "filename": "config/r5r.json",
+    "navigation": {
+	    "prev" : "https://semiceu.github.io/DCAT-AP/r5r/release/3.0.0"
+    },
+    "private" : true,
+    "note": "Because the toolchain currently looks for paths starting with /doc/vocabularium to render to RDF, also this publication point is added",
+    "dummy": 12
+  },
+  {
+    "urlref": "/DCAT-AP/releases/2.2.0",
+    "repositorypublic": "git@github.com:SEMICeu/Semicthema-DCAT-AP.git",
+    "repository": "git@semicthema-DCAT-AP:SEMICeu/Semicthema-DCAT-AP.git",
+    "branchtag": "main",
+    "name": "dcat-ap",
+    "filename": "config/dcat-ap.json",
+    "navigation": {},
+    "private" : true,
+    "dummy": 19
+  },
+  {
+    "urlref": "/DCAT-AP/releases/3.0.0",
+    "repositorypublic": "git@github.com:SEMICeu/Semicthema-DCAT-AP.git",
+    "repository": "git@semicthema-DCAT-AP:SEMICeu/Semicthema-DCAT-AP.git",
+    "branchtag": "3.0",
+    "name": "dcat-ap",
+    "filename": "config/dcat-ap.json",
+    "navigation": {
+	    "prev" : "https://github.com/SEMICeu/DCAT-AP/tree/master/releases/2.1.1"
+    },
+    "private" : true,
+    "examples": false,
+    "dummy": 11
+  },
+  {
+    "urlref": "/GeoDCAT-AP/releases/3.0.0",
+    "repositorypublic": "git@github.com:SEMICeu/Semicthema-DCAT-AP.git",
+    "repository": "git@semicthema-DCAT-AP:SEMICeu/Semicthema-DCAT-AP.git",
+    "branchtag": "GeoDCAT-AP",
+    "name": "geodcat-ap",
+    "filename": "config/geodcat-ap.json",
+    "navigation": {
+	    "prev" : "https://semiceu.github.io/GeoDCAT-AP/releases/2.0.0/",
+	    "next" : "https://semiceu.github.io/GeoDCAT-AP/drafts/3.0.0/"
+    },
+    "private" : true,
+    "examples": false,
+    "contextgenerator" : {
+          "parameters" : "-c -l label"
+    },
+    "dummy": 184
+  },
+  {
+    "urlref": "/BRegDCAT-AP/releases/3.0.0",
+    "repositorypublic": "git@github.com:SEMICeu/Semicthema-DCAT-AP.git",
+    "repository": "git@semicthema-DCAT-AP:SEMICeu/Semicthema-DCAT-AP.git",
+    "branchtag": "BRegDCAT-AP",
+    "name": "bregdcatap",
+    "filename": "config/bregdcatap.json",
+    "navigation": {
+	    "prev" : "https://github.com/SEMICeu/BregDCAT-AP/tree/main/releases/2.1.0"
+    },
+    "private" : true,
+    "examples": false,
+    "dummy": 10
+  },
+  {
+    "urlref": "/STR-AP/releases/1.0.1",
+    "repositorypublic": "git@github.com:SEMICeu/Semicthema-DCAT-AP.git",
+    "repository": "git@semicthema-DCAT-AP:SEMICeu/Semicthema-DCAT-AP.git",
+    "branchtag": "BRegDCAT-AP",
+    "name": "strap",
+    "filename": "config/strap.json",
+     "navigation": {
+      "prev": "https://semiceu.github.io/STR-AP/releases/1.0.0/"
+    },
+    "private" : true,
+    "examples": false,
+    "dummy": 93
+  },
+  {
+    "urlref": "/DCAT-AP/releases/2.2.0-hvd",
+    "repositorypublic": "git@github.com:SEMICeu/Semicthema-DCAT-AP.git",
+    "repository": "git@semicthema-DCAT-AP:SEMICeu/Semicthema-DCAT-AP.git",
+    "branchtag": "recommendation-hvd-dec2023",
+    "name": "hvd",
+    "filename": "config/hvd.json",
+    "navigation": {
+        "next": "https://semiceu.github.io/DCAT-AP/releases/3.0.0-hvd"
+    },
+    "private" : true,
+    "dummy": 22
+  },
+  {
+    "urlref": "/DCAT-AP/releases/3.0.0-hvd",
+    "repositorypublic": "git@github.com:SEMICeu/Semicthema-DCAT-AP.git",
+    "repository": "git@semicthema-DCAT-AP:SEMICeu/Semicthema-DCAT-AP.git",
+    "branchtag": "HVD",
+    "name": "hvd",
+    "filename": "config/hvd.json",
+    "navigation": {
+        "prev": "https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd"
+    },
+    "private" : true,
+    "dummy": 78
+  },
+  {
+    "urlref": "/MLDCAT-AP/releases/2.0.0",
+    "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
+    "branchtag": "ReSpecCV",
+    "name": "mldcat-ap",
+    "filename": "config/mldcat-ap.json",
+    "navigation": {
+      "prev": "https://semiceu.github.io/MLDCAT-AP/releases/1.0.0/"
+    },
+    "contextgenerator" : {
+          "parameters" : "-d -l label"
+    },
+    "dummy": "76"
+  },
+  {
+    "urlref": "/respec/core-location",
+    "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
+    "branchtag": "feature-respec",
+    "name": "core-location",
+    "filename": "config/core-location-voc.json",
+    "navigation": {},
+    "dummy": "4"
+  },
+  {
+    "urlref": "/respec/core-vocabularies",
+    "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
+    "branchtag": "feature-respec",
+    "name": "core-vocabularies",
+    "filename": "config/core-vocabularies.json",
+    "navigation": {},
+    "dummy": "3"
+  },
+
+  {
+    "urlref": "/Core-Location-Vocabulary/releases/2.1.0",
+    "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
+    "branchtag": "ReSpecCV",
+    "name": "core-location-ap",
+    "filename": "config/core-location.json",
+    "navigation": {
+		  "prev": "https://semiceu.github.io/Core-Location-Vocabulary/releases/2.1.0"
+	  },
+    "dummy": "107"
+  },
+  {
+    "urlref": "/doc/vocabularium/core-location",
+    "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
+    "branchtag": "ReSpecCV",
+    "name": "core-location",
+    "filename": "config/core-location-voc.json",
+    "navigation": {},
+    "dummy": "27"
+  },
+  {
+    "urlref": "/Core-Business-Vocabulary/releases/2.2.0",
+    "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
+    "branchtag": "ReSpecCV",
+    "name": "core-business-ap",
+    "filename": "config/core-business.json",
+    "navigation": {
+      "prev": "https://semiceu.github.io/Core-Business-Vocabulary/releases2.2.0/"
+    },
+    "dummy": "45"
+  },
+  {
+    "dummy": "17",
+    "urlref": "/doc/vocabularium/core-business",
+    "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
+    "branchtag": "ReSpecCV",
+    "name": "core-business",
+    "filename": "config/core-business-voc.json",
+    "navigation": {}
+  },
+  {
+	"dummy": "47",
+    "urlref": "/Core-Person-Vocabulary/releases/2.1.1/",
+    "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
+    "branchtag": "ReSpecCV",
+    "name": "core-person-ap",
+    "filename": "config/core-person.json",
+    "navigation": {
+      "prev": "https://semiceu.github.io/Core-Person-Vocabulary/releases/2.1.1/"
+
+    }
+  },
+  {
+	"dummy": "22",
+    "urlref": "/doc/vocabularium/core-person",
+    "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
+    "branchtag": "ReSpecCV",
+    "name": "core-person-voc",
+    "filename": "config/core-person.json",
+    "navigation": {}
+  },
+  {
+	  "urlref": "/CPOV/releases/2.1.1",
+    "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
+    "branchtag": "ReSpecCV",
+    "name": "core-public-organisation-ap",
+    "filename": "config/core-public-organisation.json",
+    "navigation": {
+      "prev": "https://semiceu.github.io/CPOV/releases/2.1.1/"
+    },
+    "dummy": "64"
+  },
+  {
+	"dummy": "10",
+    "urlref": "/doc/vocabularium/core-public-organisation",
+    "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
+    "branchtag": "ReSpecCV",
+    "name": "core-public-organisation",
+    "filename": "config/core-public-organisation-voc.json",
+    "navigation": {}
+  },
+  {
+    "dummy": "30",
+    "urlref": "/Core-Public-Event-Vocabulary/releases/1.1.0/",
+    "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
+    "branchtag": "ReSpecCV",
+    "name": "core-public-event-ap",
+    "filename": "config/core-public-event.json",
+    "navigation": {
+      "prev": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/"
+    }
+  },
+
+
+  {
+	"dummy": "9",
+    "urlref": "/doc/vocabularium/cpev",
+    "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
+    "branchtag": "ReSpecCV",
+    "name": "core-public-event",
+    "filename": "config/core-public-event-voc.json",
+    "navigation": {}
+  },
+  {
+    "dummy": "1",
+    "urlref": "/doc/application-profile/af-ap",
+    "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
+    "branchtag": "main",
+    "name": "af-ap",
+    "filename": "config/af-ap.json",
+    "navigation": {}
+  },
+  {
+	"dummy": "2",
+    "urlref": "/doc/core-vocabulary/core-vocabularies",
+    "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
+    "branchtag": "main",
+    "name": "core-vocabularies",
+    "filename": "config/core-vocabularies.json",
+    "navigation": {}
+  },
+  {
+	"dummy": "18",
+    "urlref": "/Consolidated-Core-Vocabularies/releases/2.2.0/",
+    "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
+    "branchtag": "m8g",
+    "name": "core-vocabularies",
+    "filename": "config/core-vocabularies.json",
+    "navigation": {
+      "prev": "https://semiceu.github.io/Consolidated-Core-Vocabularies/releases/2.2.0/"
+    }
+  },
+  {
+	"dummy": "15",
+	"note": "dummy path to trick the toolchain to also transform to RDF",
+    "urlref": "/doc/vocabularium/m8g/release/3.0.0",
+    "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
+    "branchtag": "m8g",
+    "name": "core-vocabularies",
+    "filename": "config/core-vocabularies.json",
+    "navigation": {}
+  },
+  {
+    "dummy": "6",
+    "urlref": "/doc/application-profile/ev-ap",
+    "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
+    "branchtag": "main",
+    "name": "ev-ap",
+    "filename": "config/ev-ap.json",
+    "navigation": {}
+  },
+  {
+    "dummy": "6",
+    "urlref": "/doc/vocabularium/ev-ap",
+    "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
+    "branchtag": "main",
+    "name": "ev-ap",
+    "filename": "config/ev-ap-voc.json",
+    "navigation": {}
+  },
+  {
+	"dummy": "73",
+    "urlref": "/CPSV-AP/releases/3.2.0/",
+    "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
+    "branchtag": "ReSpecCV",
+    "name": "cpsv-ap",
+    "filename": "config/cpsv-ap.json",
+    "navigation": {
+      "prev":"https://semiceu.github.io/CPSV-AP/releases/3.2.0/"
+    
+    }
+  },
+  {
+	"dummy": "5",
+    "urlref": "/SRM/releases/1.0.0/",
+    "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
+    "branchtag": "ReSpecCV",
+    "name": "srm",
+    "filename": "config/srm.json",
+    "navigation": {
+      "prev":"https://semiceu.github.io/SRM/releases/1.0.0/"
+    
+    },
+    "disabled" : false
+  },
+  {
+    "dummy": "35",
+    "urlref": "/OOTS/ProofOfBirth/releases/0.0.1/",
+    "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
+    "branchtag": "oots",
+    "name": "proofofbirth",
+    "filename": "config/oots.json",
+    "navigation": {
+        "prev":"https://data-models-oots-tdd-8b6791fd33fcb1f29c7d6ad9c6173ba55d28c0a5f9.pages.code.europa.eu/Evidence/ProofOfBirth/releases/0.0.1/",
+		"self":"https://data-models-oots-tdd-8b6791fd33fcb1f29c7d6ad9c6173ba55d28c0a5f9.pages.code.europa.eu/Evidence/ProofOfBirth/releases/0.0.1/"
+      },
+      "disabled" : true
+    }, 
+    {
+    "dummy": "35",
+    "urlref": "/OOTS/ProofOfDomicile/releases/0.0.1/",
+    "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
+    "branchtag": "oots",
+    "name": "proofofdomicile",
+    "filename": "config/oots.json",
+    "navigation": {
+          "prev":"https://data-models-oots-tdd-8b6791fd33fcb1f29c7d6ad9c6173ba55d28c0a5f9.pages.code.europa.eu/Evidence/ProofOfDomicile/releases/0.0.1/",
+          "self":"https://data-models-oots-tdd-8b6791fd33fcb1f29c7d6ad9c6173ba55d28c0a5f9.pages.code.europa.eu/Evidence/ProofOfDomicile/releases/0.0.1/"
+        },
+      "disabled" : true
+    }, 
+    {
+    "dummy": "35",
+    "urlref": "/OOTS/ProofOfDisability/releases/0.0.1/",
+    "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
+    "branchtag": "oots",
+    "name": "proofofdisability",
+    "filename": "config/oots.json",
+    "navigation": {
+          "prev":"https://data-models-oots-tdd-8b6791fd33fcb1f29c7d6ad9c6173ba55d28c0a5f9.pages.code.europa.eu/Evidence/ProofOfDisability/releases/0.0.1",
+          "self":"https://data-models-oots-tdd-8b6791fd33fcb1f29c7d6ad9c6173ba55d28c0a5f9.pages.code.europa.eu/Evidence/ProofOfDisability/releases/0.0.1"
+        },
+      "disabled" : true
+    },
+    {
+      "dummy": "3",
+      "urlref": "/OOTS/ProofOfCertificateSecondaryAdmission/0.0.1/",
+      "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
+      "branchtag": "oots",
+      "name": "proofofcertificatesecondaryadmission",
+      "filename": "config/oots.json",
+      "navigation": {
+            "prev":"https://data-models-oots-tdd-8b6791fd33fcb1f29c7d6ad9c6173ba55d28c0a5f9.pages.code.europa.eu/Evidence/ProofOfCertificateSecondaryAdmission/releases/0.0.1",
+            "self":"https://data-models-oots-tdd-8b6791fd33fcb1f29c7d6ad9c6173ba55d28c0a5f9.pages.code.europa.eu/Evidence/ProofOfCertificateSecondaryAdmission/releases/0.0.1"
+          },
+      "disabled" : true
+      },
+      {
+        "dummy": "1",
+        "urlref": "/OOTS/ProofOfCertificateTertiaryAdmission/0.0.1/",
+        "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
+        "branchtag": "oots",
+        "name": "proofofcertificatetertiaryadmission",
+        "filename": "config/oots.json",
+        "navigation": {
+              "prev":"https://data-models-oots-tdd-8b6791fd33fcb1f29c7d6ad9c6173ba55d28c0a5f9.pages.code.europa.eu/Evidence/ProofOfCertificateTertiaryAdmission/releases/0.0.1",
+              "self":"https://data-models-oots-tdd-8b6791fd33fcb1f29c7d6ad9c6173ba55d28c0a5f9.pages.code.europa.eu/Evidence/ProofOfCertificateTertiaryAdmission/releases/0.0.1"
+            },
+      "disabled" : true
+        },
+    {
+    "dummy": "9",
+	"urlref": "/doc/vocabularium/cccev-voc",
+    "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
+    "branchtag": "ReSpecCV",
+    "name": "cccev",
+    "filename": "config/cccev.json",
+    "navigation": {}
+  },
+  {
+    "dummy": "31",
+	  "urlref": "/CCCEV/releases/2.1.0",
+    "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
+    "branchtag": "ReSpecCV",
+    "name": "cccev-ap",
+    "filename": "config/cccev.json",
+    "navigation": {
+      "prev": "https://semiceu.github.io/CCCEV/releases/2.1.0/"
+    }
+  },
+   {
+    "dummy": 11,
+      "urlref": "/CPSV/releases/1.0.2",
+    "repositorypublic": "git@github.com:SEMICeu/Semicthema-DCAT-AP.git",
+    "repository": "git@semicthema-DCAT-AP:SEMICeu/Semicthema-DCAT-AP.git",
+    "branchtag": "ADMS",
+    "name": "cpsv",
+    "filename": "config/cpsv.json",
+    "navigation": {
+      "prev": "https://github.com/SEMICeu/CPSV/releases/tag/v1.0.1"
+    },
+    "disabled" :  false
+  },
+  {
+    "dummy": "This publication point probably stumbles on the - in name",
+      "urlref": "/CPSV/releases/1.0.2",
+    "repositorypublic": "git@github.com:SEMICeu/Semicthema-DCAT-AP.git",
+    "repository": "git@semicthema-DCAT-AP:SEMICeu/Semicthema-DCAT-AP.git",
+    "branchtag": "ADMS",
+    "name": "cpsv-application",
+    "filename": "config/cpsv.json",
+    "navigation": {
+      "prev": "https://github.com/SEMICeu/CPSV/releases/tag/v1.0.1"
+    },
+    "disabled" :true
+  },
+  {
+    "dummy": "42",
+    "urlref": "/rrmv/releases/0.0.2",
+    "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
+    "branchtag": "rrmv",
+    "name": "rrmv",
+    "filename": "config/rrmv.json",
+    "navigation": {
+      "prev": "https://semiceu.github.io/rrmv/releases/0.0.1/"
+    }
+  },
+  {
+    "dummy": "10",
+    "urlref": "/doc/vocabularium/rrmv",
+    "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
+    "branchtag": "rrmv",
+    "name": "rrmv",
+    "filename": "config/rrmv-voc.json",
+    "navigation": {}
+  },
+  {
+    "urlref": "/LFDS/releases/0.0.1",
+    "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
+    "branchtag": "ReSpecCV",
+    "name": "lfds-ap",
+    "filename": "config/lfds.json",
+    "navigation": {
+      "prev": "https://semiceu.github.io/LFDS/releases/0.0.1/"
+    },
+    "dummy": "5"
+  }
+ ]

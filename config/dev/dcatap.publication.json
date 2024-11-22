@@ -1,0 +1,204 @@
+[
+  {
+    "urlref": "/ADMS/releases/2.00",
+    "repositorypublic": "git@github.com:SEMICeu/Semicthema-DCAT-AP.git",
+    "repository": "git@semicthema-DCAT-AP:SEMICeu/Semicthema-DCAT-AP.git",
+    "branchtag": "ADMS",
+    "name": "adms",
+    "filename": "config/adms.json",
+    "navigation": {
+      "prev": "https://www.w3.org/TR/vocab-adms"
+    },
+    "private": true,
+    "dummy": 13
+  },
+  {
+    "urlref": "/GeoDCAT-AP/930/releases/3.0.0",
+    "repositorypublic": "git@github.com:SEMICeu/Semicthema-DCAT-AP.git",
+    "repository": "git@semicthema-DCAT-AP:SEMICeu/Semicthema-DCAT-AP.git",
+    "branchtag": "930",
+    "name": "930",
+    "filename": "config/930.json",
+    "navigation": {
+      "prev": "https://semiceu.github.io/GeoDCAT-AP/930/releases/2.0.0/",
+      "next": "https://semiceu.github.io/GeoDCAT-AP/930/releases/3.0.0/"
+    },
+    "private": true,
+    "dummy": 40
+  },
+  {
+    "urlref": "/doc/vocabularium/930/release/3.0.0",
+    "repositorypublic": "git@github.com:SEMICeu/Semicthema-DCAT-AP.git",
+    "repository": "git@semicthema-DCAT-AP:SEMICeu/Semicthema-DCAT-AP.git",
+    "branchtag": "930",
+    "name": "930",
+    "filename": "config/930.json",
+    "navigation": {
+      "prev": "https://semiceu.github.io/uri.semic.eu-generated/930/release/3.0.0/"
+    },
+    "private": true,
+    "note": "Because the toolchain currently looks for paths starting with /doc/vocabularium to render to RDF, also this publication point is added",
+    "dummy": 34
+  },
+  {
+    "urlref": "/s1n/release/3.0.0",
+    "repositorypublic": "git@github.com:SEMICeu/Semicthema-DCAT-AP.git",
+    "repository": "git@semicthema-DCAT-AP:SEMICeu/Semicthema-DCAT-AP.git",
+    "branchtag": "s1n",
+    "name": "s1n",
+    "filename": "config/s1n.json",
+    "navigation": {},
+    "private": true,
+    "dummy": 10
+  },
+  {
+    "urlref": "/doc/vocabularium/s1n/release/3.0.0",
+    "repositorypublic": "git@github.com:SEMICeu/Semicthema-DCAT-AP.git",
+    "repository": "git@semicthema-DCAT-AP:SEMICeu/Semicthema-DCAT-AP.git",
+    "branchtag": "s1n",
+    "name": "s1n",
+    "filename": "config/s1n.json",
+    "navigation": {},
+    "private": true,
+    "note": "Because the toolchain currently looks for paths starting with /doc/vocabularium to render to RDF, also this publication point is added",
+    "dummy": 10
+  },
+  {
+    "urlref": "DCAT-AP/r5r/releases/3.0.0",
+    "repositorypublic": "git@github.com:SEMICeu/Semicthema-DCAT-AP.git",
+    "repository": "git@semicthema-DCAT-AP:SEMICeu/Semicthema-DCAT-AP.git",
+    "branchtag": "r5r",
+    "name": "r5r",
+    "filename": "config/r5r.json",
+    "navigation": {
+      "prev": "https://semiceu.github.io/DCAT-AP/r5r/releases/3.0.0"
+    },
+    "private": true,
+    "dummy": 15
+  },
+  {
+    "urlref": "/doc/vocabularium/r5r/release/3.0.0",
+    "repositorypublic": "git@github.com:SEMICeu/Semicthema-DCAT-AP.git",
+    "repository": "git@semicthema-DCAT-AP:SEMICeu/Semicthema-DCAT-AP.git",
+    "branchtag": "r5r",
+    "name": "r5r",
+    "filename": "config/r5r.json",
+    "navigation": {
+      "prev": "https://semiceu.github.io/DCAT-AP/r5r/release/3.0.0"
+    },
+    "private": true,
+    "note": "Because the toolchain currently looks for paths starting with /doc/vocabularium to render to RDF, also this publication point is added",
+    "dummy": 12
+  },
+  {
+    "urlref": "/DCAT-AP/releases/2.2.0",
+    "repositorypublic": "git@github.com:SEMICeu/Semicthema-DCAT-AP.git",
+    "repository": "git@semicthema-DCAT-AP:SEMICeu/Semicthema-DCAT-AP.git",
+    "branchtag": "main",
+    "name": "dcat-ap",
+    "filename": "config/dcat-ap.json",
+    "navigation": {},
+    "private": true,
+    "dummy": 19
+  },
+  {
+    "urlref": "/DCAT-AP/releases/3.0.0",
+    "repositorypublic": "git@github.com:SEMICeu/Semicthema-DCAT-AP.git",
+    "repository": "git@semicthema-DCAT-AP:SEMICeu/Semicthema-DCAT-AP.git",
+    "branchtag": "3.0",
+    "name": "dcat-ap",
+    "filename": "config/dcat-ap.json",
+    "navigation": {
+      "prev": "https://github.com/SEMICeu/DCAT-AP/tree/master/releases/2.1.1"
+    },
+    "private": true,
+    "examples": false,
+    "dummy": 11
+  },
+  {
+    "urlref": "/GeoDCAT-AP/releases/3.0.0",
+    "repositorypublic": "git@github.com:SEMICeu/Semicthema-DCAT-AP.git",
+    "repository": "git@semicthema-DCAT-AP:SEMICeu/Semicthema-DCAT-AP.git",
+    "branchtag": "GeoDCAT-AP",
+    "name": "geodcat-ap",
+    "filename": "config/geodcat-ap.json",
+    "navigation": {
+      "prev": "https://semiceu.github.io/GeoDCAT-AP/releases/2.0.0/",
+      "next": "https://semiceu.github.io/GeoDCAT-AP/drafts/3.0.0/"
+    },
+    "private": true,
+    "examples": false,
+    "contextgenerator": {
+      "parameters": "-c -l label"
+    },
+    "dummy": 184
+  },
+  {
+    "urlref": "/BRegDCAT-AP/releases/3.0.0",
+    "repositorypublic": "git@github.com:SEMICeu/Semicthema-DCAT-AP.git",
+    "repository": "git@semicthema-DCAT-AP:SEMICeu/Semicthema-DCAT-AP.git",
+    "branchtag": "BRegDCAT-AP",
+    "name": "bregdcatap",
+    "filename": "config/bregdcatap.json",
+    "navigation": {
+      "prev": "https://github.com/SEMICeu/BregDCAT-AP/tree/main/releases/2.1.0"
+    },
+    "private": true,
+    "examples": false,
+    "dummy": 10
+  },
+  {
+    "urlref": "/STR-AP/releases/1.0.1",
+    "repositorypublic": "git@github.com:SEMICeu/Semicthema-DCAT-AP.git",
+    "repository": "git@semicthema-DCAT-AP:SEMICeu/Semicthema-DCAT-AP.git",
+    "branchtag": "BRegDCAT-AP",
+    "name": "strap",
+    "filename": "config/strap.json",
+    "navigation": {
+      "prev": "https://semiceu.github.io/STR-AP/releases/1.0.0/"
+    },
+    "private": true,
+    "examples": false,
+    "dummy": 93
+  },
+  {
+    "urlref": "/DCAT-AP/releases/2.2.0-hvd",
+    "repositorypublic": "git@github.com:SEMICeu/Semicthema-DCAT-AP.git",
+    "repository": "git@semicthema-DCAT-AP:SEMICeu/Semicthema-DCAT-AP.git",
+    "branchtag": "recommendation-hvd-dec2023",
+    "name": "hvd",
+    "filename": "config/hvd.json",
+    "navigation": {
+      "next": "https://semiceu.github.io/DCAT-AP/releases/3.0.0-hvd"
+    },
+    "private": true,
+    "dummy": 22
+  },
+  {
+    "urlref": "/DCAT-AP/releases/3.0.0-hvd",
+    "repositorypublic": "git@github.com:SEMICeu/Semicthema-DCAT-AP.git",
+    "repository": "git@semicthema-DCAT-AP:SEMICeu/Semicthema-DCAT-AP.git",
+    "branchtag": "HVD",
+    "name": "hvd",
+    "filename": "config/hvd.json",
+    "navigation": {
+      "prev": "https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd"
+    },
+    "private": true,
+    "dummy": 78
+  },
+  {
+    "urlref": "/MLDCAT-AP/releases/2.0.0",
+    "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
+    "branchtag": "ReSpecCV",
+    "name": "mldcat-ap",
+    "filename": "config/mldcat-ap.json",
+    "navigation": {
+      "prev": "https://semiceu.github.io/MLDCAT-AP/releases/1.0.0/"
+    },
+    "contextgenerator": {
+      "parameters": "-d -l label"
+    },
+    "dummy": "76"
+  }
+]
