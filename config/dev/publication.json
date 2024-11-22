@@ -16,7 +16,8 @@
     "branchtag": "main",
     "name": "ev-ap",
     "filename": "config/ev-ap-voc.json",
-    "navigation": {}
+    "navigation": {},
+    "disabled" : true
   },
   {
 	"dummy": "73",
