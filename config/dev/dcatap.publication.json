@@ -185,7 +185,7 @@
       "prev": "https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd"
     },
     "private": true,
-    "dummy": 78
+    "dummy": 79
   },
   {
     "urlref": "/MLDCAT-AP/releases/2.0.0",
@@ -199,6 +199,6 @@
     "contextgenerator": {
       "parameters": "-d -l label"
     },
-    "dummy": "77"
+    "dummy": "78"
   }
 ]
