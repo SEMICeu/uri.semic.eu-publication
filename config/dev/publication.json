@@ -441,7 +441,8 @@
     "navigation": {
           "prev":"https://data-models-oots-tdd-8b6791fd33fcb1f29c7d6ad9c6173ba55d28c0a5f9.pages.code.europa.eu/Evidence/ProofOfDisability/releases/0.0.1",
           "self":"https://data-models-oots-tdd-8b6791fd33fcb1f29c7d6ad9c6173ba55d28c0a5f9.pages.code.europa.eu/Evidence/ProofOfDisability/releases/0.0.1"
-        }
+        },
+      "disabled" : true
     },
     {
       "dummy": "3",
@@ -453,7 +454,8 @@
       "navigation": {
             "prev":"https://data-models-oots-tdd-8b6791fd33fcb1f29c7d6ad9c6173ba55d28c0a5f9.pages.code.europa.eu/Evidence/ProofOfCertificateSecondaryAdmission/releases/0.0.1",
             "self":"https://data-models-oots-tdd-8b6791fd33fcb1f29c7d6ad9c6173ba55d28c0a5f9.pages.code.europa.eu/Evidence/ProofOfCertificateSecondaryAdmission/releases/0.0.1"
-          }
+          },
+      "disabled" : true
       },
       {
         "dummy": "1",
@@ -465,7 +467,8 @@
         "navigation": {
               "prev":"https://data-models-oots-tdd-8b6791fd33fcb1f29c7d6ad9c6173ba55d28c0a5f9.pages.code.europa.eu/Evidence/ProofOfCertificateTertiaryAdmission/releases/0.0.1",
               "self":"https://data-models-oots-tdd-8b6791fd33fcb1f29c7d6ad9c6173ba55d28c0a5f9.pages.code.europa.eu/Evidence/ProofOfCertificateTertiaryAdmission/releases/0.0.1"
-            }
+            },
+      "disabled" : true
         },
     {
     "dummy": "9",
