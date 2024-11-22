@@ -183,7 +183,8 @@
     "filename": "config/cpsv-ap.json",
     "navigation": {
       "prev": "https://semiceu.github.io/CPSV-AP/releases/3.2.0/"
-    }
+    },
+    "disabled" : true
   },
   {
     "dummy": "5",
