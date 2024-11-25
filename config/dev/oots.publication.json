@@ -1,6 +1,6 @@
 [
   {
-    "dummy": "35",
+    "dummy": "36",
     "urlref": "/OOTS/ProofOfBirth/releases/0.0.1/",
     "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
     "branchtag": "oots",
@@ -10,10 +10,10 @@
       "prev": "https://data-models-oots-tdd-8b6791fd33fcb1f29c7d6ad9c6173ba55d28c0a5f9.pages.code.europa.eu/Evidence/ProofOfBirth/releases/0.0.1/",
       "self": "https://data-models-oots-tdd-8b6791fd33fcb1f29c7d6ad9c6173ba55d28c0a5f9.pages.code.europa.eu/Evidence/ProofOfBirth/releases/0.0.1/"
     },
-    "disabled": true
+    "disabled": false
   },
   {
-    "dummy": "35",
+    "dummy": "36",
     "urlref": "/OOTS/ProofOfDomicile/releases/0.0.1/",
     "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
     "branchtag": "oots",
@@ -23,10 +23,10 @@
       "prev": "https://data-models-oots-tdd-8b6791fd33fcb1f29c7d6ad9c6173ba55d28c0a5f9.pages.code.europa.eu/Evidence/ProofOfDomicile/releases/0.0.1/",
       "self": "https://data-models-oots-tdd-8b6791fd33fcb1f29c7d6ad9c6173ba55d28c0a5f9.pages.code.europa.eu/Evidence/ProofOfDomicile/releases/0.0.1/"
     },
-    "disabled": true
+    "disabled": false
   },
   {
-    "dummy": "35",
+    "dummy": "36",
     "urlref": "/OOTS/ProofOfDisability/releases/0.0.1/",
     "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
     "branchtag": "oots",
@@ -36,7 +36,7 @@
       "prev": "https://data-models-oots-tdd-8b6791fd33fcb1f29c7d6ad9c6173ba55d28c0a5f9.pages.code.europa.eu/Evidence/ProofOfDisability/releases/0.0.1",
       "self": "https://data-models-oots-tdd-8b6791fd33fcb1f29c7d6ad9c6173ba55d28c0a5f9.pages.code.europa.eu/Evidence/ProofOfDisability/releases/0.0.1"
     },
-    "disabled": true
+    "disabled": false
   },
   {
     "dummy": "3",
@@ -49,7 +49,7 @@
       "prev": "https://data-models-oots-tdd-8b6791fd33fcb1f29c7d6ad9c6173ba55d28c0a5f9.pages.code.europa.eu/Evidence/ProofOfCertificateSecondaryAdmission/releases/0.0.1",
       "self": "https://data-models-oots-tdd-8b6791fd33fcb1f29c7d6ad9c6173ba55d28c0a5f9.pages.code.europa.eu/Evidence/ProofOfCertificateSecondaryAdmission/releases/0.0.1"
     },
-    "disabled": true
+    "disabled": false
   },
   {
     "dummy": "1",
