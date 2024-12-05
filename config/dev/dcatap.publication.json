@@ -188,17 +188,17 @@
     "dummy": 79
   },
   {
-    "urlref": "/MLDCAT-AP/releases/2.0.0",
+    "urlref": "/MLDCAT-AP/releases/2.1.0",
     "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
     "branchtag": "ReSpecCV",
     "name": "mldcat-ap",
     "filename": "config/mldcat-ap.json",
     "navigation": {
-      "prev": "https://semiceu.github.io/MLDCAT-AP/releases/1.0.0/"
+      "prev": "https://semiceu.github.io/MLDCAT-AP/releases/2.0.0/"
     },
     "contextgenerator": {
       "parameters": "-d -l label"
     },
-    "dummy": "78"
+    "dummy": "79"
   }
 ]
