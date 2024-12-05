@@ -40,7 +40,7 @@
   },
   {
     "dummy": "3",
-    "urlref": "/OOTS/ProofOfCertificateSecondaryAdmission/0.0.1/",
+    "urlref": "/OOTS/ProofOfCertificateSecondaryAdmission/releases/0.0.1/",
     "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
     "branchtag": "oots",
     "name": "proofofcertificatesecondaryadmission",
@@ -53,7 +53,7 @@
   },
   {
     "dummy": "1",
-    "urlref": "/OOTS/ProofOfCertificateTertiaryAdmission/0.0.1/",
+    "urlref": "/OOTS/ProofOfCertificateTertiaryAdmission/releases/0.0.1/",
     "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
     "branchtag": "oots",
     "name": "proofofcertificatetertiaryadmission",
@@ -65,8 +65,8 @@
     "disabled": true
   },
   {
-    "dummy": "3",
-    "urlref": "/OOTS/ProofOfCitizenship/0.0.1/",
+    "dummy": "4",
+    "urlref": "/OOTS/ProofOfCitizenship/releases/0.0.1/",
     "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
     "branchtag": "oots",
     "name": "proofofcitizenship",
