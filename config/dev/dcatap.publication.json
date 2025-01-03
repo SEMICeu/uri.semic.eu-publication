@@ -113,7 +113,7 @@
     },
     "private": true,
     "examples": false,
-    "dummy": 11
+    "dummy": 12
   },
   {
     "urlref": "/GeoDCAT-AP/releases/3.0.0",
@@ -199,6 +199,6 @@
     "contextgenerator": {
       "parameters": "-d -l label"
     },
-    "dummy": "82"
+    "dummy": "83"
   }
 ]
