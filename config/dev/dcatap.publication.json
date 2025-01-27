@@ -127,6 +127,9 @@
     },
     "private": true,
     "examples": false,
+    "contextgenerator": {
+      "parameters": "-c -l label"
+    },
     "dummy": 13
   },
   {
