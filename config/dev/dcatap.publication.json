@@ -116,6 +116,23 @@
     "dummy": 12
   },
   {
+    "urlref": "/DCAT-AP/releases/3.0.1-draft",
+    "repositorypublic": "git@github.com:SEMICeu/Semicthema-DCAT-AP.git",
+    "repository": "git@semicthema-DCAT-AP:SEMICeu/Semicthema-DCAT-AP.git",
+    "branchtag": "3.0",
+    "name": "dcat-ap",
+    "filename": "config/dcat-ap.json",
+    "navigation": {
+      "prev": "https://github.com/SEMICeu/DCAT-AP/tree/master/releases/3.0.0"
+    },
+    "private": true,
+    "examples": false,
+    "contextgenerator": {
+      "parameters": "-c -l label"
+    },
+    "dummy": 15
+  },
+  {
     "urlref": "/GeoDCAT-AP/releases/3.0.0",
     "repositorypublic": "git@github.com:SEMICeu/Semicthema-DCAT-AP.git",
     "repository": "git@semicthema-DCAT-AP:SEMICeu/Semicthema-DCAT-AP.git",
