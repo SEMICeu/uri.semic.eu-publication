@@ -32,7 +32,7 @@
     }
   },
   {
-	"dummy": "8",
+	"dummy": "10",
     "urlref": "/SRM/releases/1.0.0/",
     "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
     "branchtag": "ReSpecCV",
@@ -41,8 +41,7 @@
     "navigation": {
       "prev":"https://semiceu.github.io/SRM/releases/1.0.0/"
     
-    },
-    "disabled" : true
+    }
   },
   {
     "dummy": "76",
