@@ -109,7 +109,8 @@
     "name": "dcat-ap",
     "filename": "config/dcat-ap.json",
     "navigation": {
-      "prev": "https://github.com/SEMICeu/DCAT-AP/tree/master/releases/2.1.1"
+      "prev": "https://github.com/SEMICeu/DCAT-AP/tree/master/releases/2.1.1",
+      "next": "https://semiceu.github.io/DCAT-AP/releases/3.0.1-draft/"
     },
     "private": true,
     "examples": false,
@@ -123,7 +124,7 @@
     "name": "dcat-ap",
     "filename": "config/dcat-ap.json",
     "navigation": {
-      "prev": "https://github.com/SEMICeu/DCAT-AP/tree/master/releases/3.0.0"
+      "prev": "https://semiceu.github.io/DCAT-AP/releases/3.0.0/"
     },
     "private": true,
     "examples": false,
