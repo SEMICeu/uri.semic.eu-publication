@@ -131,7 +131,7 @@
     "contextgenerator": {
       "parameters": "-c -l label"
     },
-    "dummy": 22
+    "dummy": 23
   },
   {
     "urlref": "/GeoDCAT-AP/releases/3.0.0",
