@@ -108,5 +108,17 @@
       "prev": "https://semiceu.github.io/LFDS/releases/0.0.1/"
     },
     "dummy": "5"
+  },
+  {
+	"dummy": "1",
+    "urlref": "/IOPA/releases/0.0.1/",
+    "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
+    "branchtag": "ReSpecCV",
+    "name": "iopa",
+    "filename": "config/iopa.json",
+    "navigation": {
+      "prev":"https://semiceu.github.io/IOPA/releases/1.0.0/"
+    
+    }
   }
 ]
