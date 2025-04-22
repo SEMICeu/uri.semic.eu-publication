@@ -20,7 +20,7 @@
     "disabled" : true
   },
   {
-	"dummy": "79",
+	"dummy": "80",
     "urlref": "/CPSV-AP/releases/3.2.0/",
     "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
     "branchtag": "ReSpecCV",
