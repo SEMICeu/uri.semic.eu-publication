@@ -243,5 +243,16 @@
       "prev": "https://github.com/SEMICeu/CPSV/releases/tag/v1.0.1"
     },
     "disabled": true
-  }
+  },
+  {
+    "urlref": "/LFDS/releases/0.1.0",
+    "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
+    "branchtag": "ReSpecCV",
+    "name": "lfds",
+    "filename": "config/lfds.json",
+    "navigation": {
+      "prev": "https://semiceu.github.io/LFDS/releases/0.0.1/"
+    },
+    "dummy": "8"
+  } 
 ]
