@@ -187,7 +187,7 @@
     "disabled" : true
   },
   {
-    "dummy": "6",
+    "dummy": "7",
     "urlref": "/SRM/releases/1.0.0/",
     "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
     "branchtag": "ReSpecCV",
