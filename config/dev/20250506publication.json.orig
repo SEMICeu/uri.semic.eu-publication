@@ -1,0 +1,126 @@
+[
+  {
+    "dummy": "6",
+    "urlref": "/doc/application-profile/ev-ap",
+    "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
+    "branchtag": "main",
+    "name": "ev-ap",
+    "filename": "config/ev-ap.json",
+    "navigation": {},
+    "disabled" : true
+  },
+  {
+    "dummy": "6",
+    "urlref": "/doc/vocabularium/ev-ap",
+    "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
+    "branchtag": "main",
+    "name": "ev-ap",
+    "filename": "config/ev-ap-voc.json",
+    "navigation": {},
+    "disabled" : true
+  },
+  {
+	"dummy": "82",
+    "urlref": "/CPSV-AP/releases/3.2.0/",
+    "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
+    "branchtag": "ReSpecCV",
+    "name": "cpsv-ap",
+    "filename": "config/cpsv-ap.json",
+    "navigation": {
+      "prev":"https://semiceu.github.io/CPSV-AP/releases/3.2.0/"
+    
+    }
+  },
+ 
+  {
+	"dummy": "54",
+    "urlref": "/SRM/releases/1.0.0",
+    "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
+    "branchtag": "ReSpecCV",
+    "name": "srm",
+    "filename": "config/srm.json",
+    "navigation": {
+      "prev":"https://semiceu.github.io/SRM/releases/1.0.0/"
+    
+    },
+    "shaclgenerator" : {
+       "parameters": "-m individual -c nodekind"
+    }
+  },
+  
+  {
+    "dummy": "76",
+    "urlref": "/Reporting-Requirements-Metadata-Vocabulary/releases/0.0.1",
+    "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
+    "branchtag": "rrmv",
+    "name": "rrmv",
+    "filename": "config/rrmv.json",
+    "navigation": {
+      "prev": "https://semiceu.github.io/rrmv/releases/0.0.1/"
+    }
+  },
+  {
+    "dummy": "101",
+    "urlref": "/Reporting-Requirements-Metadata-Vocabulary/releases/0.0.2",
+    "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
+    "branchtag": "rrmv_002",
+    "name": "rrmv",
+    "filename": "config/rrmv.json",
+    "navigation": {
+      "prev": "https://semiceu.github.io/rrmv/releases/0.0.1/"
+    }
+  },
+  {
+    "dummy": "102",
+    "urlref": "/RRMV/releases/0.0.2",
+    "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
+    "branchtag": "rrmv_002",
+    "name": "rrmv",
+    "filename": "config/rrmv.json",
+    "navigation": {
+      "prev": "https://semiceu.github.io/rrmv/releases/0.0.1/"
+    }
+  },
+  {
+    "dummy": "115",
+    "urlref": "/RRMV/releases/0.1.1",
+    "repository": "https://code.europa.eu/regulatory-reporting/rrmv.git",
+    "branchtag": "semic-0.1.1",
+    "name": "rrmv",
+    "filename": "config/rrmv.json",
+    "navigation": {
+    }
+  },
+  {
+    "dummy": "10",
+    "urlref": "/doc/vocabularium/rrmv",
+    "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
+    "branchtag": "rrmv",
+    "name": "rrmv",
+    "filename": "config/rrmv-voc.json",
+    "navigation": {}
+  },
+  {
+    "urlref": "/LFDS/releases/0.1.0",
+    "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
+    "branchtag": "ReSpecCV",
+    "name": "lfds",
+    "filename": "config/lfds.json",
+    "navigation": {
+      "prev": "https://semiceu.github.io/LFDS/releases/0.0.1/"
+    },
+    "dummy": "7"
+  },
+  {
+	"dummy": "37",
+    "urlref": "/IOPA/releases/0.0.1/",
+    "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
+    "branchtag": "ReSpecCV",
+    "name": "iopa",
+    "filename": "config/iopa.json",
+    "navigation": {
+      "prev":"https://semiceu.github.io/IOPA/releases/0.0.1/"
+    
+    }
+  }
+]
