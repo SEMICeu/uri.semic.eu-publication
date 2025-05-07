@@ -23,6 +23,17 @@
       "navigation": {
         "prev": "https://semiceu.github.io/LFDS/releases/0.0.1/"
       }
+    },
+  {
+    "dummy": "77",
+    "urlref": "/Reporting-Requirements-Metadata-Vocabulary/releases/0.0.1",
+    "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
+    "branchtag": "rrmv",
+    "name": "rrmv",
+    "filename": "config/rrmv.json",
+    "navigation": {
+      "prev": "https://semiceu.github.io/rrmv/releases/0.0.1/"
     }
+  },
 ]
   
