@@ -77,6 +77,15 @@
     "filename": "config/rrmv.json",
     "navigation": {
     }
+  },
+ {
+    "dummy": "11",
+    "urlref": "/doc/vocabularium/rrmv",
+    "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
+    "branchtag": "rrmv",
+    "name": "rrmv",
+    "filename": "config/rrmv-voc.json",
+    "navigation": {}
   }
 ]
   
