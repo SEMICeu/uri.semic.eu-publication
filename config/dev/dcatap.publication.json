@@ -220,7 +220,7 @@
     "dummy": "132"
   },
   {
-    "urlref": "/doc/vocabularium/MLDCAT-AP/releases/2.1.0",
+    "urlref": "/doc/vocabularium/it6/releases/2.1.0",
     "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
     "branchtag": "ReSpecCV",
     "name": "mldcat-ap",
@@ -231,6 +231,6 @@
     "contextgenerator": {
       "parameters": "-d -l label"
     },
-    "dummy": "1"
+    "dummy": "2"
   }  
 ]
