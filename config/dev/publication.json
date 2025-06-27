@@ -67,6 +67,7 @@
      "name": "rrmv",
      "filename": "config/rrmv.json",
      "navigation": {
+       "next": "https://semiceu.github.io/rrmv/releases/0.2.0/"
      }
    },
    {
@@ -77,6 +78,7 @@
      "name": "rrmv",
      "filename": "config/rrmv.json",
      "navigation": {
+       "prev": "https://semiceu.github.io/rrmv/releases/0.1.1/"
      }
    },
    {
