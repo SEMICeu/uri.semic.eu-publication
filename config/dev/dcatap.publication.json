@@ -117,7 +117,7 @@
     "dummy": 14
   },
   {
-    "urlref": "/DCAT-AP/releases/3.0.1-draft",
+    "urlref": "/DCAT-AP/releases/3.0.1",
     "repositorypublic": "git@github.com:SEMICeu/Semicthema-DCAT-AP.git",
     "repository": "git@semicthema-DCAT-AP:SEMICeu/Semicthema-DCAT-AP.git",
     "branchtag": "3.0",
@@ -131,7 +131,7 @@
     "contextgenerator": {
       "parameters": "-c -l label"
     },
-    "dummy": 46
+    "dummy": 47
   },
   {
     "urlref": "/GeoDCAT-AP/releases/3.0.0",
