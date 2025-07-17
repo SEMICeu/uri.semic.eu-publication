@@ -15,8 +15,8 @@
 	}
 	},
 	{
-	  "dummy": "13",
-	  "urlref": "/LFDS/releases/0.1.0",
+	  "dummy": "14",
+	  "urlref": "/LFDS/releases/0.2.0",
 	  "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
 	  "branchtag": "ReSpecCV",
 	  "name": "lfds",
