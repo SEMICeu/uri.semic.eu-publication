@@ -152,6 +152,23 @@
     "dummy": 184
   },
   {
+    "urlref": "/GeoDCAT-AP/drafts/3.0.1",
+    "repositorypublic": "git@github.com:SEMICeu/Semicthema-DCAT-AP.git",
+    "repository": "git@semicthema-DCAT-AP:SEMICeu/Semicthema-DCAT-AP.git",
+    "branchtag": "GeoDCAT-AP",
+    "name": "geodcat-ap",
+    "filename": "config/geodcat-ap.json",
+    "navigation": {
+      "prev": "https://semiceu.github.io/GeoDCAT-AP/releases/3.0.0/"
+    },
+    "private": true,
+    "examples": false,
+    "contextgenerator": {
+      "parameters": "-c -l label"
+    },
+    "dummy": 1
+  },
+  {
     "urlref": "/BRegDCAT-AP/releases/3.0.0",
     "repositorypublic": "git@github.com:SEMICeu/Semicthema-DCAT-AP.git",
     "repository": "git@semicthema-DCAT-AP:SEMICeu/Semicthema-DCAT-AP.git",
