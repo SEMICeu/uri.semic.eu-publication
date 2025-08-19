@@ -166,7 +166,7 @@
     "contextgenerator": {
       "parameters": "-c -l label"
     },
-    "dummy": 12
+    "dummy": 13
   },
   {
     "urlref": "/BRegDCAT-AP/releases/3.0.0",
