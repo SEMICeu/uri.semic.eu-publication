@@ -183,18 +183,18 @@
     "dummy": 10
   },
   {
-    "urlref": "/STR-AP/releases/1.0.1",
+    "urlref": "/STR-AP/releases/1.1.0",
     "repositorypublic": "git@github.com:SEMICeu/Semicthema-DCAT-AP.git",
     "repository": "git@semicthema-DCAT-AP:SEMICeu/Semicthema-DCAT-AP.git",
     "branchtag": "BRegDCAT-AP",
     "name": "strap",
     "filename": "config/strap.json",
     "navigation": {
-      "prev": "https://semiceu.github.io/STR-AP/releases/1.0.0/"
+      "prev": "https://semiceu.github.io/STR-AP/releases/1.0.1/"
     },
     "private": true,
     "examples": false,
-    "dummy": 93
+    "dummy": 94
   },
   {
     "urlref": "/DCAT-AP/releases/2.2.0-hvd",
