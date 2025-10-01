@@ -93,6 +93,17 @@
      }
    },
    {
+     "dummy": "60",
+     "urlref": "/RRMV/releases/1.0.0",
+     "repository": "https://code.europa.eu/regulatory-reporting/rrmv.git",
+     "branchtag": "semic-1.0.0",
+     "name": "rrmv",
+     "filename": "config/rrmv.json",
+     "navigation": {
+       "prev": "https://semiceu.github.io/RRMV/releases/0.2.0/"
+     }
+   },
+   {
      "dummy": "11",
      "urlref": "/doc/vocabularium/rrmv",
      "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
