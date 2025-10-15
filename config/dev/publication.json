@@ -90,10 +90,11 @@
      "filename": "config/rrmv.json",
      "navigation": {
        "prev": "https://semiceu.github.io/RRMV/releases/0.1.1/"
+       "next": "https://semiceu.github.io/RRMV/releases/1.0.0/"
      }
    },
    {
-     "dummy": "13",
+     "dummy": "14",
      "urlref": "/RRMV/releases/1.0.0",
      "repository": "https://code.europa.eu/regulatory-reporting/rrmv.git",
      "branchtag": "semic-1.0.0",
