@@ -1,19 +1,5 @@
 [
-	{
-	"dummy": "12",
-	"urlref": "/EGDC/releases/1.0.0",
-	"repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
-	"branchtag": "ReSpecCV",
-	"name": "egdc",
-	"filename": "config/egdc.json",
-	"navigation": {
-	  "prev":"https://semiceu.github.io/EGDC/releases/1.0.0/"
 
-	},
-	"shaclgenerator" : {
-	   "parameters": "-m individual -c nodekind"
-	}
-	},
 	{
 	"dummy": "82",
 	"urlref": "/SRM/releases/1.0.0",
