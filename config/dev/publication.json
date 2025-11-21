@@ -1,6 +1,21 @@
 [
 	{
-	"dummy": "57",
+	"dummy": "18",
+	"urlref": "/EGDC/releases/1.0.0",
+	"repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
+	"branchtag": "ReSpecCV",
+	"name": "egdc",
+	"filename": "config/egdc.json",
+	"navigation": {
+	  "prev":"https://semiceu.github.io/EGDC/releases/1.0.0/"
+
+	},
+	"shaclgenerator" : {
+	   "parameters": "-m individual -c nodekind"
+	}
+	},
+	{
+	"dummy": "82",
 	"urlref": "/SRM/releases/1.0.0",
 	"repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
 	"branchtag": "ReSpecCV",
@@ -15,14 +30,25 @@
 	}
 	},
 	{
-	  "dummy": "13",
-	  "urlref": "/LFDS/releases/0.1.0",
+	  "dummy": "15",
+	  "urlref": "/LFDS/releases/0.2.0",
 	  "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
 	  "branchtag": "ReSpecCV",
 	  "name": "lfds",
 	  "filename": "config/lfds.json",
 	  "navigation": {
 		"prev": "https://semiceu.github.io/LFDS/releases/0.0.1/"
+	  }
+	},
+  {
+	  "dummy": "17",
+	  "urlref": "/IOPA/releases/1.0.0",
+	  "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
+	  "branchtag": "ReSpecCV",
+	  "name": "iopa",
+	  "filename": "config/iopa.json",
+	  "navigation": {
+		"prev": "https://semiceu.github.io/IOPA/releases/0.0.1/"
 	  }
 	},
   {
@@ -56,31 +82,45 @@
      "name": "rrmv",
      "filename": "config/rrmv.json",
      "navigation": {
-       "prev": "https://semiceu.github.io/rrmv/releases/0.0.1/"
+       "prev": "https://semiceu.github.io/RRMV/releases/0.0.1/"
      }
    },
    {
-     "dummy": "115",
+     "dummy": "116",
      "urlref": "/RRMV/releases/0.1.1",
      "repository": "https://code.europa.eu/regulatory-reporting/rrmv.git",
      "branchtag": "semic-0.1.1",
      "name": "rrmv",
      "filename": "config/rrmv.json",
      "navigation": {
+       "next": "https://semiceu.github.io/RRMV/releases/0.2.0/"
      }
    },
    {
-     "dummy": "5",
+     "dummy": "60",
      "urlref": "/RRMV/releases/0.2.0",
      "repository": "https://code.europa.eu/regulatory-reporting/rrmv.git",
      "branchtag": "semic-0.2.0",
      "name": "rrmv",
      "filename": "config/rrmv.json",
      "navigation": {
+       "prev": "https://semiceu.github.io/RRMV/releases/0.1.1/",
+       "next": "https://semiceu.github.io/RRMV/releases/1.0.0/"
      }
    },
    {
-     "dummy": "10",
+     "dummy": "12",
+     "urlref": "/RRMV/releases/1.0.0",
+     "repository": "https://code.europa.eu/regulatory-reporting/rrmv.git",
+     "branchtag": "semic-1.0.0",
+     "name": "rrmv",
+     "filename": "config/rrmv.json",
+     "navigation": {
+       "prev": "https://semiceu.github.io/RRMV/releases/0.2.0/"
+     }
+   },
+   {
+     "dummy": "11",
      "urlref": "/doc/vocabularium/rrmv",
      "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
      "branchtag": "rrmv",
