@@ -74,10 +74,10 @@
     "repository": "git@semicthema-DCAT-AP:SEMICeu/Semicthema-DCAT-AP.git",
     "branchtag": "s1n",
     "name": "statdcat-ap",
-    "filename": "config/statdcat-ap.json",
+    "filename": "config/s1n.json",
     "navigation": {},
     "private": true,
-    "dummy": 17
+    "dummy": 18
   },
   {
     "urlref": "/doc/vocabularium/s1n/release/3.0.0",
