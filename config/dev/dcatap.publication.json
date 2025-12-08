@@ -73,11 +73,11 @@
     "repositorypublic": "git@github.com:SEMICeu/Semicthema-DCAT-AP.git",
     "repository": "git@semicthema-DCAT-AP:SEMICeu/Semicthema-DCAT-AP.git",
     "branchtag": "s1n",
-    "name": "s1n",
-    "filename": "config/s1n.json",
+    "name": "statdcat-ap",
+    "filename": "config/statdcat-ap.json",
     "navigation": {},
     "private": true,
-    "dummy": 16
+    "dummy": 17
   },
   {
     "urlref": "/doc/vocabularium/s1n/release/3.0.0",
@@ -89,7 +89,7 @@
     "navigation": {},
     "private": true,
     "note": "Because the toolchain currently looks for paths starting with /doc/vocabularium to render to RDF, also this publication point is added",
-    "dummy": 12
+    "dummy": 13
   },
   {
     "urlref": "DCAT-AP/r5r/releases/3.0.0",
