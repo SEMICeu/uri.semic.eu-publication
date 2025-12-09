@@ -69,7 +69,7 @@
     "dummy": 5
   },
   {
-    "urlref": "/StatDCAT-AP/release/3.0.0",
+    "urlref": "/s1n/release/3.0.0",
     "repositorypublic": "git@github.com:SEMICeu/Semicthema-DCAT-AP.git",
     "repository": "git@semicthema-DCAT-AP:SEMICeu/Semicthema-DCAT-AP.git",
     "branchtag": "s1n",
