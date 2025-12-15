@@ -41,7 +41,7 @@
     "dummy": 34
   },
   {
-    "urlref": "/GeoDCAT-AP/930/drafts/3.0.1",
+    "urlref": "/GeoDCAT-AP/930/drafts/3.1.0",
     "repositorypublic": "git@github.com:SEMICeu/Semicthema-DCAT-AP.git",
     "repository": "git@semicthema-DCAT-AP:SEMICeu/Semicthema-DCAT-AP.git",
     "branchtag": "930",
@@ -49,24 +49,24 @@
     "filename": "config/930.json",
     "navigation": {
       "prev": "https://semiceu.github.io/GeoDCAT-AP/930/releases/3.0.0/",
-      "next": "https://semiceu.github.io/GeoDCAT-AP/930/releases/3.0.1/"
+      "next": "https://semiceu.github.io/GeoDCAT-AP/930/releases/3.1.0/"
     },
     "private": true,
-    "dummy": 5
+    "dummy": 6
   },
   {
-    "urlref": "/doc/vocabularium/930/draft/3.0.1",
+    "urlref": "/doc/vocabularium/930/draft/3.1.0",
     "repositorypublic": "git@github.com:SEMICeu/Semicthema-DCAT-AP.git",
     "repository": "git@semicthema-DCAT-AP:SEMICeu/Semicthema-DCAT-AP.git",
     "branchtag": "930",
     "name": "930",
     "filename": "config/930.json",
     "navigation": {
-      "prev": "https://semiceu.github.io/uri.semic.eu-generated/930/release/3.0.0/"
+      "prev": "https://semiceu.github.io/uri.semic.eu-generated/930/release/3.1.0/"
     },
     "private": true,
     "note": "Because the toolchain currently looks for paths starting with /doc/vocabularium to render to RDF, also this publication point is added",
-    "dummy": 5
+    "dummy": 6
   },
   {
     "urlref": "/s1n/release/3.0.0",
@@ -180,7 +180,7 @@
     "dummy": 184
   },
   {
-    "urlref": "/GeoDCAT-AP/drafts/3.0.1",
+    "urlref": "/GeoDCAT-AP/drafts/3.1.0",
     "repositorypublic": "git@github.com:SEMICeu/Semicthema-DCAT-AP.git",
     "repository": "git@semicthema-DCAT-AP:SEMICeu/Semicthema-DCAT-AP.git",
     "branchtag": "GeoDCAT-AP",
@@ -194,7 +194,7 @@
     "contextgenerator": {
       "parameters": "-c -l label"
     },
-    "dummy": 34
+    "dummy": 35
   },
   {
     "urlref": "/BRegDCAT-AP/releases/3.0.0",
