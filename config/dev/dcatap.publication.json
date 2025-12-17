@@ -73,11 +73,22 @@
     "repositorypublic": "git@github.com:SEMICeu/Semicthema-DCAT-AP.git",
     "repository": "git@semicthema-DCAT-AP:SEMICeu/Semicthema-DCAT-AP.git",
     "branchtag": "s1n",
+    "name": "s1n",
+    "filename": "config/s1n.json",
+    "navigation": {},
+    "private": true,
+    "dummy": 24
+  },
+   {
+    "urlref": "/StatDCAT-AP/release/3.0.0",
+    "repositorypublic": "git@github.com:SEMICeu/Semicthema-DCAT-AP.git",
+    "repository": "git@semicthema-DCAT-AP:SEMICeu/Semicthema-DCAT-AP.git",
+    "branchtag": "s1n",
     "name": "statdcat-ap",
     "filename": "config/s1n.json",
     "navigation": {},
     "private": true,
-    "dummy": 23
+    "dummy": 24
   },
   {
     "urlref": "/StatDCAT-AP_Copy/release/3.0.0",
@@ -88,7 +99,7 @@
     "filename": "config/s1n.json",
     "navigation": {},
     "private": true,
-    "dummy": 1
+    "dummy": 3
   },
   {
     "urlref": "/doc/vocabularium/s1n/release/3.0.0",
