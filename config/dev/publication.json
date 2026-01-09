@@ -31,13 +31,13 @@
 	},
 	{
 	"dummy": "32",
-	"urlref": "/EGDC/releases/1.0.0",
+	"urlref": "/EGDC_CaseStudy/releases/1.0.0",
 	"repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
 	"branchtag": "ReSpecCV",
-	"name": "egdc",
+	"name": "egdc_casestudy",
 	"filename": "config/egdc.json",
 	"navigation": {
-	  "prev":"https://semiceu.github.io/EGDC/releases/1.0.0/"
+	  "prev":"https://semiceu.github.io/EGDC_CaseStudy/releases/1.0.0/"
 
 	},
 	"shaclgenerator" : {
