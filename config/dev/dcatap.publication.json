@@ -78,10 +78,10 @@
     "navigation": {
       "prev": "https://interoperable-europe.ec.europa.eu/collection/semic-support-centre/solution/statdcat-application-profile-data-portals-europe/release/101",
       "self": "https://semiceu.github.io/StatDCAT-AP/drafts/3.0.0/",
-      "next": "https://semiceu.github.io/StatDCAT-AP/releases/3.0.0/"
+      "next": "https://semiceu.github.io/StatDCAT-AP/drafts/3.0.0/"
     },
     "private": true,
-    "dummy": 37
+    "dummy": 38
   },
   {
     "urlref": "/StatDCAT-AP/s1n/drafts/3.0.0",
