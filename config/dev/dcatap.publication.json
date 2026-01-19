@@ -75,9 +75,12 @@
     "branchtag": "StatDCAT-AP",
     "name": "statdcatap",
     "filename": "config/statdcatap.json",
-    "navigation": {},
+    "navigation": {
+      "prev": "https://interoperable-europe.ec.europa.eu/collection/semic-support-centre/solution/statdcat-application-profile-data-portals-europe/release/101",
+      "next": "https://semiceu.github.io/StatDCAT-AP/releases/3.0.0/"
+    },
     "private": true,
-    "dummy": 35
+    "dummy": 36
   },
   {
     "urlref": "/StatDCAT-AP/s1n/drafts/3.0.0",
