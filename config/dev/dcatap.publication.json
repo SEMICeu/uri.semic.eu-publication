@@ -184,7 +184,7 @@
     "name": "dcat-ap",
     "filename": "config/dcat-ap.json",
     "navigation": {
-      "prev": "https://semiceu.github.io/DCAT-AP/releases/3.0.0/"
+      "prev": "https://semiceu.github.io/DCAT-AP/releases/3.0.1/"
     },
     "private": true,
     "examples": false,
