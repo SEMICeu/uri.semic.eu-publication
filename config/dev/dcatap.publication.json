@@ -92,7 +92,7 @@
     "filename": "config/s1n.json",
     "navigation": {},
     "private": true,
-    "dummy": 41
+    "dummy": 48
   },
   {
     "urlref": "/doc/vocabularium/s1n/drafts/3.0.0",
@@ -104,7 +104,7 @@
     "navigation": {},
     "private": true,
     "note": "Because the toolchain currently looks for paths starting with /doc/vocabularium to render to RDF, also this publication point is added",
-    "dummy": 41
+    "dummy": 48
   },
   {
     "urlref": "DCAT-AP/r5r/releases/3.0.0",
