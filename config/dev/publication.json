@@ -12,7 +12,8 @@
 	},
 	"shaclgenerator" : {
 	   "parameters": "-m individual -c nodekind"
-	}
+	},
+	"disabled": true
 	},
   {
 	"dummy": "7",
