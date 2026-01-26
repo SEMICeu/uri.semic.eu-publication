@@ -197,7 +197,7 @@
    {
      "dummy": "15",
      "urlref": "/doc/vocabularium/rrmv",
-     "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
+     "repository": "https://code.europa.eu/regulatory-reporting/rrmv.git",
      "branchtag": "429da6e14156747adfae09d188440ef5708a691a",
      "name": "rrmv",
      "filename": "config/rrmv-voc.json",
