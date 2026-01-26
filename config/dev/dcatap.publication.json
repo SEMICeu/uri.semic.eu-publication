@@ -75,9 +75,13 @@
     "branchtag": "StatDCAT-AP",
     "name": "statdcatap",
     "filename": "config/statdcatap.json",
-    "navigation": {},
+    "navigation": {
+      "prev": "https://interoperable-europe.ec.europa.eu/collection/semic-support-centre/solution/statdcat-application-profile-data-portals-europe/release/101",
+      "self": "https://semiceu.github.io/StatDCAT-AP/drafts/3.0.0/",
+      "next": "https://semiceu.github.io/StatDCAT-AP/drafts/3.0.0/"
+    },
     "private": true,
-    "dummy": 35
+    "dummy": 48
   },
   {
     "urlref": "/StatDCAT-AP/s1n/drafts/3.0.0",
@@ -88,7 +92,7 @@
     "filename": "config/s1n.json",
     "navigation": {},
     "private": true,
-    "dummy": 39
+    "dummy": 48
   },
   {
     "urlref": "/doc/vocabularium/s1n/drafts/3.0.0",
@@ -100,7 +104,7 @@
     "navigation": {},
     "private": true,
     "note": "Because the toolchain currently looks for paths starting with /doc/vocabularium to render to RDF, also this publication point is added",
-    "dummy": 39
+    "dummy": 48
   },
   {
     "urlref": "DCAT-AP/r5r/releases/3.0.0",
@@ -205,7 +209,7 @@
     "contextgenerator": {
       "parameters": "-c -l label"
     },
-    "dummy": 35
+    "dummy": 37
   },
   {
     "urlref": "/BRegDCAT-AP/releases/3.0.0",
