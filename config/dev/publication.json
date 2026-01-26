@@ -12,8 +12,7 @@
 	},
 	"shaclgenerator" : {
 	   "parameters": "-m individual -c nodekind"
-	},
-	"disabled": true
+	}
 	},
   {
 	"dummy": "7",
@@ -188,7 +187,7 @@
      "dummy": "14",
      "urlref": "/RRMV/releases/1.0.0",
      "repository": "https://code.europa.eu/regulatory-reporting/rrmv.git",
-     "branchtag": "semic-1.0.0",
+     "branchtag": "429da6e14156747adfae09d188440ef5708a691a",
      "name": "rrmv",
      "filename": "config/rrmv.json",
      "navigation": {
@@ -199,7 +198,7 @@
      "dummy": "15",
      "urlref": "/doc/vocabularium/rrmv",
      "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
-     "branchtag": "rrmv",
+     "branchtag": "429da6e14156747adfae09d188440ef5708a691a",
      "name": "rrmv",
      "filename": "config/rrmv-voc.json",
      "navigation": {}
