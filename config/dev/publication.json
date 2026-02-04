@@ -45,7 +45,7 @@
 	}
 	},
 	{
-	"dummy": "3",
+	"dummy": "36",
 	"urlref": "/EGDC_CaseStudy/releases/1.0.1",
 	"repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
 	"branchtag": "ReSpecCV",
@@ -90,7 +90,7 @@
 	}
 	},
 	{
-	"dummy": "4",
+	"dummy": "5",
 	"urlref": "/TRX/releases/1.0.0",
 	"repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
 	"branchtag": "ReSpecCV",
