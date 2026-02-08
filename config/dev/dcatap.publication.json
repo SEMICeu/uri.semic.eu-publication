@@ -81,7 +81,7 @@
       "next": "https://semiceu.github.io/StatDCAT-AP/drafts/3.0.0/"
     },
     "private": true,
-    "dummy": 48
+    "dummy": 53
   },
   {
     "urlref": "/StatDCAT-AP/s1n/drafts/3.0.0",
@@ -293,7 +293,7 @@
       "prev": "https://semiceu.github.io/DCAT-AP/releases/3.0.0-hvd"
     },
     "private": true,
-    "dummy": 8
+    "dummy": 13
   },
   {
     "urlref": "/MLDCAT-AP/releases/3.0.0",
