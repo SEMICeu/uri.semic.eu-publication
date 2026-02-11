@@ -69,6 +69,17 @@
     }
   },
   {
+    "dummy": "8",
+    "urlref": "/Core-Person-Vocabulary/releases/2.1.2/",
+    "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
+    "branchtag": "ReSpecCV",
+    "name": "core-person-ap-draft",
+    "filename": "config/core-person.json",
+    "navigation": {
+      "prev": "https://semiceu.github.io/Core-Person-Vocabulary/releases/2.1.1/"
+    }
+  },
+  {
     "dummy": "22",
     "urlref": "/doc/vocabularium/core-person",
     "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
@@ -201,6 +212,17 @@
     "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
     "branchtag": "ReSpecCV",
     "name": "cccev-ap",
+    "filename": "config/cccev.json",
+    "navigation": {
+      "prev": "https://semiceu.github.io/CCCEV/releases/2.1.0/"
+    }
+  },
+  {
+    "dummy": "6",
+    "urlref": "/CCCEV/releases/2.1.1",
+    "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
+    "branchtag": "ReSpecCV",
+    "name": "cccev-ap-draft",
     "filename": "config/cccev.json",
     "navigation": {
       "prev": "https://semiceu.github.io/CCCEV/releases/2.1.0/"
