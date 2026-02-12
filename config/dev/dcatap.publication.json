@@ -81,7 +81,7 @@
       "next": "https://semiceu.github.io/StatDCAT-AP/drafts/3.0.0/"
     },
     "private": true,
-    "dummy": 48
+    "dummy": 53
   },
   {
     "urlref": "/StatDCAT-AP/s1n/drafts/3.0.0",
@@ -226,7 +226,7 @@
     "contextgenerator": {
       "parameters": "-c -l label"
     },
-    "dummy": 37
+    "dummy": 45
   },
   {
     "urlref": "/BRegDCAT-AP/releases/3.0.0",
@@ -293,7 +293,7 @@
       "prev": "https://semiceu.github.io/DCAT-AP/releases/3.0.0-hvd"
     },
     "private": true,
-    "dummy": 7
+    "dummy": 13
   },
   {
     "urlref": "/MLDCAT-AP/releases/3.0.0",
@@ -308,5 +308,28 @@
       "parameters": "-d -l label"
     },
     "dummy": "216"
+  },
+  {
+    "urlref": "/MLDCAT-AP/it6/releases/3.0.0",
+    "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
+    "branchtag": "it6",
+    "name": "it6",
+    "filename": "config/it6.json",
+    "navigation": {
+    },
+    "private": true,
+    "dummy": 40
+  },
+  {
+    "urlref": "/doc/vocabularium/it6/release/3.0.0",
+    "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
+    "branchtag": "it6",
+    "name": "it6",
+    "filename": "config/it6.json",
+    "navigation": {
+    },
+    "private": true,
+    "note": "Because the toolchain currently looks for paths starting with /doc/vocabularium to render to RDF, also this publication point is added",
+    "dummy": 34
   }
 ]

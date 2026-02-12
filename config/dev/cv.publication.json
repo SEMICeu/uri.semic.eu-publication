@@ -49,6 +49,16 @@
     "dummy": "47"
   },
   {
+    "dummy": "4",
+    "urlref": "/Core-Business-Vocabulary/releases/2.2.1",
+    "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
+    "branchtag": "ReSpecCV",
+    "name": "core-business-ap-draft",
+    "filename": "config/core-business.json",
+    "navigation": { 
+      "prev": "https://semiceu.github.io/Core-Business-Vocabulary/releases2.2.0/"}    
+  },
+  {
     "dummy": "17",
     "urlref": "/doc/vocabularium/core-business",
     "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
@@ -63,6 +73,17 @@
     "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
     "branchtag": "ReSpecCV",
     "name": "core-person-ap",
+    "filename": "config/core-person.json",
+    "navigation": {
+      "prev": "https://semiceu.github.io/Core-Person-Vocabulary/releases/2.1.1/"
+    }
+  },
+  {
+    "dummy": "8",
+    "urlref": "/Core-Person-Vocabulary/releases/2.1.2/",
+    "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
+    "branchtag": "ReSpecCV",
+    "name": "core-person-ap-draft",
     "filename": "config/core-person.json",
     "navigation": {
       "prev": "https://semiceu.github.io/Core-Person-Vocabulary/releases/2.1.1/"
@@ -187,6 +208,18 @@
     "disabled" : true
   },
   {
+    "dummy": "1",
+    "urlref": "/CPSV-AP/releases/3.2.1/",
+    "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
+    "branchtag": "ReSpecCV",
+    "name": "cpsv-ap-draft",
+    "filename": "config/cpsv-ap.json",
+    "navigation": {
+      "prev": "https://semiceu.github.io/CPSV-AP/releases/3.2.0/"
+    },
+    "disabled" : false
+  },
+  {
     "dummy": "9",
     "urlref": "/doc/vocabularium/cccev-voc",
     "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
@@ -201,6 +234,17 @@
     "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
     "branchtag": "ReSpecCV",
     "name": "cccev-ap",
+    "filename": "config/cccev.json",
+    "navigation": {
+      "prev": "https://semiceu.github.io/CCCEV/releases/2.1.0/"
+    }
+  },
+  {
+    "dummy": "6",
+    "urlref": "/CCCEV/releases/2.1.1",
+    "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
+    "branchtag": "ReSpecCV",
+    "name": "cccev-ap-draft",
     "filename": "config/cccev.json",
     "navigation": {
       "prev": "https://semiceu.github.io/CCCEV/releases/2.1.0/"
