@@ -213,6 +213,17 @@
      "name": "rrmv",
      "filename": "config/rrmv-voc.json",
      "navigation": {}
+   },
+   {
+     "dummy": "14",
+     "urlref": "/RRMV/releases/2.0.0",
+     "repository": "https://code.europa.eu/regulatory-reporting/rrmv.git",
+     "branchtag": "semic-2.0.0",
+     "name": "rrmv",
+     "filename": "config/rrmv.json",
+     "navigation": {
+       "prev": "https://semiceu.github.io/RRMV/releases/0.2.0/"
+     }
    }
 ]
   
