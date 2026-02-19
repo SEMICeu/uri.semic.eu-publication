@@ -115,6 +115,17 @@
 		"prev": "https://semiceu.github.io/LFDS/releases/0.2.0/"
 	  }
 	},
+		{
+	  "dummy": "1",
+	  "urlref": "/TTPAV/releases/0.0.1",
+	  "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
+	  "branchtag": "ReSpecCV",
+	  "name": "ttpav",
+	  "filename": "config/ttpav.json",
+	  "navigation": {
+		"prev": "https://semiceu.github.io/TTPAV/releases/0.0.1/"
+	  }
+	},
   {
 	  "dummy": "17",
 	  "urlref": "/IOPA/releases/1.0.0",
