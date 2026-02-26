@@ -215,7 +215,7 @@
      "navigation": {}
    },
    {
-     "dummy": "17",
+     "dummy": "18",
      "urlref": "/RRMV/releases/2.0.0",
      "repository": "https://code.europa.eu/regulatory-reporting/rrmv.git",
      "branchtag": "semic-2.0.0",
@@ -224,6 +224,15 @@
      "navigation": {
        "prev": "https://semiceu.github.io/RRMV/releases/0.2.0/"
      }
+   },
+   {
+     "dummy": "15",
+     "urlref": "/doc/vocabularium/rrmv/releases/2.0.0",
+     "repository": "https://code.europa.eu/regulatory-reporting/rrmv.git",
+     "branchtag": "semic-2.0.0",
+     "name": "rrmv",
+     "filename": "config/rrmv-voc.json",
+     "navigation": {}
    }
 ]
   
