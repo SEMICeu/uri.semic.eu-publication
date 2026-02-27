@@ -15,7 +15,7 @@
 	}
 	},
   {
-	"dummy": "9",
+	"dummy": "10",
 	"urlref": "/PLD/releases/1.0.0",
 	"repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
 	"branchtag": "ReSpecCV",
@@ -202,7 +202,8 @@
      "name": "rrmv",
      "filename": "config/rrmv.json",
      "navigation": {
-       "prev": "https://semiceu.github.io/RRMV/releases/0.2.0/"
+       "prev": "https://semiceu.github.io/RRMV/releases/0.2.0/",
+       "next": "https://semiceu.github.io/RRMV/releases/2.0.0/"
      }
    },
    {
@@ -215,14 +216,14 @@
      "navigation": {}
    },
    {
-     "dummy": "18",
+     "dummy": "19",
      "urlref": "/RRMV/releases/2.0.0",
      "repository": "https://code.europa.eu/regulatory-reporting/rrmv.git",
      "branchtag": "semic-2.0.0",
      "name": "rrmv",
      "filename": "config/rrmv.json",
      "navigation": {
-       "prev": "https://semiceu.github.io/RRMV/releases/0.2.0/"
+       "prev": "https://semiceu.github.io/RRMV/releases/1.0.0/"
      }
    },
    {
