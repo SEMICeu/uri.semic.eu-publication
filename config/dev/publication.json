@@ -203,6 +203,7 @@
      "filename": "config/rrmv.json",
      "navigation": {
        "prev": "https://semiceu.github.io/RRMV/releases/0.2.0/"
+       "next": "https://semiceu.github.io/RRMV/releases/2.0.0/"
      }
    },
    {
@@ -222,7 +223,7 @@
      "name": "rrmv",
      "filename": "config/rrmv.json",
      "navigation": {
-       "prev": "https://semiceu.github.io/RRMV/releases/0.2.0/"
+       "prev": "https://semiceu.github.io/RRMV/releases/1.0.0/"
      }
    },
    {
