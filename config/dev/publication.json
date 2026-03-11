@@ -45,7 +45,7 @@
 	}
 	},
 	{
-	"dummy": "64",
+	"dummy": "65",
 	"urlref": "/EGDC_CaseStudy/releases/1.0.1",
 	"repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
 	"branchtag": "ReSpecCV",
@@ -67,7 +67,7 @@
 	"name": "egdc_rule",
 	"filename": "config/egdc.json",
 	"navigation": {
-	  "prev":"https://semiceu.github.io/EGDC_Rule//model/releases/1.0.0/"
+	  "prev":"https://semiceu.github.io/EGDC_Rule/model/releases/1.0.0/"
 
 	},
 	"shaclgenerator" : {
