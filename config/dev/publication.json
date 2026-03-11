@@ -1,6 +1,6 @@
 [
   {
-	"dummy": "44",
+	"dummy": "45",
 	"urlref": "/ADM/releases/0.0.2",
 	"repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
 	"branchtag": "ReSpecCV",
@@ -30,14 +30,14 @@
 	}
 	},
 	{
-	"dummy": "37",
+	"dummy": "38",
 	"urlref": "/EGDC_CaseStudy/releases/1.0.0",
 	"repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
 	"branchtag": "ReSpecCV",
 	"name": "egdc_casestudy",
 	"filename": "config/egdc.json",
 	"navigation": {
-	  "prev":"https://semiceu.github.io/EGDC_CaseStudy/releases/1.0.0/"
+	  "prev":"https://semiceu.github.io/EGDC_CaseStudy/model/releases/1.0.0/"
 
 	},
 	"shaclgenerator" : {
@@ -45,14 +45,14 @@
 	}
 	},
 	{
-	"dummy": "51",
+	"dummy": "65",
 	"urlref": "/EGDC_CaseStudy/releases/1.0.1",
 	"repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
 	"branchtag": "ReSpecCV",
 	"name": "egdc_casestudy",
 	"filename": "config/egdc.json",
 	"navigation": {
-	  "prev":"https://semiceu.github.io/EGDC_CaseStudy/releases/1.0.1/"
+	  "prev":"https://european-green-digital-coalition.github.io/EGDC_CaseStudy/model/releases/1.0.1/"
 
 	},
 	"shaclgenerator" : {
@@ -67,7 +67,7 @@
 	"name": "egdc_rule",
 	"filename": "config/egdc.json",
 	"navigation": {
-	  "prev":"https://semiceu.github.io/EGDC_Rule/releases/1.0.0/"
+	  "prev":"https://european-green-digital-coalition.github.io/EGDC_Rule/model/releases/1.0.0/"
 
 	},
 	"shaclgenerator" : {
