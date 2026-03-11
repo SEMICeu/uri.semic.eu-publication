@@ -45,14 +45,14 @@
 	}
 	},
 	{
-	"dummy": "59",
+	"dummy": "60",
 	"urlref": "/EGDC_CaseStudy/releases/1.0.1",
 	"repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
 	"branchtag": "ReSpecCV",
 	"name": "egdc_casestudy",
 	"filename": "config/egdc.json",
 	"navigation": {
-	  "prev":"https://semiceu.github.io/EGDC_CaseStudy/releases/1.0.1/"
+	  "prev":"https://european-green-digital-coalition.github.io/EGDC_CaseStudy/releases/1.0.1/"
 
 	},
 	"shaclgenerator" : {
