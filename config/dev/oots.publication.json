@@ -1,6 +1,6 @@
 [
   {
-    "dummy": "23",
+    "dummy": "8",
     "urlref": "/OOTS/EvidenceOfBirth/releases/0.0.1/",
     "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
     "branchtag": "oots",
@@ -13,7 +13,7 @@
     "disabled": false
   },
   {
-    "dummy": "10",
+    "dummy": "8",
     "urlref": "/OOTS/EvidenceOfCertificateAdmissionSecondaryEducation/0.0.1/",
     "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
     "branchtag": "oots",
@@ -26,7 +26,7 @@
     "disabled": false
   },
   {
-    "dummy": "5",
+    "dummy": "8",
     "urlref": "/OOTS/EvidenceOfRoadworthiness/0.0.1/",
     "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
     "branchtag": "oots",
@@ -39,7 +39,7 @@
     "disabled": false
   },
   {
-    "dummy": "3",
+    "dummy": "8",
     "urlref": "/OOTS/EvidenceOfCitizenship/0.0.1/",
     "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
     "branchtag": "oots",
