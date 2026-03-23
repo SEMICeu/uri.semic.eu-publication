@@ -14,7 +14,7 @@
   },
   {
     "dummy": "2",
-    "urlref": "/OOTS/EvidenceOfCertificateAdmissionSecondaryEducation/0.0.1/",
+    "urlref": "/OOTS/EvidenceOfCertificateAdmissionSecondaryEducation/releases/0.0.1/",
     "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
     "branchtag": "oots",
     "name": "evidenceofcertificateadmissionsecondaryeducation",
@@ -27,7 +27,7 @@
   },
   {
     "dummy": "2",
-    "urlref": "/OOTS/EvidenceOfRoadworthiness/0.0.1/",
+    "urlref": "/OOTS/EvidenceOfRoadworthiness/releases/0.0.1/",
     "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
     "branchtag": "oots",
     "name": "evidenceofroadworthiness",
@@ -40,7 +40,7 @@
   },
   {
     "dummy": "2",
-    "urlref": "/OOTS/EvidenceOfCitizenship/0.0.1/",
+    "urlref": "/OOTS/EvidenceOfCitizenship/releases/0.0.1/",
     "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
     "branchtag": "oots",
     "name": "evidenceofcitizenship",
@@ -53,7 +53,7 @@
   },
   {
     "dummy": "2",
-    "urlref": "/OOTS/EvidenceOfDeathOfChild/0.0.1/",
+    "urlref": "/OOTS/EvidenceOfDeathOfChild/releases/0.0.1/",
     "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
     "branchtag": "oots",
     "name": "evidenceofdeathofchild",
@@ -66,7 +66,7 @@
   },
   {
     "dummy": "2",
-    "urlref": "/OOTS/EvidenceOfDeathOfParent/0.0.1/",
+    "urlref": "/OOTS/EvidenceOfDeathOfParent/releases/0.0.1/",
     "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
     "branchtag": "oots",
     "name": "evidenceofdeathofparent",
@@ -79,7 +79,7 @@
   },
   {
     "dummy": "2",
-    "urlref": "/OOTS/EvidenceOfDeathOfSibling/0.0.1/",
+    "urlref": "/OOTS/EvidenceOfDeathOfSibling/releases/0.0.1/",
     "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
     "branchtag": "oots",
     "name": "evidenceofdeathofparent",
@@ -92,7 +92,7 @@
   },
   {
     "dummy": "2",
-    "urlref": "/OOTS/EvidenceOfDisability/0.0.1/",
+    "urlref": "/OOTS/EvidenceOfDisability/releases/0.0.1/",
     "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
     "branchtag": "oots",
     "name": "evidenceofdisability",
