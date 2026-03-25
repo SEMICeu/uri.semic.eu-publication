@@ -52,7 +52,7 @@
     "disabled": false
   },
   {
-    "dummy": "2",
+    "dummy": "3",
     "urlref": "/OOTS/EvidenceOfDeathOfChild/releases/0.0.1/",
     "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
     "branchtag": "oots",
@@ -65,7 +65,7 @@
     "disabled": false
   },
   {
-    "dummy": "2",
+    "dummy": "3",
     "urlref": "/OOTS/EvidenceOfDeathOfParent/releases/0.0.1/",
     "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
     "branchtag": "oots",
@@ -78,7 +78,7 @@
     "disabled": false
   },
   {
-    "dummy": "2",
+    "dummy": "3",
     "urlref": "/OOTS/EvidenceOfDeathOfSibling/releases/0.0.1/",
     "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
     "branchtag": "oots",
@@ -91,7 +91,7 @@
     "disabled": false
   },
   {
-    "dummy": "2",
+    "dummy": "3",
     "urlref": "/OOTS/EvidenceOfDisability/releases/0.0.1/",
     "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
     "branchtag": "oots",
