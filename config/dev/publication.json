@@ -1,6 +1,6 @@
 [
   {
-	"dummy": "66",
+	"dummy": "72",
 	"urlref": "/ADM/releases/0.0.3",
 	"repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
 	"branchtag": "ReSpecCV",
@@ -116,7 +116,7 @@
 	  }
 	},
 		{
-	  "dummy": "27",
+	  "dummy": "28",
 	  "urlref": "/TTPA/releases/0.0.1",
 	  "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
 	  "branchtag": "ReSpecCV",
