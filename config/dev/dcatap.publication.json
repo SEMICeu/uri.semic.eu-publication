@@ -13,6 +13,19 @@
     "dummy": 14
   },
   {
+    "urlref": "/ADMS/releases/2.0.1",
+    "repositorypublic": "git@github.com:SEMICeu/Semicthema-DCAT-AP.git",
+    "repository": "git@semicthema-DCAT-AP:SEMICeu/Semicthema-DCAT-AP.git",
+    "branchtag": "ADMS",
+    "name": "adms-draft",
+    "filename": "config/adms.json",
+    "navigation": {
+      "prev": "https://www.w3.org/TR/vocab-adms"
+    },
+    "private": true,
+    "dummy": 1
+  },
+  {
     "urlref": "/GeoDCAT-AP/930/releases/3.0.0",
     "repositorypublic": "git@github.com:SEMICeu/Semicthema-DCAT-AP.git",
     "repository": "git@semicthema-DCAT-AP:SEMICeu/Semicthema-DCAT-AP.git",
