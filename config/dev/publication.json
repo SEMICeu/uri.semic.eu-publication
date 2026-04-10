@@ -116,14 +116,16 @@
 	  }
 	},
 		{
-	  "dummy": "60",
+	  "dummy": "61",
 	  "urlref": "/TTPA/releases/0.0.3",
 	  "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
 	  "branchtag": "ReSpecCV",
 	  "name": "ttpa",
 	  "filename": "config/ttpa.json",
 	  "navigation": {
-		"prev": "https://model-001a02.pages.code.europa.eu/model/"
+		"prev": "https://model-001a02.pages.code.europa.eu/model/",
+		"self": "https://model-001a02.pages.code.europa.eu/model/",
+      "next": "https://model-001a02.pages.code.europa.eu/model/"
 	  }
 	},
   {
