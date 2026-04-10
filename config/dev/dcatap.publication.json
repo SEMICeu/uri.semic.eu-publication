@@ -17,7 +17,7 @@
     "repositorypublic": "git@github.com:SEMICeu/Semicthema-DCAT-AP.git",
     "repository": "git@semicthema-DCAT-AP:SEMICeu/Semicthema-DCAT-AP.git",
     "branchtag": "ADMS",
-    "name": "adms-draft",
+    "name": "adms-corevocs",
     "filename": "config/adms.json",
     "navigation": {
       "prev": "https://www.w3.org/TR/vocab-adms"
