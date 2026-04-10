@@ -116,8 +116,8 @@
 	  }
 	},
 		{
-	  "dummy": "59",
-	  "urlref": "/TTPA/releases/0.0.2",
+	  "dummy": "60",
+	  "urlref": "/TTPA/releases/0.0.3",
 	  "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
 	  "branchtag": "ReSpecCV",
 	  "name": "ttpa",
