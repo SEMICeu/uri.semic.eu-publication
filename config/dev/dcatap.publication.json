@@ -13,7 +13,7 @@
     "dummy": 14
   },
   {
-    "urlref": "/ADMS/releases/2.0.1",
+    "urlref": "/ADMS/corevocs",
     "repositorypublic": "git@github.com:SEMICeu/Semicthema-DCAT-AP.git",
     "repository": "git@semicthema-DCAT-AP:SEMICeu/Semicthema-DCAT-AP.git",
     "branchtag": "ADMS",
