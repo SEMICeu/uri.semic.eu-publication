@@ -1,13 +1,13 @@
 [
   {
-	"dummy": "73",
-	"urlref": "/ADM/releases/0.0.3",
+	"dummy": "74",
+	"urlref": "/ADM/releases/0.0.4",
 	"repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
 	"branchtag": "ReSpecCV",
 	"name": "arachne",
 	"filename": "config/arachne.json",
 	"navigation": {
-	  "prev":"https://semiceu.github.io/ADM/releases/0.0.3/"
+	  "prev":"https://semiceu.github.io/ADM/releases/0.0.4/"
 
 	},
 	"shaclgenerator" : {
