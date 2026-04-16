@@ -45,14 +45,14 @@
 	}
 	},
 	{
-	"dummy": "65",
-	"urlref": "/EGDC_CaseStudy/releases/1.0.1",
+	"dummy": "66",
+	"urlref": "/EGDC_CaseStudy/releases/1.0.2",
 	"repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
 	"branchtag": "ReSpecCV",
 	"name": "egdc_casestudy",
 	"filename": "config/egdc.json",
 	"navigation": {
-	  "prev":"https://european-green-digital-coalition.github.io/EGDC_CaseStudy/model/releases/1.0.1/"
+	  "prev":"https://european-green-digital-coalition.github.io/EGDC_CaseStudy/model/releases/1.0.2/"
 
 	},
 	"shaclgenerator" : {
@@ -116,7 +116,7 @@
 	  }
 	},
 		{
-	  "dummy": "62",
+	  "dummy": "63",
 	  "urlref": "/TTPA/releases/0.0.3",
 	  "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
 	  "branchtag": "ReSpecCV",
