@@ -26,7 +26,7 @@
     "navigation": {
       "prev": "https://semiceu.github.io/Core-Location-Vocabulary/releases/2.1.0"
     },
-    "dummy": "112"
+    "dummy": "113"
   },
   {
     "urlref": "/doc/vocabularium/core-location",
@@ -119,7 +119,7 @@
     "navigation": {}
   },
   {
-    "dummy": "31",
+    "dummy": "32",
     "urlref": "/Core-Public-Event-Vocabulary/releases/1.1.0/",
     "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
     "branchtag": "ReSpecCV",
