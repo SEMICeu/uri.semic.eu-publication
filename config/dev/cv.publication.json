@@ -18,7 +18,7 @@
     "dummy": "3"
   },
   {
-    "urlref": "/Core-Location-Vocabulary/releases/2.1.0",
+    "urlref": "/Core-Location-Vocabulary/releases/2.1.1",
     "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
     "branchtag": "ReSpecCV",
     "name": "core-location-ap",
