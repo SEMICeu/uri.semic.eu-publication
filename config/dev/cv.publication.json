@@ -49,14 +49,14 @@
     "dummy": "47"
   },
   {
-    "dummy": "1",
+    "dummy": "2",
     "urlref": "/Core-Business-Vocabulary/draft/2.3.0",
     "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
     "branchtag": "ReSpecCV",
     "name": "core-business-ap-draft",
     "filename": "config/core-business.json",
     "navigation": { 
-      "prev": "https://semiceu.github.io/Core-Business-Vocabulary/releases2.2.0/"}    
+      "prev": "https://semiceu.github.io/Core-Business-Vocabulary/releases/2.2.0/"}    
   },
   {
     "dummy": "17",
