@@ -218,25 +218,14 @@
     "navigation": {}
   },
   {
-    "dummy": "32",
-    "urlref": "/CCCEV/releases/2.1.0",
+    "dummy": "1",
+    "urlref": "/CCCEV/releases/2.2.0",
     "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
     "branchtag": "ReSpecCV",
     "name": "cccev-ap",
     "filename": "config/cccev.json",
     "navigation": {
-      "prev": "https://semiceu.github.io/CCCEV/releases/2.1.0/"
-    }
-  },
-  {
-    "dummy": "1",
-    "urlref": "/CCCEV/releases/2.1.1",
-    "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
-    "branchtag": "ReSpecCV",
-    "name": "cccev-ap-draft",
-    "filename": "config/cccev.json",
-    "navigation": {
-      "prev": "https://semiceu.github.io/CCCEV/releases/2.1.1/"
+      "prev": "https://semiceu.github.io/CCCEV/releases/2.2.0/"
     }
   },
   {
