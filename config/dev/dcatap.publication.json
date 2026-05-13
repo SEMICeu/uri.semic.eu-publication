@@ -310,7 +310,7 @@
     "dummy": 18
   },
   {
-    "urlref": "/MLDCAT-AP/releases/3.0.1",
+    "urlref": "/MLDCAT-AP/releases/3.1.0",
     "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
     "branchtag": "ReSpecCV",
     "name": "mldcat-ap",
@@ -321,10 +321,10 @@
     "contextgenerator": {
       "parameters": "-d -l label"
     },
-    "dummy": 218
+    "dummy": 219
   },
   {
-    "urlref": "/MLDCAT-AP/it6/releases/3.0.1",
+    "urlref": "/MLDCAT-AP/it6/releases/3.1.0",
     "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
     "branchtag": "it6",
     "name": "it6",
@@ -332,7 +332,7 @@
     "navigation": {
     },
     "private": true,
-    "dummy": 42
+    "dummy": 43
   },
   {
     "urlref": "/doc/vocabularium/it6/release/3.0.0",
