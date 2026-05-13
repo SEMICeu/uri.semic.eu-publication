@@ -321,7 +321,7 @@
     "contextgenerator": {
       "parameters": "-d -l label"
     },
-    "dummy": 220
+    "dummy": 221
   },
   {
     "urlref": "/MLDCAT-AP/it6/releases/3.1.0",
@@ -332,7 +332,7 @@
     "navigation": {
     },
     "private": true,
-    "dummy": 44
+    "dummy": 45
   },
   {
     "urlref": "/doc/vocabularium/it6/release/3.0.0",
