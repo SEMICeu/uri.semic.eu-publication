@@ -7,13 +7,28 @@
     "name": "adms",
     "filename": "config/adms.json",
     "navigation": {
-      "prev": "https://www.w3.org/TR/vocab-adms"
+      "prev": "https://www.w3.org/TR/vocab-adms",
+      "next": "https://semiceu.github.io/ADMS/drafts/latest"
     },
     "private": true,
     "dummy": 14
   },
   {
-    "urlref": "/ADMS/corevocs/releases/1.0.0",
+    "urlref": "/ADMS/drafts/latest",
+    "repositorypublic": "git@github.com:SEMICeu/Semicthema-DCAT-AP.git",
+    "repository": "git@semicthema-DCAT-AP:SEMICeu/Semicthema-DCAT-AP.git",
+    "branchtag": "ADMS",
+    "name": "adms",
+    "filename": "config/adms.json",
+    "navigation": {
+      "prev": "https://semiceu.github.io/ADMS/releases/2.00"
+    },
+    "private": true,
+    "dummy": 14
+  },
+  {
+    "urlref": "/ADMS/drafts/miniprofile",
+    "comment": "This profile is to create the subsection on the Identifier class",
     "repositorypublic": "git@github.com:SEMICeu/Semicthema-DCAT-AP.git",
     "repository": "git@semicthema-DCAT-AP:SEMICeu/Semicthema-DCAT-AP.git",
     "branchtag": "ADMS",
@@ -23,7 +38,7 @@
       "prev": "https://www.w3.org/TR/vocab-adms"
     },
     "private": true,
-    "dummy": 0
+    "dummy": 1
   },
   {
     "urlref": "/GeoDCAT-AP/930/releases/3.0.0",
@@ -205,7 +220,7 @@
     "contextgenerator": {
       "parameters": "-c -l label"
     },
-    "dummy": 17
+    "dummy": 18
   },
   {
     "urlref": "/GeoDCAT-AP/releases/3.0.0",
