@@ -347,7 +347,7 @@
     "navigation": {
     },
     "private": true,
-    "dummy": 50
+    "dummy": 51
   },
   {
     "urlref": "/doc/vocabularium/it6/release/3.1.0",
@@ -359,6 +359,6 @@
     },
     "private": true,
     "note": "Because the toolchain currently looks for paths starting with /doc/vocabularium to render to RDF, also this publication point is added",
-    "dummy": 35
+    "dummy": 36
   }
 ]
