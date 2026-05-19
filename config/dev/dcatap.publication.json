@@ -347,10 +347,10 @@
     "navigation": {
     },
     "private": true,
-    "dummy": 49
+    "dummy": 50
   },
   {
-    "urlref": "/doc/vocabularium/it6/release/3.0.0",
+    "urlref": "/doc/vocabularium/it6/release/3.1.0",
     "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
     "branchtag": "it6",
     "name": "it6",
@@ -359,6 +359,6 @@
     },
     "private": true,
     "note": "Because the toolchain currently looks for paths starting with /doc/vocabularium to render to RDF, also this publication point is added",
-    "dummy": 34
+    "dummy": 35
   }
 ]
