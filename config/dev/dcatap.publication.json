@@ -24,7 +24,7 @@
       "prev": "https://semiceu.github.io/ADMS/releases/2.00"
     },
     "private": true,
-    "dummy": 14
+    "dummy": 16
   },
   {
     "urlref": "/ADMS/drafts/miniprofile",
@@ -38,7 +38,7 @@
       "prev": "https://www.w3.org/TR/vocab-adms"
     },
     "private": true,
-    "dummy": 7
+    "dummy": 8
   },
   {
     "urlref": "/GeoDCAT-AP/930/releases/3.0.0",
