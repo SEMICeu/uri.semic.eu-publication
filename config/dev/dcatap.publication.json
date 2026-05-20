@@ -14,6 +14,20 @@
     "dummy": 14
   },
   {
+    "urlref": "/doc/vocabularium/ADMS/drafts/latest",
+    "note": "Because the toolchain currently looks for paths starting with /doc/vocabularium to render to RDF, also this publication point is added",
+    "repositorypublic": "git@github.com:SEMICeu/Semicthema-DCAT-AP.git",
+    "repository": "git@semicthema-DCAT-AP:SEMICeu/Semicthema-DCAT-AP.git",
+    "branchtag": "ADMS",
+    "name": "adms",
+    "filename": "config/adms.json",
+    "navigation": {
+      "prev": "https://semiceu.github.io/ADMS/releases/2.00"
+    },
+    "private": true,
+    "dummy": 18
+  },
+  {
     "urlref": "/ADMS/drafts/latest",
     "repositorypublic": "git@github.com:SEMICeu/Semicthema-DCAT-AP.git",
     "repository": "git@semicthema-DCAT-AP:SEMICeu/Semicthema-DCAT-AP.git",
