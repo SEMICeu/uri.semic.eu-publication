@@ -350,7 +350,7 @@
     "contextgenerator": {
       "parameters": "-d -l label"
     },
-    "dummy": 225
+    "dummy": 226
   },
   {
     "urlref": "/MLDCAT-AP/it6/releases/3.1.0",
@@ -361,7 +361,7 @@
     "navigation": {
     },
     "private": true,
-    "dummy": 57
+    "dummy": 58
   },
   {
     "urlref": "/doc/vocabularium/it6/release/3.1.0",
@@ -373,6 +373,6 @@
     },
     "private": true,
     "note": "Because the toolchain currently looks for paths starting with /doc/vocabularium to render to RDF, also this publication point is added",
-    "dummy": 42
+    "dummy": 43
   }
 ]
