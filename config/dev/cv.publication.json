@@ -6,7 +6,7 @@
     "name": "core-location",
     "filename": "config/core-location-voc.json",
     "navigation": {},
-    "dummy": "4"
+    "dummy": "5"
   },
   {
     "urlref": "/respec/core-vocabularies",
@@ -15,7 +15,7 @@
     "name": "core-vocabularies",
     "filename": "config/core-vocabularies.json",
     "navigation": {},
-    "dummy": "4"
+    "dummy": "5"
   },
   {
     "urlref": "/Core-Location-Vocabulary/releases/2.1.1",
@@ -26,7 +26,7 @@
     "navigation": {
       "prev": "https://semiceu.github.io/Core-Location-Vocabulary/releases/2.1.0"
     },
-    "dummy": "1114"
+    "dummy": "1115"
   },
   {
     "urlref": "/doc/vocabularium/core-location",
@@ -35,7 +35,7 @@
     "name": "core-location",
     "filename": "config/core-location-voc.json",
     "navigation": {},
-    "dummy": "1114"
+    "dummy": "1115"
   },
   {
     "urlref": "/Core-Business-Vocabulary/releases/2.3.0",
@@ -46,10 +46,10 @@
     "navigation": {
       "prev": "https://semiceu.github.io/Core-Business-Vocabulary/releases/2.3.0/"
     },
-    "dummy": "117"
+    "dummy": "118"
   },
   {
-    "dummy": "111",
+    "dummy": "1111",
     "urlref": "/doc/vocabularium/core-business",
     "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
     "branchtag": "ReSpecCV",
@@ -58,7 +58,7 @@
     "navigation": {}
   },
   {
-    "dummy": "1111",
+    "dummy": "1112",
     "urlref": "/Core-Person-Vocabulary/releases/2.1.2/",
     "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
     "branchtag": "ReSpecCV",
@@ -69,7 +69,7 @@
     }
   },
   {
-    "dummy": "1111",
+    "dummy": "1112",
     "urlref": "/doc/vocabularium/core-person",
     "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
     "branchtag": "ReSpecCV",
@@ -86,10 +86,10 @@
     "navigation": {
       "prev": "https://semiceu.github.io/CPOV/releases/2.1.2/"
     },
-    "dummy": "1"
+    "dummy": "2"
   },
   {
-    "dummy": "1111",
+    "dummy": "1112",
     "urlref": "/doc/vocabularium/core-public-organisation",
     "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
     "branchtag": "ReSpecCV",
@@ -98,7 +98,7 @@
     "navigation": {}
   },
   {
-    "dummy": "1",
+    "dummy": "2",
     "urlref": "/Core-Public-Event-Vocabulary/releases/1.1.1/",
     "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
     "branchtag": "ReSpecCV",
@@ -109,7 +109,7 @@
     }
   },
   {
-    "dummy": "1111",
+    "dummy": "1112",
     "urlref": "/doc/vocabularium/cpev",
     "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
     "branchtag": "ReSpecCV",
