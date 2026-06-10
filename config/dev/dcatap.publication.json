@@ -220,6 +220,24 @@
     "dummy": 47
   },
   {
+    "urlref": "/DCAT-AP/drafts/3.0.2",
+    "repositorypublic": "git@github.com:SEMICeu/Semicthema-DCAT-AP.git",
+    "repository": "git@semicthema-DCAT-AP:SEMICeu/Semicthema-DCAT-AP.git",
+    "branchtag": "3.0",
+    "name": "dcat-ap",
+    "filename": "config/dcat-ap.json",
+    "navigation": {
+      "prev": "https://semiceu.github.io/DCAT-AP/releases/3.0.1/",
+      "next": "https://semiceu.github.io/DCAT-AP/drafts/latest"
+    },
+    "private": true,
+    "examples": false,
+    "contextgenerator": {
+      "parameters": "-c -l label"
+    },
+    "dummy": 21
+  },
+  {
     "urlref": "/DCAT-AP/drafts/latest",
     "repositorypublic": "git@github.com:SEMICeu/Semicthema-DCAT-AP.git",
     "repository": "git@semicthema-DCAT-AP:SEMICeu/Semicthema-DCAT-AP.git",
