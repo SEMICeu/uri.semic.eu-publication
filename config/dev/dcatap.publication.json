@@ -235,7 +235,7 @@
     "contextgenerator": {
       "parameters": "-c -l label"
     },
-    "dummy": 23
+    "dummy": 24
   },
   {
     "urlref": "/DCAT-AP/drafts/latest",
