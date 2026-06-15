@@ -12,7 +12,7 @@
     "disabled": false
   },
   {
-    "dummy": "1",
+    "dummy": "2",
     "urlref": "/OOTS/EvidenceOfBirth/releases/0.0.1/",
     "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
     "branchtag": "oots",
@@ -38,7 +38,7 @@
     "disabled": false
   },
   {
-    "dummy": "19",
+    "dummy": "20",
     "urlref": "/OOTS/EvidenceOfRoadworthiness/releases/0.0.3/",
     "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
     "branchtag": "oots",
