@@ -206,7 +206,7 @@
     "urlref": "/DCAT-AP/releases/3.0.1",
     "repositorypublic": "git@github.com:SEMICeu/Semicthema-DCAT-AP.git",
     "repository": "git@semicthema-DCAT-AP:SEMICeu/Semicthema-DCAT-AP.git",
-    "branchtag": "3.0",
+    "branchtag": "fd808dad9aedd1b079c2a5d9f889c3b75db4e7dc",
     "name": "dcat-ap",
     "filename": "config/dcat-ap.json",
     "navigation": {
@@ -223,7 +223,7 @@
     "urlref": "/DCAT-AP/drafts/3.0.2",
     "repositorypublic": "git@github.com:SEMICeu/Semicthema-DCAT-AP.git",
     "repository": "git@semicthema-DCAT-AP:SEMICeu/Semicthema-DCAT-AP.git",
-    "branchtag": "3.0",
+    "branchtag": "3.0.2",
     "name": "dcat-ap",
     "filename": "config/dcat-ap.json",
     "navigation": {
@@ -241,7 +241,7 @@
     "urlref": "/DCAT-AP/drafts/latest",
     "repositorypublic": "git@github.com:SEMICeu/Semicthema-DCAT-AP.git",
     "repository": "git@semicthema-DCAT-AP:SEMICeu/Semicthema-DCAT-AP.git",
-    "branchtag": "3.0",
+    "branchtag": "3.X-latest",
     "name": "dcat-ap",
     "filename": "config/dcat-ap.json",
     "navigation": {
