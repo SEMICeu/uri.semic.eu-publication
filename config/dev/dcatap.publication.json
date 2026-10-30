@@ -344,7 +344,7 @@
     "dummy": 80
   },
   {
-    "urlref": "/DCAT-AP/drafts/3.0.1-hvd",
+    "urlref": "/DCAT-AP/releases/3.0.1-hvd",
     "repositorypublic": "git@github.com:SEMICeu/Semicthema-DCAT-AP.git",
     "repository": "git@semicthema-DCAT-AP:SEMICeu/Semicthema-DCAT-AP.git",
     "branchtag": "HVD",
@@ -354,7 +354,7 @@
       "prev": "https://semiceu.github.io/DCAT-AP/releases/3.0.0-hvd"
     },
     "private": true,
-    "dummy": 48
+    "dummy": 1
   },
   {
     "urlref": "/MLDCAT-AP/releases/3.1.0",
