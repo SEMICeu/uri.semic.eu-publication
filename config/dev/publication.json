@@ -251,6 +251,6 @@
 	"shaclgenerator" : {
 	   "parameters": "-m individual -c nodekind"
 	}
-	},
+	}
 ]
   
