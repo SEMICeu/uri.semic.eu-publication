@@ -354,7 +354,10 @@
       "prev": "https://semiceu.github.io/DCAT-AP/releases/3.0.0-hvd"
     },
     "private": true,
-    "dummy": 50
+    "contextgenerator": {
+      "parameters": "-c -l label"
+    },
+    "dummy": 51
   },
   {
     "urlref": "/MLDCAT-AP/releases/3.1.0",
