@@ -127,5 +127,41 @@
       "self": "https://data-models-oots-tdd-8b6791fd33fcb1f29c7d6ad9c6173ba55d28c0a5f9.pages.code.europa.eu/Evidence/EvidenceOfNationality/releases/0.0.2"
     },
     "disabled": false
-  }
+  },
+    {
+    "dummy": "1",
+    "urlref": "/OOTS/ProofOBirthOfChild/releases/0.0.1/",
+    "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
+    "branchtag": "oots",
+    "name": "proofofbirthofchild",  
+    "filename": "config/oots.json",
+    "navigation": {
+      "self": "https://data-models-oots-tdd-8b6791fd33fcb1f29c7d6ad9c6173ba55d28c0a5f9.pages.code.europa.eu/Proof/ProofOfBirthOfChild/releases/0.0.1"
+    },
+    "disabled": false
+  },
+    {
+    "dummy": "1",
+    "urlref": "/OOTS/ProofOBirthOfSibling/releases/0.0.1/",
+    "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
+    "branchtag": "oots",
+    "name": "proofofbirthofsibling",  
+    "filename": "config/oots.json",
+    "navigation": {
+      "self": "https://data-models-oots-tdd-8b6791fd33fcb1f29c7d6ad9c6173ba55d28c0a5f9.pages.code.europa.eu/Proof/ProofOfBirthOfSibling/releases/0.0.1"
+    },
+    "disabled": false
+  },
+    {
+    "dummy": "1",
+    "urlref": "/OOTS/ProofODeathOfParent/releases/0.0.1/",
+    "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
+    "branchtag": "oots",
+    "name": "proofofdeathofparent",  
+    "filename": "config/oots.json",
+    "navigation": {
+      "self": "https://data-models-oots-tdd-8b6791fd33fcb1f29c7d6ad9c6173ba55d28c0a5f9.pages.code.europa.eu/Proof/ProofOfDeathOfParent/releases/0.0.1"
+    },
+    "disabled": false
+  }      
 ]
