@@ -395,5 +395,19 @@
     "private": true,
     "note": "Because the toolchain currently looks for paths starting with /doc/vocabularium to render to RDF, also this publication point is added",
     "dummy": 44
+  },
+  {
+    "urlref": "/AIDCAT-AP/releases/3.0.0",
+    "repository": "git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git",
+    "branchtag": "ReSpecCV",
+    "name": "aidcat-ap",
+    "filename": "config/aidcat-ap.json",
+    "navigation": {
+      "prev": "https://semiceu.github.io/AIDCAT-AP/releases/3.0.0/"
+    },
+    "contextgenerator": {
+      "parameters": "-d -l label"
+    },
+    "dummy": 3
   }
 ]
